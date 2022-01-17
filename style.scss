@@ -287,3 +287,15 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+// Nic added styles
+.a11y-hidden {
+	  border:0 none;
+  clip:rect(0px,0px,0px,0px);
+  height:1px;
+  margin:-1px;
+  overflow:hidden;
+  padding:0;
+  position:absolute;
+  width:1px
+}
