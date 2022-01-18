@@ -320,24 +320,6 @@ footer ul li {
 footer a {
 	text-decoration: none;
 }
-// Skip link
-.skip-links {
-margin: 0;
-position: relative;
-z-index: 100;
-}
 
-.skip-links li {
-list-style: none;
-display: inline;
-}
-.hide {
-position: absolute;
-clip: rect(0px 0px 0px 0px);
-}
-skip-links a:focus, .skip-links a:active {
-font-weight: normal;
-top: 10px;
-clip: auto;
-outline: none;
-}
+// Skip link
+
