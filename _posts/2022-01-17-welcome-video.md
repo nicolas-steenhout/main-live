@@ -6,7 +6,12 @@ I did it! Created my first short Tik Tok video. You'd think I wouldn't really be
 
 Please note - captions available through the Tik Tok application.
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@a11yguy/video/7054285595337641222" data-video-id="7054285595337641222" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@a11yguy" href="https://www.tiktok.com/@a11yguy">@a11yguy</a> <a title="a11y" target="_blank" href="https://www.tiktok.com/tag/a11y">#a11y</a> <a title="accessibility" target="_blank" href="https://www.tiktok.com/tag/accessibility">#accessibility</a> <a title="webdesign" target="_blank" href="https://www.tiktok.com/tag/webdesign">#webdesign</a> <a title="webdevelopment" target="_blank" href="https://www.tiktok.com/tag/webdevelopment">#webdevelopment</a> <a title="disability" target="_blank" href="https://www.tiktok.com/tag/disability">#disability</a> <a target="_blank" title="♬ original sound - Nic Steenhout" href="https://www.tiktok.com/music/original-sound-7054285578510502661">♬ original sound - Nic Steenhout</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@a11yguy/video/7054285595337641222" data-video-id="7054285595337641222" style="max-width: 605px;min-width: 325px;" > 
+  <section> 
+    <a target="_blank" href="https://www.tiktok.com/@a11yguy">@a11yguy <span class="a11y-hidden">Opens a new window.</span></a> 
+    <a target="_blank" href="https://www.tiktok.com/music/original-sound-7054285578510502661">Series introduction - Nic Steenhout <span class="a11y-hidden">Opens a new window.</span></a> 
+  </section> 
+</blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
 
 ### Transcript
 
