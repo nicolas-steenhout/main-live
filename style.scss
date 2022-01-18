@@ -323,3 +323,21 @@ footer a {
 
 // Skip link
 
+.skip-link:not(:focus):not(:hover) {
+    -webkit-transform: translateY(-4em);
+    -ms-transform: translateY(-4em);
+    transform: translateY(-4em);
+    opacity: 0;
+}
+
+.skip-link:focus,
+.skip-link:focus {
+    border-color: #062434;
+}
+
+.skip-link:hover, .skip-link:focus,
+.skip-link:hover, .skip-link:focus {
+    background-color: #08364E;
+    text-decoration: none;
+    color: #fff;
+}
