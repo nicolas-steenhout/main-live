@@ -70,7 +70,6 @@ p {
 
 a {
   color: $blue;
-  text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
     color: $blue;
@@ -305,7 +304,8 @@ nav ul {
 	list-style-type: none;
   }
 nav ul li {
-	float:right;
+	display:inline;
+	Padding: 0 5px;
 }
 
 footer ul {
@@ -315,4 +315,8 @@ footer ul {
 footer ul li {
 	display:inline;
 	padding: 0 5px;
+}
+
+footer a {
+	text-decoration: none;
 }
