@@ -313,5 +313,6 @@ footer ul {
 	list-style-type: none;
   }
 footer ul li {
-	float:right;
+	display:inline;
+	padding: 0 5px;
 }
