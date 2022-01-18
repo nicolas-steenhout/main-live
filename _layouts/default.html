@@ -12,6 +12,11 @@
   </head>
 
   <body>
+	  <div id="skip">
+		  <ul class="skip-links">
+			  <li><a class="hide" href="#main">Skip to main content</a></li>
+		  </ul>
+	  </div>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -32,9 +37,9 @@
       </div>
     </div>
 
-    <div id="main" role="main" class="container">
+    <main class="container" id="main">
       {{ content }}
-    </div>
+    </main>
 
     <div class="wrapper-footer">
       <div class="container">
