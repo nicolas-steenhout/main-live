@@ -6,7 +6,7 @@ permalink: /accessibility/
 
 ## Introduction
 
-I'm committed to accessibility. This website should work for everyone. Simple as that. This page is about where 
+I'm committed to accessibility. This website should work for everyone. Simple as that. 
 
 This statement includes a description of my current, and future efforts in accessibility, contact information, and current conformance status, and known issues and workarounds for those issues.
 
