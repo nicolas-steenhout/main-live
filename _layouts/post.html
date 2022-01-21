@@ -10,9 +10,7 @@ layout: default
   </div>
 
   <div class="date">
-    <!--<p>Written on {{ page.date | date: "%B %e, %Y" }}
-		<br>	
-		Updated on {{ page.update | date: "%B %e, %Y" }}</p>-->
+    
 		
 		{%- if page.last_modified_at -%}
 		    Last updated: {%- page.last_modified_at | date: date_format -%}
