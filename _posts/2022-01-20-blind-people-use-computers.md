@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Blind people use computers
+tags: Blind
 ---
 Yep, blind folks use computers - looks like not everyone realizes that.
 
