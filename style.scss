@@ -295,7 +295,7 @@ nav {
 
 .wrapper-footer {
   margin-top: 3.5rem;
-  background: linear-gradient($white 25%, $blue);
+  background: linear-gradient($white 20%, $blue);
 }
 
 footer {
@@ -334,13 +334,26 @@ footer ul {
 	list-style-type: none;
   }
 footer ul li {
-	display: inline;
+	display: inline-block;
 	padding: 0 5px;
 }
 
 footer a {
 	color: $white;
   font-weight: bold;
+}
+
+footer p {
+  margin-block-start: 1.5rem;
+
+  a {
+    padding: .3rem;
+    &:focus,
+    &:hover {
+      background-color: $red;
+      color: $white;
+    }
+  }
 }
 
 // Skip link
