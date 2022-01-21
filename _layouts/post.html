@@ -9,7 +9,7 @@ layout: default
     {{ content }}
   </div>
 
-{% if page.tags %}
+
 
 {% for tag in post.tags %}
   {% assign tag_slug = tag | slugify: "raw" %}
@@ -19,7 +19,7 @@ layout: default
     #{{ page.tags }}
   </a>
 {% endfor %}
-{% endif %}
+
 
   <div class="date">
 	  <p>
