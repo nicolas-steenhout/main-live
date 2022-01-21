@@ -184,7 +184,7 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 50%;
   }
 }
 
@@ -393,4 +393,11 @@ footer {
   text-decoration: none;
 	padding: .75rem;
   transition: all .3s ease-in-out;
+}
+
+.event-date {
+  font-family: $sophia;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: .6
 }
