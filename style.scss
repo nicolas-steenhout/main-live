@@ -345,6 +345,12 @@ footer {
         display: inline-block;    
         border-radius: 50%;
         border: 5px solid $white;
+
+        &:focus,
+        &:hover {
+          border-color: $black !important;
+          filter: grayscale(1)
+        }
       }
     }
   }
