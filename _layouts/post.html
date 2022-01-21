@@ -9,15 +9,6 @@ layout: default
     {{ content }}
   </div>
 
-{% for tag in page.tags %}
-  {% assign tag_slug = tag | slugify: "raw" %}
-  <a class="tag-link"
-    href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }}
-    rel="category tag">
-    #{{ tag }}
-  </a>&nbsp;
-{% endfor %}
-
   <div class="date">
 	  <p>
 	  {% if page.last_modified_at %}
