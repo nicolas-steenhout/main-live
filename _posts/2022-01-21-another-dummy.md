@@ -1,6 +1,6 @@
 ---
 layout: post
 title: Test disregard
-tag-name: tag1 tag2
+tags: Blind WCAG
 ---
-ANother Dummy post to test tags
+Another Dummy post to test tags
