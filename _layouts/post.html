@@ -11,7 +11,7 @@ layout: default
 
 {{page.tags}}
 
-{% for tag in post.tags %}
+{% for tag in page.tags %}
   {% assign tag_slug = tag | slugify: "raw" %}
   <a class="tag-link"
     href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }}
