@@ -293,16 +293,6 @@ nav {
   }
 }
 
-.wrapper-footer {
-  margin-top: 3.5rem;
-  background: linear-gradient(#fff 25%, #C70038 10%, #3731FF);
-}
-
-footer {
-  padding: 1rem .5rem .5rem;
-  text-align: center;
-}
-
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
@@ -329,35 +319,50 @@ nav ul li {
 	Padding: 0 5px;
 }
 
-footer ul {
-  list-style: none; 
-	list-style-type: none;
-  padding-left: 0;
-  }
-footer ul li {
-	display: inline-block;
-	padding: 0 5px;
+.wrapper-footer {
+  margin-top: 3.5rem;
+  background: linear-gradient(#fff 25%, #C70038 10%, #3731FF);
 }
 
-footer a {
-  display: inline-block;
-	color: $white;
-  font-weight: bold;
+/* Footer */
 
-  &:focus + i {
-    filter: grayscale(1);
-  }
-}
+footer {
+  padding: 1rem .5rem .5rem;
+  text-align: center;
 
-footer p {
-  margin-block-start: 1.5rem;
+  ul {
+    list-style: none; 
+    list-style-type: none;
+    padding-left: 0;
 
-  a {
-    padding: .3rem;
-    &:focus,
-    &:hover {
-      background-color: $red;
-      color: $white;
+    li {
+      display: inline-block;
+      padding: 0 5px;
+
+      .svg-icon {
+        border-radius: 50%;
+        border: 3px solid $black;
+      }
+    }
+
+    a {
+      display: inline-block;
+    }
+
+    p {
+      margin-block-start: 1.5rem;
+    
+      a {
+        padding: .3rem;
+        color: $white;
+        font-weight: bold;
+
+        &:focus,
+        &:hover {
+          background-color: $red;
+          color: $white;
+        }
+      }
     }
   }
 }
