@@ -11,7 +11,7 @@ layout: default
       <div class="entry">
         {{ post.excerpt }}
       </div>
-	  {{ post.date | date: "%B %e, %Y" }}
+	  <p>{{ post.date | date: "%B %e, %Y" }}</p>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More <span class="a11y-hidden"> about {{ post.title }}</span></a>
     </article>
