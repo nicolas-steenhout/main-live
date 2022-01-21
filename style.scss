@@ -278,10 +278,18 @@ nav {
     margin-block-start: 1.15rem;
     border: 3px solid currentColor;
     border-radius: 5px;
+    color: $red;
     padding: .5rem .5rem .4rem;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1rem;
+
+    &:focus,
+    &:hover {
+      background-color: $red;
+      color: $white;
+      transition: all .3s ease-in-out;
+    }
   }
 }
 
