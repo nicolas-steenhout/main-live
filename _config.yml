@@ -18,9 +18,9 @@ avatar: https://avatars.githubusercontent.com/u/29165258?v=4
 
 # Adding collections/tags
 collections:
-	tags:
-		Output: true
-		permalink: tags/:path/
+  tags:
+    Output: true
+    permalink: tags/:path/
 
 # Includes an icon in the footer for each username you enter
 footer-links:
