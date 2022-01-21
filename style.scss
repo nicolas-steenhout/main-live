@@ -344,7 +344,7 @@ footer a {
 	color: $white;
   font-weight: bold;
 
-  &:focus {
+  &:focus + i {
     filter: grayscale(1);
   }
 }
