@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Defining web accessibility.
+title: Defining web accessibility
 ---
 Let's define web accessibility before diving further into this topic!
 
