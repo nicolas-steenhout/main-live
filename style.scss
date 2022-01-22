@@ -422,6 +422,16 @@ footer {
     }
   }
 
+  .post .read-more {
+    color: $redLight;
+
+    &:focus,
+    &:hover {
+      background-color: $redLight;
+      color: $black;
+    }
+  }
+
   .wrapper-footer {
     background: linear-gradient($blueDark 20%, $red 10%, $blue);
   }
@@ -430,6 +440,11 @@ footer {
       li {
         .svg-icon {
           border: 5px solid $blueDark;
+
+          &:focus,
+          &:hover {
+            border-color: darken($white, 10%);
+          }
         }
       }
     }
