@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blind people use computers
+title: Testing tags
 tags: Blind WCAG
 ---
 Temporary post while I test what is happening with tags.

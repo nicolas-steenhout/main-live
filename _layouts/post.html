@@ -9,10 +9,12 @@ layout: default
     {{ content }}
   </div>
   
-  {% if page.tag }
-  <p>Tags: &nbsp;
-	  {{ post.tag }}
-  </p>
+
+<ul>
+{% for tag in page.tags %}
+<li>{{page.tag}}</li>
+{% endfor %}
+</ul>
 
   <div class="date">
 	  <p>
