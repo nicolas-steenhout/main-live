@@ -413,6 +413,10 @@ footer {
     color: $blueLight;
   }
 
+  h2 {
+    color: $yellowLight;
+  }
+
   a {
     color: $yellowLight;
 
@@ -443,7 +447,7 @@ footer {
 
           &:focus,
           &:hover {
-            border-color: darken($white, 10%);
+            border-color: darken($white, 10%) !important;
           }
         }
       }
