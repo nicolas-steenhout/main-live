@@ -68,8 +68,9 @@ h4 {
 }
 
 p {
-  margin: 1rem 0;
+  margin: 1rem 0 1.5rem;
   font-size: 1.125rem;
+  line-height: 1.6;
 }
 
 a {
@@ -125,7 +126,6 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
 }
 
 // Specify the color of the selection
@@ -200,7 +200,11 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  line-height: 1;
+
+  @include mobile {
+    margin-block: 1.2rem;
+  }
 }
 
 .site-description {
@@ -396,11 +400,12 @@ footer {
   transition: all .3s ease-in-out;
 }
 
-.event-date {
+.excerpt-date {
   font-family: $sofia;
+  font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  margin: .6
+  margin-block-start: 0;
 }
 
 @media screen and (prefers-color-scheme: dark) {
