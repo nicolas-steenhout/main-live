@@ -125,6 +125,7 @@ img {
 }
 
 .date {
+  font-family: $sofia;
   font-style: italic;
 }
 
@@ -261,12 +262,15 @@ nav {
 
 .post {
   blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
+    margin: 1.8em .25rem;
+    border-left: 5px solid $red;
+    padding: 0.1rem 1em;
     font-size: 1.375rem;
-    font-style: italic;
+    letter-spacing: 1px;
+
+    @include mobile {
+      margin-inline-start: 0;
+    }
   }
 
   h2 > a {
@@ -435,13 +439,19 @@ footer {
     }
   }
 
-  .post .read-more {
-    color: $redLight;
+  .post {
+    .read-more {
+      color: $redLight;
 
-    &:focus,
-    &:hover {
-      background-color: $redLight;
-      color: $black;
+      &:focus,
+      &:hover {
+        background-color: $redLight;
+        color: $black;
+      }
+    }
+
+    blockquote {
+      border-left: 5px solid $redLight;
     }
   }
 
