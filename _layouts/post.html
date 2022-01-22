@@ -8,6 +8,11 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
+  
+  {% if page.tag }
+  <p>Tags: &nbsp;
+	  {{ post.tag }}
+  </p>
 
   <div class="date">
 	  <p>
