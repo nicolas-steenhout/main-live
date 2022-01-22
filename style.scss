@@ -205,8 +205,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
+  font-size: 1rem;
 
   @include mobile {
     margin: 3px 0;
@@ -215,27 +214,29 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-block-start: 1.25rem;
   font-family: $sofia;
-  font-size: 18px;
+  font-size: 1.2rem;
 
   @include mobile {
     float: none;
-    margin-top: 9px;
+    margin-block-start: 1.45rem;
     display: block;
-    font-size: 16px;
+    font-size: 1rem;
+  }
+
+  ul {
+    padding-left: 0;
   }
 
   a {
     margin-left: 20px;
-    color: $darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
     }
   }
 }
@@ -400,4 +401,36 @@ footer {
   font-weight: 700;
   text-transform: uppercase;
   margin: .6
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background: $blueDark;
+    color: darken($white, 10%);
+  }
+  
+  h1 > a {
+    color: $blueLight;
+  }
+
+  a {
+    color: $yellowLight;
+
+    &:focus,
+    &:hover {
+      color: $blueLight;
+    }
+  }
+
+  .wrapper-footer {
+    background: linear-gradient($blueDark 20%, $red 10%, $blue);
+  }
+  footer {
+    ul {
+      li {
+        .svg-icon {
+          border: 5px solid $blueDark;
+      }
+    }
+  }
 }
