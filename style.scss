@@ -164,22 +164,23 @@ img {
 }
 
 .masthead {
+  display: flex;
+  justify-content: space-between;
   padding: 1.25rem 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
+    flex-direction: column;
     text-align: center;
   }
 }
 
 .site-avatar {
-  float: left;
   width: 70px;
   height: 70px;
   margin-right: 1rem;
 
   @include mobile {
-    float: none;
     display: block;
     margin: 0 auto;
   }
@@ -190,10 +191,7 @@ img {
 }
 
 .site-info {
-  float: left;
-
   @include mobile {
-    float: none;
     display: block;
     margin: 0 auto;
   }
@@ -218,13 +216,11 @@ img {
 }
 
 nav {
-  float: right;
   margin-block-start: 1.25rem;
   font-family: $sofia;
   font-size: 1.2rem;
 
   @include mobile {
-    float: none;
     margin-block-start: 1.45rem;
     display: block;
     font-size: 1rem;
