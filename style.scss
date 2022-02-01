@@ -171,6 +171,7 @@ img {
 
   @include mobile {
     flex-direction: column;
+    justify-content: center;
     text-align: center;
   }
 }
@@ -178,7 +179,6 @@ img {
 .site-avatar {
   width: 70px;
   height: 70px;
-  margin-right: 1rem;
 
   @include mobile {
     display: block;
@@ -216,7 +216,6 @@ img {
 }
 
 nav {
-  margin-block-start: 1.25rem;
   font-family: $sofia;
   font-size: 1.2rem;
 
