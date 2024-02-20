@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stacey Day Workshop
+title: January Quilting Retreat
 ---
 Went to a sewing retreat with the [Chilliwack's Piecemakers Quilting Guild](https://www.chilliwackpiecemakers.com/) yesterday. Several hours of sewing at a local community hall. It was fun! Sewing and chatting about sewing with like-minded individuals.
 
