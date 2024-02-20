@@ -4,13 +4,11 @@ title: About
 permalink: /about/
 ---
 
-There's a lot to talk about when it comes to accessibility. But it doesn't have to take a long time. One minute short segments is all it takes. And that's what I'm doing with this Tik Tok series.
+One of my hobbies is making quilts. I do this primarily to get away from computer work. I'm not an expert by any stretch of the imagination. I'm just having fun with it. I will occasionaly share some musings and tidbits of knowledge so I don't forget them myself!
 
 ### More Information
 
-I've been "doing accessibility" for a while now (nearly 25 years!). I teach and consult on that topic with small and large companies - whether they  are large listed multinationals, tertiary education providers, non-profits, or other organizations. They typically all have two problems in common: First, they don't really know about accessibility. Then, they don't have a lot of time to learn about it. Chances are it'll be the same for you if you are a designer, a developer, a quality assurance tester, a program manager, a product owner. 
-
-So I hope this series will help you build your understanding, and confidence, about digital accessibility
+I started making my first quilt, all hand pieced, back in January 2019. It took me nearly a year to complete. I got a sewing machine and started work on another project. And then the pandemic happened, and that complicated our lives in many weird and "wonderful" ways. Bottom line is that it took until 2022 for me to get back to quilting semi-seriously. In the summer of 2023, I got really into it. So by and large, I'm very new to quilting.
 
 ### Contact me
 
