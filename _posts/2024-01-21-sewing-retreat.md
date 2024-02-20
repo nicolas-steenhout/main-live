@@ -12,6 +12,8 @@ Today, I finished the quilt top!
 
 <img src="/images/heron-quilt-top.jpg" alt="A large quilt top in blues, yellows, and greens, with a large center panel of a Great Blue Heron" /> 
 
+Fabrics is "Waterlily Magic" by Jan Mott of Crane Design. Henry Glass & Co, inc.
+
 I'm not sending this immediately to be quilted - we found a kit with the same fabric range to make one large and two small cushions! So have to get and finish those before quilting it.
 
 My long arm quilter is off on vacation until March, so it's not a big issue.
