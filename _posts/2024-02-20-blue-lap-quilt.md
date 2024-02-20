@@ -12,13 +12,13 @@ I decided on my dark and medium blues, and had to pick from a bunch of other bat
 
 <img src="/images/batik-choices.jpg" alt="A stack of dark blue batik strips and a stack of medium blue batik strips over several other batiks in blues, reds, and purples." />
 
-I went witht he light blue, and I'm glad!
+I went with tthe light blue, and I'm glad!
 
 Cutting and piecing started. Taking some time to do it right. The original pattern calls for 48 blocks. I'm doing 24. But that's still piecing 96 dark or medium blue strips to black sashing!
 
 <img src="/images/batik-pieces.jpg" alt="A haphazard stack of pieces of pieced fabric on a desk, under a clear sewing table extension." />
 
-Of course, before the next step, it's all about making sure those seams are pressed crips and flat. Tailor's clapper to the rescue!
+Of course, before the next step, it's all about making sure those seams are pressed crisp and flat. Tailor's clapper to the rescue!
 
 <img src="/images/batik-clapper.jpg" alt="A 3 inch x 12 inch block of hardwood on fabric, on top of a grey wool ironing mat, with a small iron beside the mat, and a bottle of starch alternative."/> 
 
