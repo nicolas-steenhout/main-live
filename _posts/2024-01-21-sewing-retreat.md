@@ -8,6 +8,8 @@ I worked on a kit I've been sitting on for a while - I call hit the "Heron quilt
 
 I had precut all the fabrics. I made a lot of progress over the day. Very satisfying.
 
+It was the first time I worked with directional fabrics and had to take care with how things go and which way's up!
+
 Today, I finished the quilt top!
 
 <img src="/images/heron-quilt-top.jpg" alt="A large quilt top in blues, yellows, and greens, with a large center panel of a Great Blue Heron" /> 
