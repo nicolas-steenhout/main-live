@@ -6,6 +6,14 @@ permalink: /quilting-tips-and-tricks/
 
 I know more about quilting now than I did when I started. This is as it should be - keep on learning. I wish some of the things I know now, I knew then, as it would have made my work better. So I'm going to share them here.
 
+### General thoughts
+
+#### It's not a race
+
+Take your time. Enjoy the process. There's no hurry. A finished product is nice. But, at least for me, the whole point is to be sewing and quilting - the finished product is just a nice to have.
+
+As so many people say: Better finished than perfect!
+
 ### Equipment
 
 #### Rulers
@@ -34,4 +42,3 @@ This item also goes with one of the techniques later in this page. But I like El
 
 ### Techniques
 
-I'll add stuff here "in a bit" :D 
