@@ -16,7 +16,7 @@ I finally found a way that gives me really even binding. Using glue, of all thin
 
 I like to make my binding strips at 2 1/2". Gives me a bit more room to play. But I also like the look. Smaller binding doesn't work well for me.
 
-<img src="/images/fassett-binding-bulk.jpg" alt="A two and a half inch long strip of hot pink fabric on a green cutting mat.">
+<img src="/images/fassett-binding-pile.jpg" alt="A two and a half inch long strip of hot pink fabric on a green cutting mat.">
 
 In the end, I got my binding. It's a Kaffe Fassett print in hot pink. I used the same print pattern, but in turquoise for the quilt backing
 
