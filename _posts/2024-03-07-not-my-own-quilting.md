@@ -4,7 +4,7 @@ title: Not doing my own quilting
 ---
 I must admit to a certain level of embarassment. I haven't done the quilting on most of my quilts so far. I find this a bit embarassing.
 
-<img src="/images/heart-binding-detail.jpg" alt="Intricate quilting on a dark purple part of a quilt.">
+<img src="/images/heart-quilting-detail.jpg" alt="Intricate quilting on a dark purple part of a quilt.">
 
 As I'm working on binding the "Home is where the heart is" quilt that I got back from the long arm quilter yesterday, I'm admiring her work and am so very happy I outsourced the quilting to someone with the experience and the right tools to do a bang on job. And to be honest, the quilting done by either of the two long arm quilters I used on the few quilts I finished so far have been amazing.
 
