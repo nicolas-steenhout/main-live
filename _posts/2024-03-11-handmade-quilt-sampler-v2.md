@@ -28,7 +28,7 @@ These are the fabrics I picked. The ladies at the fabric store were quite puzzle
 ### Improvements
 It occured to me that in the last 4 or 5 years, I've learned a great deal about sewing and quilting, by hand or by machine. I know more about things like pressing seams, scant 1/4", and block trimming.
 
-To be fair, my first quilt was quite wonky and unevent. I think most people's first quilt will be like that. 
+To be fair, my first quilt was quite wonky and uneven. I think most people's first quilt will be like that. 
 
 So, let's see how this goes!
 
