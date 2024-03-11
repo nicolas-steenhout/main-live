@@ -8,6 +8,7 @@ I was up just before 5 am yesterday, to attend an online workshop that started a
 
 It's been a hot minute since I did curves, hand pieced, with my very first quilt. 2019!!! And I liked the look of what Daisy is doing with curves. And I wanted to attend another workshop anyway since the one with [Stacey Day](/heart-quilt-workshop/) was so good.
 
+I used scraps from my "heart quilt", which were all Kaffe Fassett fabrics. Looks like I'm making another Kaffe Fassett quilt then!
 Apart from being a lot of fun, I've learned a bunch of things.
 
 ### Starching
