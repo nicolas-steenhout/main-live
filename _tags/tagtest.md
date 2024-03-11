@@ -1,6 +1,5 @@
 layout: tags
 tag-name: tagtest
-permalink: tag/blind.html
 ---
 {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
