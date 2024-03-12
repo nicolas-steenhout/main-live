@@ -10,7 +10,7 @@ Here are all the tags used on this site:
 <ul>
 {% for tag in tags %}
  <li>
-    <a href="/tag/{{ tag | first | slugify }}/">
+    <a href="/tag/{{ tag | first }}/">
             {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
     </a>
 </li>
