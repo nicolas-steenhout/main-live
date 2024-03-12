@@ -5,10 +5,6 @@ tags: Handmade-Quilt
 ---
 I made my first quilt back in 2019. I've learned a heck of a lot since then. And so I'm going to make another one using the same pattern and the same methods. Let's see how much better this one is!
 
-{% for tag in site.tags %}
-This post tagged "{{ tag[0] }}" Follow this project! Check out all the post with the <a href="/tags/Handmade-Quilt/">{{ tag[0] }}</a> tag.
-{% endfor %}
-
 <img src="/images/handmade-quilt-book-cover.png" alt="Book cover. The Handmade Quilt. A Complete Skill-Building Sampler. By Carolyn Forster. With a photo of the quilt, 21 different blocks.">
 
 ### The book that started it all
@@ -19,6 +15,7 @@ And the equipment requirement is minimal, because it's all hand sewn. No sewing 
 They have been darn good landlords. They don't know it, but I intend this quilt for them. So I asked what colors they liked. And this is what I was told:
 > He likes royal blue and baby blue for sure, and my favourite is turquoise, a certain moss green, lavender blue and terracotta
 So that makes for an interesting fabric range!
+
 <img src="/images/handmade-quilt-fabrics.jpg" alt="A bunch of different fabrics, mostly quarter yards, in blues, greens, lavenders, and oranges, all with different print patterns.">
 These are the fabrics I picked. The ladies at the fabric store were quite puzzled. But having done this quilt once already, I'm confident all these will work super well together.
 ### Improvements
