@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Blue Batiks Lap Quilt
+tags: Paulitiks
 ---
 I realized I don't have a quilt I made for myself. And it was time! That's what I started over the weekend.
 

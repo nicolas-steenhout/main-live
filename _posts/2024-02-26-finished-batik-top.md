@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Finished batik square flimsy
+tags: Paulitiks
 ---
 
 I finished the top of that quilt I'm making with batiks. It's turning out to be significantly bigger than initially planned!
