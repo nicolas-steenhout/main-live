@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First ignore me
-tags: [Handmade quit]
+tags: [Handmade quilt]
 ---
 
 Ignore this post - I'm exploring tags and this post is to test that they work. Or not, as the case might be.
