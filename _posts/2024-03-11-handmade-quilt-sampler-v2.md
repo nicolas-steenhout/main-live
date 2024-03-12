@@ -1,9 +1,13 @@
 ---
 layout: post
 title: Making my first quilt again
+tags: Handmade-Quilt
 ---
 I made my first quilt back in 2019. I've learned a heck of a lot since then. And so I'm going to make another one using the same pattern and the same methods. Let's see how much better this one is!
 
+{% for tag in site.tags %}
+This post tagged "{{ tag[0] }}" Follow this project! Check out all the post with the <a href="/tags/Handmade-Quilt/">{{ tag[0] }}</a> tag.
+{% endfor %}
 
 <img src="/images/handmade-quilt-book-cover.png" alt="Book cover. The Handmade Quilt. A Complete Skill-Building Sampler. By Carolyn Forster. With a photo of the quilt, 21 different blocks.">
 
