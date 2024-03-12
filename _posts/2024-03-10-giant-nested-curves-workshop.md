@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Giant nested curves workshop
+tags: Giant-Nested-Curves
 ---
 I was up just before 5 am yesterday, to attend an online workshop that started at 6 am! Giant Nested Curves by [Daisy Aschehoug](https://warmfolk.com/). It was fantastic and well worth the early start to the day!
 
