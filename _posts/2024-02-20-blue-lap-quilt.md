@@ -27,3 +27,9 @@ By the end of the weekend, I had progressed quite a bit. Here are two side by si
 <img src="/images/batic-blocks-side-by-side.jpg" alt="Two similar blocks of pieced fabrics. There's a light blue square in the center. Black sashing on the side of the square, extending in four directions. With blue fabric to finish a 10 inch block." />
 
 I'm hoping to finish this top this week.
+
+### Follow this project
+
+  {% for tag in page.tags %}
+  <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}
+  {% endfor %}

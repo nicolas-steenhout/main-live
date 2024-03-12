@@ -18,3 +18,9 @@ Super happy with the mitered corners I did on the border, as well!
 Next step will be to quilt this. Intending to use a mix of stitch in the ditch and ruler work. First time for everything. 
 
 But before I quilt it, I need to get some wool batting!
+
+### Follow this project
+
+  {% for tag in page.tags %}
+  <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
