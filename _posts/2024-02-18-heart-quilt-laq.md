@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Heart quilt at the long arm quilter
+tags: Heart-Quilt
 ---
 Today, I dropped the "heart quilt" at the long arm quilter. 
 
@@ -11,3 +12,8 @@ Had a good discussion with the long arm quilter about the quilting patterns to u
 I should get the quilt back in a couple weeks. Can't wait!
 
 We're going with two layers of batting: one layer 100% cotton, and another layer 100% wool. This should give a lot of loft to the quilting.
+### Follow this project
+
+  {% for tag in page.tags %}
+  <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}
+  {% endfor %}

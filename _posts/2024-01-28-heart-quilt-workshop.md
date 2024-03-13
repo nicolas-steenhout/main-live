@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Stacey Day Workshop
+tags: Heart-Quilt
 ---
 
 I attended an amazing workshop yesterday. The instructer was [Stacey Day](https://staceyinstitches.com/) who is a well known local quilt designer. We worked on her "Home is where the heart is" design.
@@ -20,3 +21,8 @@ Second take home was about easing fabrics during sewing, and how the bottom fabr
 We didn't finish the quilt that day. But made good progress
 
 <img src="/images/heart-on-design-wall.jpg" alt="Several blocks of colorful fabrics up on a design wall." />
+### Follow this project
+
+  {% for tag in page.tags %}
+  <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
