@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-family: $racingsans;
-  font-size: 1.8rem;
+  font-size: calc(1vw + 2rem);
   a {
     color: $red;
     text-decoration: none;
@@ -53,15 +53,15 @@ h1 {
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: calc(1vw + 1.75rem);
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: calc(1vw + 1.5rem);
 }
 
 h4 {
-  font-size: 1.125rem;
+  font-size: calc(1vw + 1.125rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: $gray;
@@ -69,8 +69,8 @@ h4 {
 
 p {
   margin: 1rem 0 1.5rem;
-  font-size: 1.125rem;
-  line-height: 1.6;
+  font-size: calc(1vw + .9rem);
+  line-height: 1.5;
 }
 
 a {
@@ -139,7 +139,7 @@ img {
   background: $lightGray;
 }
 
-// Nicolas Gallagher's micro clearfix hack
+// Nicolas Gallaghers micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
@@ -257,10 +257,14 @@ nav {
   .post {
     .post-details {
       padding: .3em 2em 1.5em;
+
+      p {
+        font-size: 1.3em;
+      }
     }
 
     h2 > a {
-      font-size: calc(1.5rem + 1vw);
+      font-size: calc(1.4rem + 1vw);
     }
 
     > img {
@@ -423,6 +427,7 @@ footer {
 
     blockquote {
       border-left: 5px solid $redLight;
+      padding-inline-start: 2em;
     }
   }
 
