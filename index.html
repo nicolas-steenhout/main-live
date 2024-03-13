@@ -6,15 +6,29 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <!-- https://blog.webjeda.com/fetch-image-jekyll/-->
+      {% assign foundImage = 0 %}
+      {% assign images = post.content | split:"<img " %}
+      {% for image in images %}
+        {% if image contains 'src' %}
+            {% if foundImage == 0 %}
+                {% assign html = image | split:"/>" | first %}
+                <img {{ html }} />
+                {% assign foundImage = 1 %}
+            {% endif %}
+        {% endif %}
+      {% endfor %}
 
-      <p class="excerpt-date">{{ post.date | date_to_string }}</p>
+      <div class="post-details">
+        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
-      <div class="entry">
-        {{ post.excerpt }}
+        <p class="excerpt-date">{{ post.date | date_to_string }}</p>
+  
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Continue reading {{ post.title }}</a>
     </article>
   {% endfor %}
 </div>
