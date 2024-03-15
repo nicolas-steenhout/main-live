@@ -16,3 +16,9 @@ He recently sent me this photo of the quilt hanging where he has his indoor trai
 ![The cyclist quilt hanging on a wall beside a big monitor, and a bicycle on a track. A laptop is in front of the bike](/images/cyclist-quilt-hanging.jpg)
 
 Finished this in February 2020! 
+
+### Other finished quilts
+
+  {% for tag in page.tags %}
+  <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
