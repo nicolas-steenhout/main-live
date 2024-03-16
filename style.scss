@@ -13,14 +13,11 @@
 /* BASE RULES */
 /**************/
 
-html {
-  font-size: 100%;
-}
 
 body {
-	background: $white;
-  font: 1rem/1.4 $proxima;
-  color: $darkGray;
+	background-color: $background;
+  font-family: $proxima;
+  color: $foreground;
 }
 
 .container {
@@ -32,7 +29,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $sofia;
-  color: $darkerGray;
+  color: lighten($foreground, 10%);
 
   line-height: 1.3;
   margin: 1em 0 1.2em;
@@ -69,12 +66,15 @@ h4 {
 
 p {
   margin: 1rem 0 1.5rem;
-  font-size: calc(1vw + .9rem);
-  line-height: 1.5;
+}
+
+p, li {
+  font-size: calc(.5vw + 1.1rem);
+  line-height: 1.4;
 }
 
 a {
-  color: $blue;
+  color: $primary;
 
   &:hover, 
   &:focus,
@@ -132,11 +132,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $lightGray;
+  background: $blueLight;
 }
 ::selection {
   color: $black;
-  background: $lightGray;
+  background: $blueLight;
 }
 
 // Nicolas Gallaghers micro clearfix hack
@@ -165,9 +165,20 @@ img {
 
 .masthead {
   display: flex;
-  justify-content: space-between;
-  padding: 1.25rem 0;
-  border-bottom: 1px solid $lightGray;
+  flex-direction: column;
+  align-items: center;
+
+  nav {
+    ul {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-content: space-between;
+      gap: 1.5rem;
+      padding-left: 0;
+      font-size: 1em;
+      text-align: center;
+    }
+  }
 
   @include mobile {
     flex-direction: column;
@@ -176,48 +187,34 @@ img {
   }
 }
 
-.site-avatar {
-  width: 70px;
-  height: 70px;
+.site-info {
+  padding: 5rem 0 3rem;
 
-  @include mobile {
-    display: block;
-    margin: 0 auto;
-  }
-
-  img {
+  .site-avatar {
+    width: 300px;
     border-radius: 50%;
   }
-}
 
-.site-info {
-  @include mobile {
-    display: block;
-    margin: 0 auto;
+  .site-name {
+    line-height: 1;
+  
+    @include mobile {
+      margin-block: 1.2rem;
+    }
   }
-}
-
-.site-name {
-  margin: 0;
-  line-height: 1;
-
-  @include mobile {
-    margin-block: 1.2rem;
-  }
-}
-
-.site-description {
-  margin: -5px 0 0 0;
-  font-size: 1rem;
-
-  @include mobile {
-    margin: 3px 0;
+  
+  .site-description {
+    margin: -5px 0 0 0;
+    font-size: 1rem;
+  
+    @include mobile {
+      margin: 3px 0;
+    }
   }
 }
 
 nav {
   font-family: $sofia;
-  font-size: 1.2rem;
 
   @include mobile {
     margin-block-start: 1.45rem;
@@ -225,19 +222,9 @@ nav {
     font-size: 1rem;
   }
 
-  ul {
-    padding-left: 0;
-  }
-
   a {
-    margin-left: 20px;
-    text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-    }
   }
 }
 
@@ -247,16 +234,20 @@ nav {
 
 .posts {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
   margin-block: 1em;
 
   > .post {
-    border: 3px dashed $lightGray;
+    border: 3px dashed lighten($foreground, 80%);
   }
 
   .post {
     .post-details {
       padding: .3em 2em 1.5em;
+
+      h2 {
+        margin-block-start: .5em;
+      }
 
       p {
         font-size: 1.3em;
@@ -269,7 +260,7 @@ nav {
 
     > img {
       width: 100%;
-      max-height: 20vh;
+      height: 12em;
       object-fit: cover;
       object-position: center;
     }
@@ -307,7 +298,7 @@ nav ul li {
 
 .wrapper-footer {
   margin-top: 3.5rem;
-  background: linear-gradient(#fff 25%, #C70038 10%, #3731FF);
+  background: linear-gradient($background 25%, #C70038 10%, #3731FF);
 }
 
 footer {
@@ -328,7 +319,7 @@ footer {
         height: 50px;
         display: inline-block;    
         border-radius: 50%;
-        border: 5px solid $white;
+        border: 5px solid $background;
 
         &:focus,
         &:hover {
@@ -389,7 +380,7 @@ footer {
 
 @media screen and (prefers-color-scheme: dark) {
   body {
-    background: $blueDark;
+    background-color: $blueDark;
     color: darken($white, 10%);
   }
   
@@ -428,6 +419,13 @@ footer {
     blockquote {
       border-left: 5px solid $redLight;
       padding-inline-start: 2em;
+    }
+
+    > .entry {
+      img {
+        display: block;
+        margin: 3em auto;
+      }
     }
   }
 
