@@ -407,8 +407,15 @@ footer {
     color: $background;
   }
   
-  h1 > a {
-    color: $blueLight;
+  h1 {
+    > a {
+      color: $blueLight;
+
+      &:focus,
+      &:hover {
+        color: $tertiary;
+      }
+    }
   }
 
   h2 {
