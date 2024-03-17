@@ -41,8 +41,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-family: $racingsans;
-  font-size: calc(1vw + 2rem);
+  font-family: $heading-mast;
+  font-size: calc(.5vw + 5rem);
   a {
     color: $primary;
     text-decoration: none;
@@ -208,7 +208,10 @@ img {
   padding: 5rem 0 3rem;
 
   .site-avatar {
+    display: block;
     width: 300px;
+    max-width: 100%;
+    margin: 0 auto;
     border-radius: 50%;
   }
 
@@ -398,6 +401,10 @@ footer {
   body {
     background-color: $blueDark;
     color: darken($white, 10%);
+  }
+
+  h1 {
+    color: $background;
   }
   
   h1 > a {
