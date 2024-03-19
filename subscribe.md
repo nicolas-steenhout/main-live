@@ -31,6 +31,6 @@ You can subscribe by adding your email.
   
   <input type="submit" value="Subscribe" />
   <p>
-    <a href="https://buttondown.email/refer/vavroom" target="_blank">Powered by Buttondown.![Opens in a new window](/images/new-window-25.png)</a>
+    <a href="https://buttondown.email/refer/vavroom" target="_blank">Powered by Buttondown.<img src="/images/new-window-25.png" al="Opens in a new window"></a>
   </p>
 </form>
