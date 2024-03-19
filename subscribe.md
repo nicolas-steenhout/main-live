@@ -17,7 +17,7 @@ You can load this link in your favorite RSS reader: [https://quilting.nicolas-st
 
 I'm offering a newsletter if RSS isn't your thing. It will not be a high traffic newsletter. I'm looking at sending an update every couple weeks with links to all the new posts. 
 
-You can subscribe by adding your email.
+You can subscribe by adding your email. Please note, your privacy is important to me. I chose Buttondown specifically because they believe in your privacy as much as I do. Check out their [privacy statement](https://buttondown.email/features/privacy) (in Plain Language).
 
 <form
   action="https://buttondown.email/api/emails/embed-subscribe/vavroom"
