@@ -6,7 +6,7 @@ permalink: /sitemap/
 ---
 
  
- ## Pages
+## Pages
  
   {% for page in site.pages %}
    * <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
