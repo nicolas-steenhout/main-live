@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Starch alterantive
+title: Starch alternative
 tags: Tips Equipment
 ---
 Starch makes a bit difference. I like to use a starch alternative called MaryEllen's Best Press.
