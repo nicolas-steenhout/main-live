@@ -6,7 +6,7 @@ permalink: /test/
 
 Testing something about headings and non headings.
 
-{% if page.layout == 'home' %}
+{% if page.layout == 'default' %}
   <h1>logo</h1>
 {% else %}
   <h2>smaller logo</h2>
