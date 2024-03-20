@@ -1,15 +1,16 @@
 ---
 layout: page
-sitemap:
   exclude: 'yes'
+  permalink: /sitemap/
 ---
 
   {% for post in site.posts %}
-    {% unless post.published == false %}
-    <ul>
+    <ul>{% unless post.published == false %}
+    
     <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> - {{ post.date }}</li>
-    </ul>
+
     {% endunless %}
+        </ul>
   {% endfor %}
   {% for page in site.pages %}
     {% unless page.sitemap.exclude == "yes" or page.name == "feed.xml" %}
