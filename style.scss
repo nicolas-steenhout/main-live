@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-h1 {
+h1, p.site-name {
   font-family: $heading-mast;
   font-size: calc(.5vw + 5rem);
   a {
