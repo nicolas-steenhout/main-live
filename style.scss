@@ -119,6 +119,30 @@ img {
   max-width: 100%;
 }
 
+label {
+  display: block;
+  margin-block: 1em;
+  font-size: calc(.5vw + 1.5em);
+}
+
+input {
+  &[type=email] {
+    padding: .4em .6em;
+    min-width: 60%;
+    font-size: 1.25em;
+    
+    @include mobile {
+      width: 100%;
+    }
+  }
+  &[type=submit] {
+    background-color: $secondary;
+    color: $background;
+    padding: .4em .6em;
+    font-size: 1.3em;
+  }
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
