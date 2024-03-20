@@ -11,7 +11,7 @@ This was a kit I got at the [National Quilt Museum](https://quiltmuseum.org/), i
 
 Finished this in August 2023! 
 
-### Other finished quilts
+## Other finished quilts
 
   {% for tag in page.tags %}
   <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}

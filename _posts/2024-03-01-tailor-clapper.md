@@ -9,7 +9,7 @@ Basically, you use it to get flat and crisp seams. Must be hardwood. Can't be pl
 
 ![Tailors clapper, a 2.5 inches by 12 inches by 1 inch block of hardwood with fancy wood veneer decoration on top.](/images/tailor-clapper.jpg)
 
-### More tips and tricks
+## More tips and tricks
 
   {% for tag in page.tags %}
   <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}

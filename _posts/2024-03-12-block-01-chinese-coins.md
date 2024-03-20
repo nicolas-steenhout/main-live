@@ -33,7 +33,7 @@ Setting the seam is making a big difference in getting a flat and crisp seam. It
 
 Glad I finished this first step in the project. I might even make the next block this week!
 
-### Follow this project
+## Follow this project
 
   {% for tag in page.tags %}
   <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}

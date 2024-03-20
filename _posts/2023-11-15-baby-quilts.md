@@ -12,7 +12,7 @@ I did a couple crib size quilts for friends awaiting babies.
 
 Finished these in August and November 2023! 
 
-### Other finished quilts
+## Other finished quilts
 
   {% for tag in page.tags %}
   <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}

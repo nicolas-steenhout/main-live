@@ -22,7 +22,7 @@ I like to make my binding strips at 2 1/2". Gives me a bit more room to play. Bu
 In the end, I got my binding. It's a Kaffe Fassett print in hot pink. I used the same print pattern, but in turquoise for the quilt backing
 
 And the long arm quilter tells me I can go get the quilt tomorrow!
-### Follow this project
+## Follow this project
 
   {% for tag in page.tags %}
   <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}

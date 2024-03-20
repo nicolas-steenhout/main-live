@@ -23,7 +23,7 @@ Glue sticks are better for this purpose. While you can use the big glue sticks m
 ### Building slabs
 One thing we did was build "slabs" of fabrics, using a bunch of scraps. For the purpose of this exercise, having straight edges and angles for the edges of fabric was important. Learned to use the seam between two fabrics and use that as the lining point for the ruler to trim the next edge
 
-### Follow this project
+## Follow this project
 
   {% for tag in page.tags %}
   <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}

@@ -30,7 +30,7 @@ These blocks are 12 1/2" square
 ## Block 7 - Origami Bow Tie
 ![4 squares looking like bowties. The center of the bowtie is actually raised and looks 3-dimmensional.](/images/bom-07.jpg)
 
-### Follow this project
+## Follow this project
 
   {% for tag in page.tags %}
   <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}

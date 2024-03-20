@@ -20,7 +20,7 @@ Next step will be to quilt this. Intending to use a mix of stitch in the ditch a
 
 But before I quilt it, I need to get some wool batting!
 
-### Follow this project
+## Follow this project
 
   {% for tag in page.tags %}
   <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}

@@ -24,7 +24,7 @@ To be fair, my first quilt was quite wonky and uneven. I think most people's fir
 So, let's see how this goes!
 ### Timeline
 No rush on this one. Ideally I'd have it ready for the long arm quilter in early September, because it might be neat to put in the quilt show for my guild. But no rush. One or two blocks a week depending on their complexity. It won't be my main sewing project!
-### Follow this project
+## Follow this project
 
   {% for tag in page.tags %}
   <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}

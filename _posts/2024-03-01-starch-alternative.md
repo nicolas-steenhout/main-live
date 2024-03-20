@@ -12,7 +12,7 @@ I prefer the scent free version, but there are a bunch of different scents if th
 I'll discuss how I use it on another page.
 
 
-### More tips and tricks
+## More tips and tricks
 
   {% for tag in page.tags %}
   <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}

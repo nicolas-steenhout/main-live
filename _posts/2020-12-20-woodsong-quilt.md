@@ -11,7 +11,7 @@ The quilting on this was interesting - Used quilt in the ditch and shadow box, b
 
 Finished this in December 2020! 
 
-### Other finished quilts
+## Other finished quilts
 
   {% for tag in page.tags %}
   <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}

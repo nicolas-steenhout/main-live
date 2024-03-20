@@ -29,7 +29,7 @@ By the end of the weekend, I had progressed quite a bit. Here are two side by si
 
 I'm hoping to finish this top this week.
 
-### Follow this project
+## Follow this project
 
   {% for tag in page.tags %}
   <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}

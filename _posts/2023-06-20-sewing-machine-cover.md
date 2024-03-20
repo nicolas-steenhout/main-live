@@ -9,7 +9,7 @@ I made a cover for my Elna Lotus II sewing machine. Used mini charm packs and to
 
 Finished this in June 2023! 
 
-### Other finished quilts
+## Other finished quilts
 
   {% for tag in page.tags %}
   <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}
