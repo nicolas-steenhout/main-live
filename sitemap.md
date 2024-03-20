@@ -2,18 +2,18 @@
 layout: page
   exclude: 'yes'
   permalink: /sitemap/
-  title: Sitemap
+title: Sitemap
 ---
 
  
- ## Pages
+ ##Pages
   {% for page in site.pages %}
-   <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
+   * <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
    {% endfor %} 
    
-   ## Posts
+##Posts
  {% for post in site.posts %}
- <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
+ * <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
 
   {% endfor %}
  
