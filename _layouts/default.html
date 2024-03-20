@@ -29,6 +29,11 @@
             <h1 class="site-name">
               <a href="{{ site.baseurl }}/">{{ site.name }}</a>
             </h1>
+              {% if page.layout == 'home' %}
+  <h1>logo</h1>
+{% else %}
+  <h2>smaller logo</h2>
+{% endif %}
           </div>
 
           <nav>
