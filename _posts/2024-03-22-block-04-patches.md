@@ -4,6 +4,7 @@ title: Block 02 - 2, 4, and 6 Patch
 tags: Handmade-Quilt
 ---
 I finished this block, and happy I did. My points are on point. My seams are crips and flat. Quite a contrast to the first time I did this block.
+
 ![Several strips of alternating blue and white squares, forming patches.](/images/4-patch-01.jpg)
 
 ## New block
@@ -27,7 +28,7 @@ My marking has also changed. I'm test driving a small mechanical chalk pencil. M
 
 ![Several 2-patch side by site. A quilting ruler and a fabric pencil on top. All the stitch lines have been marked.](/images/4-patch-06.jpg)
 
-Pressing the seams flat and using both starch alternative and tailor's clapper make for crisper seams. But I did piece a bunch of 2-patch before pressing those seams.
+Pressing the seams flat and using both starch    alternative and tailor's clapper make for crisper seams. But I did piece a bunch of 2-patch before pressing those seams.
 ![Nine 2-patch pieced together, view from the back. The horizontal seams were pressed but the vertical seams haven't yet been pressed.](/images/4-patch-07.jpg)
 
 The unpressed vertical seams almost look like my finished block from the first time around!
