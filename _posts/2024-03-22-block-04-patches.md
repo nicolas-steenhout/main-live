@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Block 02 - 2,4, and 6 Patch
+title: Block 02 - 2, 4, and 6 Patch
 tags: Handmade-Quilt
 ---
 I finished this block, and happy I did. My points are on point. My seams are crips and flat. Quite a contrast to the first time I did this block.
@@ -20,9 +20,11 @@ My fingers have turned soft. Or maybe they always were soft. One of my first che
 ![A doeskin homemade thimble on the tip of my index finger.](/images/4-patch-04.jpg)
 
 I had to test one 4-patch before proceeding, making sure that the corners meet properly. Happy with the results!
+
 ![A 4-patch on a grey wool ironing mat beside a tailor clapper. A bunch of 2-patch pieces are lined up around the ironing mat.](/images/4-patch-05.jpg)
 
 My marking has also changed. I'm test driving a small mechanical chalk pencil. Makes a thin and sharp mark. I'm also not marking at 1/4". I'm marking so I have a scant 1/4" and I'm hoping it'll make a difference in how the blocks meet and fit together when I put the flimsy together.
+
 ![Several 2-patch side by site. A quilting ruler and a fabric pencil on top. All the stitch lines have been marked.](/images/4-patch-06.jpg)
 
 Pressing the seams flat and using both start alternative and tailor's clapper make for crisper seams. But I did piece a bunch of 2-patch before pressing those seams.
