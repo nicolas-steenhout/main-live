@@ -16,7 +16,7 @@ For the parts where I have seams I want to make meet exactly, I line the seam be
 
 ![Two squares stitched together, pinned to another two. A threaded needle started going through the blue square.](/images/4-patch-03.jpg)
 
-My fingers have turned soft. Or maybe they always were soft. One of my first chef when I was a young cook told me I had "butter fingers". I think I have the seamstress equivalent. Glad to have made myself a doeskin thimble, because commercial thimbles just don't fit on my fingers!
+My fingers have turned soft. Or maybe they always were soft. One of my first chef when I was a young cook told me I had "butter fingers". I think I have the sewist equivalent. Glad to have made myself a doeskin thimble, because commercial thimbles just don't fit on my fingers!
 
 ![A doeskin homemade thimble on the tip of my index finger.](/images/4-patch-04.jpg)
 
