@@ -1,6 +1,7 @@
 ---
 layout: post
 title: January Quilting Retreat
+tags: Heron-Quilt
 ---
 Went to a sewing retreat with the [Chilliwack's Piecemakers Quilting Guild](https://www.chilliwackpiecemakers.com/) yesterday. Several hours of sewing at a local community hall. It was fun! Sewing and chatting about sewing with like-minded individuals.
 
@@ -19,3 +20,8 @@ Fabrics is "Waterlily Magic" by Jan Mott of Crane Design. Henry Glass & Co, inc.
 I'm not sending this immediately to be quilted - we found a kit with the same fabric range to make one large and two small cushions! So have to get and finish those before quilting it.
 
 My long arm quilter is off on vacation until March, so it's not a big issue.
+## Follow this project
+
+  {% for tag in page.tags %}
+  <a class="post" href="/tag/{{tag}}">Other posts with the #{{tag}} tag</a>{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
