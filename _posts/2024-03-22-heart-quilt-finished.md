@@ -7,7 +7,7 @@ Finally finished the Home is where the heart is quilt a couple weeks ago. Betwee
 
 ![60 inch square quilt on the lawn. There is a large heart made of red, blue, green, yellow, and orange prints. The outside of the heart is dark purple.](/images/heart-quilt-finished-01.jpg)
 
-The colors are just glorious. Fabrics from Kaffe Fassett. I didn't know how much I'd love working with these colors. But I did. Really glad that [Stacey Day]() recommended using the dark purple at the workshop - it really works awesomely.
+The colors are just glorious. Fabrics from Kaffe Fassett. I didn't know how much I'd love working with these colors. But I did. Really glad that [Stacey Day](https://staceyinstitches.com/) recommended using the dark purple at the workshop - it really works awesomely.
 
 I am super glad to have used the backing I did - another riot of colors. I think I'm coming to really love "loud" backings.
 
