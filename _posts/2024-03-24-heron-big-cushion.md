@@ -1,6 +1,6 @@
 ---
 layout: post
-title: January Quilting Retreat
+title: Big cushion cover for heron quilt
 tags: Heron-Quilt
 ---
 I'd hoped to complete the two small and the large cushions this weekend. Turns out I only managed the large one. But I'm happy about this!
