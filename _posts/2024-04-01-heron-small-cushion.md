@@ -11,7 +11,7 @@ I finished the small cushion cover flimsies for this series over the Easter week
 
 So now, I only have to add some backing fabric to the backing for the quilt, so the long arm machine can work on the quilt top and the cushions all at the same time, and it'll be ready for the long arm quilter!
 
-
+<strong>Note:</strong> This is NOT an April fools joke, despite the publication date!
 
 ## Follow this project
 
