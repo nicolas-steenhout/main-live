@@ -19,7 +19,6 @@ There are quilting terms that I use frequently that my non-quilting friends migh
     <dd>Getting two or more pieces of fabric holding together before piecing them or quilting them. Using pins, thread, or glue.<dd>
     <dt>Block<dt>
     <dd>Part of a flimsy. Typically pieced from two or more pieces of fabric. These are the "building blocks" of a quilt.<dd>
-
 </dl>
     
 
