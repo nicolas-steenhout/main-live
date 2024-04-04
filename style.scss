@@ -68,11 +68,14 @@ p {
   margin: 1rem 0 1.5rem;
 }
 
-p, li {
+p, li, dt, dd {
   font-size: calc(.5vw + 1.1rem);
   line-height: 1.4;
 }
 
+dt {
+    font-weight: bold;
+}
 a {
   color: $primary;
 
