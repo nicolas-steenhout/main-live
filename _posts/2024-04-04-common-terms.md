@@ -9,8 +9,8 @@ There are quilting terms that I use frequently that my non-quilting friends migh
     <dt>Quilt<dt>
     <dd>A finished product that consists of a top and bottom layer of fabric, with batting in between, and quilting to hold it all in place.<dd>    
     <dt>Quilting<dt>
-    <dd>What I call the activity as a whole - cutting and piecing fabrics, adding binding, sewing, etc. When I say II'm going to do some quilting, typically that's what I mean.<dd>
-    <dd>Sewing by hand or machine to hold all the parts of a quilt together. These sewing lines are often decorative.</dd>
+    <dd>What I call the activity as a whole - cutting and piecing fabrics, adding binding, sewing, etc. When I say II'm going to do some quilting, typically that's what I mean. Also, sewing by hand or machine to hold all the parts of a quilt together. These sewing lines are often decorative.
+    <dd>
     <dt>Fat quarter<dt>
     <dd>A piece of fabric that is a quater of a yard. Instead of four long cuts, you cut it to have four pieces of fabrics that are a more "fat" rectangle, nearly square.<dd>
     <dt>Flimsy<dt>
