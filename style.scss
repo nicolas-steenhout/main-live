@@ -234,7 +234,9 @@ input {
 .site-info {
 font-size: 1 em;
     text-decoration: none;
-    &:hover{text-decoration: underline;}
+    &:hover {
+        text-decoration: underline;
+    }
   }
 
   .site-name {
