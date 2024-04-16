@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="https://use.typekit.net/zbd2ksc.css">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+      <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/img/favicon.ico">
 
 <!--Plausible analytics tracking snippet -->
-      <script defer data-domain="quilting.nicolas-steenhout.com" src="https://plausible.io/js/script.js"></script>
+      <script defer data-domain="nicolas-steenhout.com" src="https://plausible.io/js/script.js"></script>
   </head>
 
   <body>
@@ -25,27 +26,31 @@
       <div class="container">
         <header class="masthead clearfix">
           <div class="site-info">
-            <img src="{{ site.avatar }}" alt="Nicolas Steenhout. Head shot in black and white with a black background. Nic has short hair and no beard. He's wearing glasses." class="site-avatar" />
-            
+              <a href="{{ site.baseurl }}">
+              <img src="{{ site.baseurl }}/img" alt="">
+              Nicolas Steenhout</a>
+              
+              
+           <!-- Leaving it for reference but needs to be changed
               {% if page.layout == 'default' %}
-  <h1 class="site-name">
+  
+<h1 class="site-name">
               <a href="{{ site.baseurl }}/">{{ site.name }}</a>
             </h1>
 {% else %}
  <p class="site-name">
-              <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+              <a href="{{ site.baseurl }}/"><img src="/img/logo" alt="">Nicolas Steenhout</a> 
             </p>
 {% endif %}
+-->
           </div>
 
           <nav>
             <ul>
-              <!--<li><a href="{{ site.baseurl }}/">Blog</a></li>-->
-              <li><a href="{{ site.baseurl }}/about">About</a></li>
-	      <li><a href="{{ site.baseurl }}/tag/Tips/">Tips and Tricks</a></li>
-                <li><a href="{{ site.baseurl }}/tags">Tags</a></li>
-                <li><a href="{{ site.baseurl }}/tag/Finished">Finished quilts</a></li>
-                <li><a href="{{ site.baseurl }}/subscribe">Subscribe</a></li>
+            <li><a href="{{ site.baseurl }}/meet-nic">Meet Nic</a></li>
+            <li><a href="{{ site.baseurl }}/speaking">Speaking</a></li>
+	      <li><a href="{{ site.baseurl }}/training">Training</a></li>
+                <li><a href="{{ site.baseurl }}/other-stuff">Other stuff</a></li>
             </ul>
           </nav>
         </header>
@@ -67,6 +72,6 @@
       </div>
     </div>
 
-    {% include analytics.html %}
+
   </body>
 </html>
