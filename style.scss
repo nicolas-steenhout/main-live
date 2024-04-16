@@ -203,8 +203,8 @@ input {
 
     ul {
       display: grid;
-      grid-template-columns: repeat(5, auto);
-      gap: 3.5rem;
+      grid-template-columns: repeat(4, auto);
+      gap: 2.5rem;
       padding-inline-start: 0;
       text-align: center;
 
@@ -214,7 +214,7 @@ input {
       }
 
       a {
-        font-size: 1.3em;
+        font-size: 1em;
         text-decoration: none;
 
         &:hover {
@@ -232,14 +232,9 @@ input {
 }
 
 .site-info {
-  padding: 5rem 0 3rem;
-
-  .site-avatar {
-    display: block;
-    width: 300px;
-    max-width: 100%;
-    margin: 0 auto;
-    border-radius: 50%;
+font-size: 1 em;
+    text-decoration: none;
+    &:hover{text-decoration: underline;}
   }
 
   .site-name {
