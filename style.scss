@@ -507,7 +507,6 @@ footer {
 
 #intro {
     display:flex;
-    justify-content: space-evenly;
     img {
         height: 500px;
         width: 328px;
@@ -515,6 +514,7 @@ footer {
     }
     h1 {
         flex-grow: 1;
+        
     }
 
 }
