@@ -27,7 +27,8 @@ body {
   width: 100%;
 }
 
-/*.masthead {
+
+.masthead {
     display: flex;
     justify-content: space-between;
     ul {
@@ -38,7 +39,25 @@ body {
       padding: 0 5px;      
       }
     }
-}*/
+}
+
+
+
+.site-info {
+  a{ 
+  display: flex;
+   align-items:center;
+    text-decoration:none;
+    span {
+      text-transform:uppercase;
+      display: inline-block;
+      
+      font-size: calc(.5vw + 1rem);
+      padding-left:1em;
+    }
+
+  }
+}
 
 
 #intro {
@@ -48,14 +67,7 @@ body {
     font-size: calc(0.5vw + 3.5rem);
   }
 }
-.siteinfo{
-    display:flex;
-    justify-content: flex-start;
-    
-    p {
-       text-transform: uppercase;
-    }
-}
+
 
 
 
