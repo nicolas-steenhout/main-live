@@ -506,15 +506,10 @@ footer {
 }
 
 #intro {
-    display:flex;
+
     img {
         height: 500px;
         width: 328px;
-        flex-grow: 1;
     }
-    h1 {
-        flex-grow: 1;
-        
-    }
-
+   
 }
