@@ -27,7 +27,7 @@ body {
   width: 100%;
 }
 
-.masthead {
+/*.masthead {
     display: flex;
     justify-content: space-between;
     ul {
@@ -38,7 +38,7 @@ body {
       padding: 0 5px;      
       }
     }
-}
+}*/
 
 
 #intro {
@@ -51,6 +51,10 @@ body {
 .siteinfo{
     display:flex;
     justify-content: flex-start;
+    
+    p {
+       text-transform: uppercase;
+    }
 }
 
 
