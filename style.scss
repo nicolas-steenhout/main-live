@@ -41,9 +41,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  /*font-family: $heading-mast;
-  font-size: calc(.5vw + 5rem);*/
-    font-size: 2em;
+  /*font-family: $heading-mast;*/
+  font-size: calc(.5vw + 3rem);
   a {
     color: $primary;
     text-decoration: none;
