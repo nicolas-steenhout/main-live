@@ -77,6 +77,9 @@ body {
     font-size: calc(.5vw + 1rem);
 }
 
+h1 {
+  font-size: calc(.5vw + 5rem);
+}
 
 h2 {
   font-size: calc(1vw + 1.75rem);
@@ -102,6 +105,34 @@ p, li, dt, dd {
   line-height: 1.4;
 }
 
+.posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  margin-block: 1em;
+
+  > .post {
+    border: 3px dashed lighten($foreground, 80%);
+  }
+
+  .post {
+    .post-details {
+      padding: .3em 2em 1.5em;
+
+      h2 {
+        margin: .5em 0 .3em;
+      }
+
+      p {
+        font-size: 1.3em;
+      }
+    }
+
+    h2 > a {
+      font-size: calc(1.4rem + 1vw);
+    }
+
+  }
+}
 // Nicolas Gallaghers micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
