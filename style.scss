@@ -32,8 +32,10 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: red;
+    .site-info {flex-basis: auto;}
+    nav {flex-basis: auto;}
     ul {
-        list-style: non;
+        list-style: none;
         list-style-type: none;
         li {
       display: inline-block;
