@@ -3,6 +3,8 @@ layout: post
 title: Your accessibility deadline is probably closer than you think
 
 ---
+What do you need to account for to meet work around accessibility deadlines?
+
 ## Background
 
 You promised to deliver the final work product to your client by June 1. The final work product includes a letter of conformance from an independent 3rd party auditor.
