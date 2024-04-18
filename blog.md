@@ -11,7 +11,8 @@ You can also find an [archive of posts on my old site](https://incl.ca), going b
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-<!-- https://blog.webjeda.com/fetch-image-jekyll/-->
+
+      <!-- https://blog.webjeda.com/fetch-image-jekyll/-->
       {% assign foundImage = 0 %}
       {% assign images = post.content | split:"<img " %}
       {% for image in images %}
@@ -22,6 +23,8 @@ You can also find an [archive of posts on my old site](https://incl.ca), going b
                 {% assign foundImage = 1 %}
             {% endif %}
         {% endif %}
+      {% endfor %}
+
       <div class="post-details">
         <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
@@ -35,3 +38,4 @@ You can also find an [archive of posts on my old site](https://incl.ca), going b
     </article>
   {% endfor %}
 </div>
+
