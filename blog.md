@@ -11,7 +11,17 @@ You can also find an [archive of posts on my old site](https://incl.ca), going b
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-
+<!-- https://blog.webjeda.com/fetch-image-jekyll/-->
+      {% assign foundImage = 0 %}
+      {% assign images = post.content | split:"<img " %}
+      {% for image in images %}
+        {% if image contains 'src' %}
+            {% if foundImage == 0 %}
+                {% assign html = image | split:"/>" | first %}
+                <img {{ html }} />
+                {% assign foundImage = 1 %}
+            {% endif %}
+        {% endif %}
       <div class="post-details">
         <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
