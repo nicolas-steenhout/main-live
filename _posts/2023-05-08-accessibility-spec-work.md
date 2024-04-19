@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Accessibility spec work
+summary: A large company asked me to get on a call to give them information to help them "understand best practices in terms of process & tools". They weren't interested in paying me for my time. But they were quite pushy about putting something on the schedule. This felt somewhat predatory, and made me feel like I'm not likely to work with this company.
 
 ---
 
 When large companies ask you to do consulting for them for free, with the hope they might like what you say enough to pay you.
-
-A large company asked me to get on a call to give them information to help them "understand best practices in terms of process & tools". They weren't interested in paying me for my time. But they were quite pushy about putting something on the schedule. This felt somewhat predatory, and made me feel like I'm not likely to work with this company.
 
 <figure>
     <img src="/img/a11y-spec-work.jpg" alt="Woman viewed from the back, working at a computer with a large screen.">
