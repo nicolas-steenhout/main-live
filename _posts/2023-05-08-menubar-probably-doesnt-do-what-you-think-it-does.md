@@ -2,6 +2,7 @@
 layout: post
 title: Menubar probably doesn't do what you think it does
 summary: The role menubar is not meant to be used to build navigation on the web. It should be used if you need to copy how menubars work on desktop applications.
+excerpt: The role menubar is not meant to be used to build navigation on the web. It should be used if you need to copy how menubars work on desktop applications.
 ---
 
 ARIA roles are powerful, but they need to be used correctly!

@@ -2,6 +2,7 @@
 layout: post
 title: Your accessibility deadline is probably closer than you think
 summary: You need to plan to be development complete a couple months ahead of your client deadline if you want to have an external auditor have time to confirm you have fixed everything they found in an accessibility audit.
+excerpt: Complete dev work at least 2 months ahead of client deadlines to give accessibility auditors time to validate your remediation work.
 ---
 What do you need to account for to meet work around accessibility deadlines?
 

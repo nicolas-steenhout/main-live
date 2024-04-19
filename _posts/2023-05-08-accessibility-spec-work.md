@@ -2,7 +2,7 @@
 layout: post
 title: Accessibility spec work
 summary: A large company asked me to get on a call to give them information to help them "understand best practices in terms of process & tools". They weren't interested in paying me for my time. But they were quite pushy about putting something on the schedule. This felt somewhat predatory, and made me feel like I'm not likely to work with this company.
-
+excerpt: Pay people you want working with you. Free accessibility advice isn't good for anyone. Don't be pushy. I won't work with toxic clients!
 ---
 
 When large companies ask you to do consulting for them for free, with the hope they might like what you say enough to pay you.
