@@ -61,10 +61,15 @@ body {
   }
 }
 
+#summary{
+    display:flex;
+    justify-content: center;
+}
 .summary {
     border: 3px dashed lighten($foreground, 80%);
     max-width: 70%;
     padding: 1em;
+    font-size: calc(.5vw + 0.9rem);
 }
 #intro {
   margin: 0 auto;
