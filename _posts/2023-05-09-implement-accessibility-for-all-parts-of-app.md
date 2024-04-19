@@ -9,7 +9,7 @@ There's going to be disabled users in all users groups
 Who uses your web application? And is the application accessible to everyone? Too often we focus on the end user, and forget the administrators and other staff that use the application. Everyone needs access!
 
 <figure>
-    <img src="/img/diverse-users.jpg" alt="A group of 5 people, holding speech bubbles. Two white men. One white woman. Two black women." title="a group of 5 people, holding speech bubbles. Two white men. One white woman. Two black women.">
+    <img src="/img/diverse-users.jpg" alt="A group of 5 people, holding speech bubbles. Two white men. One white woman. Two black women." >
     
 </figure>
 
