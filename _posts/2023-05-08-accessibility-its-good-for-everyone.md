@@ -2,6 +2,7 @@
 layout: post
 title: Accessibility, it's good for everyone. Isn't it?
 summary: Some disabled people object to saying accessibility is good for everyone. I have used that argument for a long time. I will continue to do so because I think it works. And I don't think it erases the disability experience, if it's done well.
+excerpt: I argue that accessibility is good for everyone because it helps people embrace accessibility. It doesn't erase the disability experience, if done well.
 ---
 Does advocating for accessibility on the basis of "it's good for everyone" erase the disabled experience?
 
