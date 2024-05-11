@@ -15,7 +15,7 @@
     <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/img/favicon.ico">
 
 <!--Plausible analytics tracking snippet -->
-      <script defer data-domain="nicolas-steenhout.com" src="https://plausible.io/js/script.js"></script>
+    <script defer data-domain="nicolas-steenhout.com" src="https://plausible.io/js/script.js"></script>
   </head>
 
   <body>
@@ -30,8 +30,7 @@
       </fieldset>
 	  </div>
     <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead">
+        <header class="masthead container">
           <div class="site-info">
               <a href="{{ site.baseurl }}">
                 <img src="{{ site.baseurl }}/img/nicolas-steenhout-logo.jpg" width="100" alt="">
@@ -41,20 +40,18 @@
 
           <nav>
             <ul>
-            <li><a href="{{ site.baseurl }}/meet-nic/">Meet Nic</a></li>
-            <li><a href="{{ site.baseurl }}/speaking/">Speaking</a></li>
-	      <li><a href="{{ site.baseurl }}/training/">Training</a></li>
-                <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
-                <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+              <li><a href="{{ site.baseurl }}/meet-nic/">Meet Nic</a></li>
+              <li><a href="{{ site.baseurl }}/speaking/">Speaking</a></li>
+              <li><a href="{{ site.baseurl }}/training/">Training</a></li>
+              <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
+              <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
             </ul>
           </nav>
         </header>
-      </div>
     </div>
 
-    <main class="container" id="main">
+    <main id="main">
       {{ content }}
-        
     </main>
 
     <div class="wrapper-footer">

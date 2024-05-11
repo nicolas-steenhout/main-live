@@ -23,7 +23,6 @@ body {
 .container {
   margin: 0 auto;
   max-width: 75rem;
-  padding: 0 .8rem;
   width: 100%;
 }
 
@@ -75,8 +74,6 @@ body {
     }
 }
 
-
-
 .site-info {
   flex-basis: auto;
 
@@ -105,15 +102,45 @@ body {
     padding: 1em;
     font-size: calc(.5vw + 0.9rem);
 }
+
+
+// First section on Home
+
 #intro {
   margin: 0 auto;
-  display:flex;
+  padding: calc(.5vw + 4em) calc(.5vw + 8em);
+  display: grid;
+  gap: .5em;
+  grid-template-columns: 2fr 1fr;
+
+  background-color: $background-dark;
+  color: $foreground-light;
+
   h1 {
+    padding-block: .6em;
     font-size: calc(0.5vw + 3.5rem);
+    line-height: 1.2;
   }
-    p{
-    font-size: calc(0.5vw + 1rem);
+  
+  span {
+    color: lighten($primary, 15%);
+    font-weight: 800;
+    letter-spacing: .05em;
+
+    &::after {
+      content: "";
+      display: inline-block;
+      background-color: lighten($primary, 15%);
+      position: absolute;
+      top: calc(50% + 2rem);
+      left: -2rem;
+      border-radius: 2rem;
     }
+  }
+
+  p{
+    font-size: calc(0.5vw + 1rem);
+  }
 }
 
 .callout {
