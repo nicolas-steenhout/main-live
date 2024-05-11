@@ -16,7 +16,7 @@
 
 body {
 	background-color: $background;
-  font-family: $proxima;
+  
   color: $foreground;
 }
 
@@ -28,17 +28,49 @@ body {
 }
 
 
+/*
+/* outer container for header */
+
+.wrapper-masthead {
+  background-color: $primary;
+}
+
+/* inner container with header/nav */
+
 .masthead {
     display: flex;
+    padding-block: .8em;
     justify-content: space-between;
-    .site-info {flex-basis: auto;}
-    nav {flex-basis: auto;}
+    align-items: end;
+    
+    nav {
+      display: inline-flex;
+
+      a {
+        color: $foreground-light;
+        font-family: $kanit;
+        letter-spacing: .1em;
+        padding-inline: .5em;
+        text-decoration: none;
+
+        &:visited {
+          color: darken($foreground-light, 10%);
+        }
+
+        &:focus,
+        &:hover {
+          color: $white;
+          outline: 2px solid currentColor;
+        }
+      }
+    }
+    
     ul {
-        list-style: none;
-        list-style-type: none;
-        li {
-      display: inline-block;
-      padding: 0 5px;      
+      list-style: none;
+      list-style-type: none;
+      li {
+        display: inline-block;
+        padding: 0 5px;      
       }
     }
 }
@@ -46,18 +78,20 @@ body {
 
 
 .site-info {
-  a{ 
-  display: flex;
-   align-items:center;
-    text-decoration:none;
-    span {
-      text-transform:uppercase;
-      display: inline-block;
-      
-      font-size: calc(.5vw + 1rem);
-      padding-left:1em;
-    }
+  flex-basis: auto;
 
+  a { 
+    display: flex;
+    align-items: center;
+    color: $foreground-light;
+    text-decoration: none;
+      
+    span {
+      display: inline-block;
+      font-family: $kanit;
+      font-size: calc(.5vw + 2rem);
+      padding-left: 1em;
+    }
   }
 }
 
@@ -144,7 +178,7 @@ h4 {
   font-size: calc(1vw + 1.125rem);
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: $gray;
+  color: $secondary;
 }
 
 p {
@@ -184,20 +218,6 @@ p, li, dt, dd {
 
   }
 }
-// Nicolas Gallaghers micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-
-
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
@@ -219,27 +239,28 @@ p, li, dt, dd {
 
 
 
+// User toolbar
+#toolbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: $secondary;
+  color: $foreground-light;
+}
+
 // Skip link
 
-.skip-link:not(:focus):not(:hover) {
-    -webkit-transform: translateY(-4em);
-    -ms-transform: translateY(-4em);
-    transform: translateY(-4em);
-    opacity: 0;
-}
-
-.skip-link:hover, .skip-link:focus,
-.skip-link:hover, .skip-link:focus {
-  background-color: $red;
-  color: $white;
-  border-radius: 8px;
+.skip-link {
+  display: inline-block;
+  color: $foreground-light;
+  padding: .8rem 1rem;
   text-decoration: none;
-	padding: .75rem;
-  transition: all .3s ease-in-out;
+
+  &:focus,
+  &:hover {
+    background-color: $tertiary;
+    outline: 2px solid currentColor;
+    transition: all .3s ease-in-out;
+  }
 }
 
-
-
-
-
-
+// Theme toggle
