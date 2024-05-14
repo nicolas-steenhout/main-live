@@ -16,8 +16,36 @@
 
 body {
 	background-color: $background;
-  
   color: $foreground;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: calc(.5vw + 5rem);
+}
+
+h2 {
+  font-size: calc(1vw + 1.75rem);
+}
+
+h3 {
+  font-size: calc(1vw + 1.5rem);
+}
+
+h4 {
+  font-size: calc(1vw + 1.125rem);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $secondary;
+}
+
+p {
+  margin: 1rem 0 1.5rem;
+}
+
+p, li, dt, dd {
+  font-size: calc(.5vw + 1.1rem);
+  line-height: 1.4;
 }
 
 .container {
@@ -27,8 +55,8 @@ body {
 }
 
 
-/*
-/* outer container for header */
+
+// outer container for header
 
 .wrapper-masthead {
   background-color: $primary;
@@ -61,6 +89,10 @@ body {
           color: $white;
           outline: 2px solid currentColor;
         }
+
+        [aria-current=page] {
+          border-bottom: 3px solid currentColor;
+        }
       }
     }
     
@@ -85,15 +117,16 @@ body {
       
     span {
       display: inline-block;
+      padding-inline-start: 1.2rem;
       font-family: $kanit;
-      font-size: calc(.5vw + 2rem);
-      padding-left: 1em;
+      font-size: 3rem;
+      line-height: 1;
     }
   }
 }
 
 #summary{
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 .summary {
@@ -112,7 +145,6 @@ body {
   display: grid;
   gap: .5em;
   grid-template-columns: 2fr 1fr;
-
   background-color: $background-dark;
   color: $foreground-light;
 
@@ -126,31 +158,118 @@ body {
     color: lighten($primary, 15%);
     font-weight: 800;
     letter-spacing: .05em;
-
-    &::after {
-      content: "";
-      display: inline-block;
-      background-color: lighten($primary, 15%);
-      position: absolute;
-      top: calc(50% + 2rem);
-      left: -2rem;
-      border-radius: 2rem;
-    }
   }
 
-  p{
+  p {
     font-size: calc(0.5vw + 1rem);
+  }
+  
+  img {
+    max-width: 100%;
+    margin: 0 auto;
   }
 }
 
 .callout {
-    font-size: calc(.5vw + 1rem);
+  display: flex;
+  justify-content: center;
+
+  p {
+    max-width: 45ch;
+    padding: calc(.5vw + 3em) calc(.5vw + 1.5em);
+    color: $blue-dark;
+    font-size: calc(.5vw + 1.9rem);
+    font-weight: 600;
+  }
 }
 
-.inline-quote {
-    width:100%;
+.text-section {
+  margin: 0 auto;
+  padding: calc(.5vw + 5em) calc(.5vw + 8em);
+  background-color: $blue-navy;
+  color: $foreground-light;
+
+  p {
+    margin-block-end: 1.5em;
+    font-size: calc(.5vw + 1.5rem);
+  }
+
+  a {
+    color: $silver;
+    font-weight: 600;
+  }
+}
+
+#testimonials {
+  padding: calc(.5vw + 5em) calc(.5vw + 8em);
+
+  h2 {
+    margin-block-end: 2.75em;
+    color: $blue-dark;
     text-align: center;
-        font-size: calc(.5vw + 1rem);
+  }
+  .quotes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  
+  figure {
+    margin-block-end: 5rem;
+    background-color: $white;
+    color: $blue-navy;
+    position: relative;
+    width: 32%;
+
+    &::before {
+      bottom: 0;
+      content: "";
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      background-color: $white;
+      transform: skewY(15deg);
+      z-index: -1;
+    }
+
+    blockquote {
+      position: relative;
+      margin-bottom: 0;
+      padding: 5rem 2rem 1.5rem;
+      font-size: 1.25rem;
+      line-height: 1.5;
+
+      &::before {
+        position: absolute;
+        left: 10%;
+        top: .25em;
+        content: "\201C";
+        color: $primary;
+        font-size: 4.5em;
+        line-height: .5;
+        opacity: .3;
+      }
+    }
+    figcaption {
+      padding-block-end: 2rem;
+      padding-inline-end: 2rem;
+      color: $primary;
+      text-align: right;
+
+      &::before,
+      &::after {
+        content: '\2014';
+      }
+    }
+  }
+}
+
+
+.inline-quote {
+    width: 100%;
+    text-align: center;
+    font-size: calc(.5vw + 1rem);
 }
 
 .posts {
@@ -189,34 +308,6 @@ body {
 }
 
 
-h1 {
-  font-size: calc(.5vw + 5rem);
-}
-
-h2 {
-  font-size: calc(1vw + 1.75rem);
-}
-
-h3 {
-  font-size: calc(1vw + 1.5rem);
-}
-
-h4 {
-  font-size: calc(1vw + 1.125rem);
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: $secondary;
-}
-
-p {
-  margin: 1rem 0 1.5rem;
-}
-
-p, li, dt, dd {
-  font-size: calc(.5vw + 1.1rem);
-  line-height: 1.4;
-}
-
 .posts {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
@@ -246,6 +337,12 @@ p, li, dt, dd {
   }
 }
 
+
+// Global footer
+
+footer {
+
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
