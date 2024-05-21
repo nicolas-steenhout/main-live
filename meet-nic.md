@@ -4,6 +4,10 @@ title: Meet Nic Steenhout
 permalink: /meet-nic/
 ---
 
+Nic Steenhout has been an accessibility trainer and troubleshooter for over 25 years. He’s worked on three continents, collaborating with various organizations, from local governments to large corporations, focusing on web accessibility and digital inclusion. Known for his pragmatic, down-to-Earth approach, Nic helps his clients navigate complex accessibility challenges. When he is not off on a birdwatching adventure, you can find him speaking at events or leading workshops. 
+
+
+
 Inclusivity is vital to a democratic Internet. And for more than 25 years, Nicolas Steenhout has been addressing this subject head-on as an accessibility expert.
 
 Working as a developer in the mid-’90s, Nic was approached by colleagues, clients and friends with web-based issues that weren’t yet part of the public consciousness. Images weren’t being properly announced to people who are blind; video-only tutorials didn’t account for people who are deaf; over engineered webpages made it impossible for those with ADHD to engage. Nic quickly realized that amid a major technological revolution, a significant part of the digital landscape was being neglected.
