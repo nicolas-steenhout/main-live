@@ -17,7 +17,14 @@
 body {
 	background-color: $background;
   color: $foreground;
+  font-family: $dm-sans;
+  font-weight: 300;
   line-height: 1.5;
+
+  // respect user contrast preferences
+  @media (prefers-contrast: less) {
+    filter: contrast(.8);
+  }
 }
 
 h1 {
@@ -75,9 +82,9 @@ p, li, dt, dd {
 
       a {
         color: $foreground-light;
-        font-family: $kanit;
-        letter-spacing: .1em;
         padding-inline: .5em;
+        font-size: calc(.5vw + 1.25rem);
+        font-weight: 500;
         text-decoration: none;
 
         &:visited {
@@ -118,8 +125,8 @@ p, li, dt, dd {
     span {
       display: inline-block;
       padding-inline-start: 1.2rem;
-      font-family: $kanit;
-      font-size: 3rem;
+      font-family: $oswald;
+      font-size: 3.1rem;
       line-height: 1;
     }
   }
@@ -150,6 +157,7 @@ p, li, dt, dd {
 
   h1 {
     padding-block: .6em;
+    font-family: $dm-serif-display;
     font-size: calc(0.5vw + 3.5rem);
     line-height: 1.2;
   }
@@ -178,8 +186,9 @@ p, li, dt, dd {
     max-width: 45ch;
     padding: calc(.5vw + 3em) calc(.5vw + 1.5em);
     color: $blue-dark;
+    font-family: $dm-serif-display;
     font-size: calc(.5vw + 1.9rem);
-    font-weight: 600;
+    font-weight: 500;
   }
 }
 
@@ -191,11 +200,11 @@ p, li, dt, dd {
 
   p {
     margin-block-end: 1.5em;
-    font-size: calc(.5vw + 1.5rem);
+    font-size: calc(.5vw + 1.3rem);
   }
 
   a {
-    color: $silver;
+    color: lighten($blue-faded, 20%);
     font-weight: 600;
   }
 }
@@ -237,7 +246,7 @@ p, li, dt, dd {
       position: relative;
       margin-bottom: 0;
       padding: 5rem 2rem 1.5rem;
-      font-size: 1.25rem;
+      font-size: 1.125rem;
       line-height: 1.5;
 
       &::before {
