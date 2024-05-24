@@ -207,8 +207,15 @@ p, li, dt, dd {
   }
 }
 
-#section-video {
+.bg-gradient {
   background-image: linear-gradient($background-dark 33%, $background);
+
+  .video {
+    box-shadow: 25px -25px $tertiary;
+  }
+}
+
+.section-video {
   padding-block-start: 10vh;
 
   .wrapper-video {
@@ -222,7 +229,6 @@ p, li, dt, dd {
       position: absolute;
       width: 80%;
       height: 80%;
-      box-shadow: 25px -25px $tertiary;
     }
   }
 }
