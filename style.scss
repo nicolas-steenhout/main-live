@@ -30,7 +30,8 @@ body {
 }
 
 h1 {
-  font-size: calc(.5vw + 5rem);
+  // calc() wrapped around clamp() is a hack for Sass error
+  font-size: calc(clamp(3rem, 4vw + 3rem, 10rem));
 }
 
 h2 {
@@ -315,6 +316,25 @@ p, li, dt, dd {
     width: 100%;
     text-align: center;
     font-size: calc(.5vw + 1rem);
+}
+
+
+// Pages
+
+.page {
+  width: 100vw;
+}
+
+#heading-about {
+  display: flex;
+  background-color: $blue-navy;
+  color: $foreground-light;
+  
+  h1 {
+    padding-block: 12vh;
+    line-height: 1.25;
+    text-align: center;
+  }
 }
 
 .posts {
