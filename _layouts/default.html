@@ -30,7 +30,7 @@
       </fieldset>
 	  </div>
     <div class="wrapper-masthead">
-        <header class="masthead container">
+        <header class="container masthead">
           <div class="site-info">
               <a href="{{ site.baseurl }}">
                 <img src="{{ site.baseurl }}/img/nicolas-steenhout-logo.jpg" width="100" alt="">
@@ -50,19 +50,16 @@
         </header>
     </div>
 
-    <main id="main">
+    <main id="main" class="wrapper-main">
       {{ content }}
     </main>
 
     <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-            <p><a href="/accessibility/">Accessibility statement</a> | <a href="/sitemap/">Sitemap</a> | <a href="">Newsletter</a></p>
-            <p>&#169;2024 Nicolas Steenhout. All Rights Reserved.</p>
-        </footer>
-      </div>
+      <footer class="container footer">
+        <p><a href="/accessibility/">Accessibility statement</a> | <a href="/sitemap/">Sitemap</a> | <a href="">Newsletter</a></p>
+        <p>&#169;2024 Nicolas Steenhout. All Rights Reserved.</p>
+      </footer>
     </div>
-
 
   </body>
 </html>
