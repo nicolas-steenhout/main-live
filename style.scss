@@ -80,7 +80,7 @@ p, li, dt, dd {
     padding-block: .8em;
     justify-content: space-between;
     align-items: end;
-    
+
     nav {
       display: inline-flex;
 
@@ -106,13 +106,13 @@ p, li, dt, dd {
         }
       }
     }
-    
+
     ul {
       list-style: none;
       list-style-type: none;
       li {
         display: inline-block;
-        padding: 0 5px;      
+        padding: 0 5px;
       }
     }
 }
@@ -120,12 +120,12 @@ p, li, dt, dd {
 .site-info {
   flex-basis: auto;
 
-  a { 
+  a {
     display: flex;
     align-items: center;
     color: $foreground-light;
     text-decoration: none;
-      
+
     span {
       display: inline-block;
       padding-inline-start: 1.2rem;
@@ -158,7 +158,7 @@ p, li, dt, dd {
 
   // thanks, Stephanie Eckles!
   // moderncss.dev/3-popular-website-heroes-created-with-css-grid-layout/
-  > * { 
+  > * {
     grid-area: hero;
   }
 
@@ -177,7 +177,7 @@ p, li, dt, dd {
     font-size: calc(0.5vw + 3.5rem);
     line-height: 1.2;
   }
-  
+
   span {
     color: lighten($primary, 15%);
     font-weight: 800;
@@ -187,7 +187,7 @@ p, li, dt, dd {
   p {
     font-size: calc(0.5vw + 1rem);
   }
-  
+
   img {
     justify-self: end;
   }
@@ -217,6 +217,15 @@ p, li, dt, dd {
 
 .section-video {
   padding-block-start: 10vh;
+
+  .able-wrapper {
+    margin-inline: 10%;
+    box-shadow: 25px -25px $tertiary;
+    .able-status-bar {
+      padding-block-start: 0;
+      padding-block-end: 0;
+    }
+  }
 
   .wrapper-video {
     display: flex;
@@ -266,7 +275,7 @@ p, li, dt, dd {
     gap: 2rem;
     grid-template-columns: repeat(auto-fill, minmax(30ch, 1fr));
   }
-  
+
   figure {
     margin-block-end: 3rem;
     background-color: $white;
