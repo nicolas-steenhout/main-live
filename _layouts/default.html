@@ -8,59 +8,58 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Whisper&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/zbd2ksc.css">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-      <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/img/favicon.ico">
 
 <!--Plausible analytics tracking snippet -->
-      <script defer data-domain="nicolas-steenhout.com" src="https://plausible.io/js/script.js"></script>
+    <script defer data-domain="nicolas-steenhout.com" src="https://plausible.io/js/script.js"></script>
   </head>
 
   <body>
-	  <div id="skip">
+	  <div id="toolbar">
 		  <a href="#main" class="skip-link">Skip to main content</a>
+      <fieldset>
+        <legend>Theme:</legend>
+        <label for="light">Light</label>
+        <input id="light" name="theme" type="radio">
+        <label for="dark">Dark</label>
+        <input id="dark" name="theme" type="radio">
+      </fieldset>
 	  </div>
     <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
+        <header class="container masthead">
           <div class="site-info">
               <a href="{{ site.baseurl }}">
-              <img src="{{ site.baseurl }}/img/nicolas-steenhout-logo.jpg" width="100 px" alt="">
-                  <span>Nicolas <br>Steenhout</span></a>
-              
+                <img src="{{ site.baseurl }}/img/nicolas-steenhout-logo.jpg" width="100" alt="">
+                <span>Nicolas <br>Steenhout</span>
+              </a>
           </div>
 
           <nav>
             <ul>
-            <li><a href="{{ site.baseurl }}/meet-nic/">Meet Nic</a></li>
-            <li><a href="{{ site.baseurl }}/speaking/">Speaking</a></li>
-	      <li><a href="{{ site.baseurl }}/training/">Training</a></li>
-                <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
-                <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+              <li><a href="{{ site.baseurl }}/meet-nic/">Meet Nic</a></li>
+              <li><a href="{{ site.baseurl }}/speaking/">Speaking</a></li>
+              <li><a href="{{ site.baseurl }}/training/">Training</a></li>
+              <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
+              <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
             </ul>
           </nav>
         </header>
-      </div>
     </div>
 
-    <main class="container" id="main">
+    <main id="main" class="wrapper-main">
       {{ content }}
-        
     </main>
 
     <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-         
-            
-            <p><a href="/accessibility/">Accessibility statement</a> | <a href="/sitemap/">Sitemap</a> | <a href="">Newsletter</a></p>
-            <p>&#169;2024 Nicolas Steenhout. All Rights Reserved.</p>
-        </footer>
-      </div>
+      <footer class="container footer">
+        <p><a href="/accessibility/">Accessibility statement</a> | <a href="/sitemap/">Sitemap</a> | <a href="">Newsletter</a></p>
+        <p>&#169;2024 Nicolas Steenhout. All Rights Reserved.</p>
+      </footer>
     </div>
-
 
   </body>
 </html>

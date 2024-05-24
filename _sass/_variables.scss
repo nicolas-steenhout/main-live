@@ -3,32 +3,43 @@
 // VARIABLES
 //
 
-$primary: #004B95; // dark blue
-$secondary: #0A6AE8; // blue
-$tertiary: #E4B122;
-$background: #F5F4F0;
-$foreground: #000;
-
+//
 // Colors
-$blue: $secondary;
-$blueLight: #A6C8F0;
-$blueDark: #1D182F;
-$red: #C70038;
-$redLight: #FF615E;
-$yellowLight: #FFEC8F;
+//
 
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+$blue-faded: #2E688C;
+$blue-logo: #0070B5;
+$blue-bright: #324FA6;
+$blue-dark: #193773;
+$blue-navy: #1B2B36;
+$blue-black: #222C33;
+$red-bright: #A60505;
+$red-dark: #8C1B2F;
+$black: #2B3033;
+$silver: #D9DFE6;
+$white: #f9f9f9;
 
+$primary: $blue-logo;
+$secondary: $blue-bright;
+$tertiary: $red-dark;
+
+// light mode
+$background: $silver;
+$foreground: $black;
+
+//dark mode
+$background-dark: $black;
+$foreground-light: $white;
+
+
+//
 // Font stacks
-$proxima: proxima-nova, Helvetica, Arial, sans-serif;
-$sofia: sofia-pro, Helvetica, Arial, sans-serif;
-$heading-mast: "Whisper", Helvetica, Arial, sans-serif;
+//
+
+$kanit: "Kanit", sans-serif;
+$dm-sans: "DM Sans", sans-serif;
+$dm-serif-display: "DM Serif Display", serif;
+$oswald: "Oswald", sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {

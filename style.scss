@@ -15,54 +15,128 @@
 
 
 body {
-	background-color: $background;
-  font-family: $proxima;
+  display: flex;
+  flex-direction: column;
+  background-color: $background;
   color: $foreground;
+  font-family: $dm-sans;
+  font-weight: 300;
+  line-height: 1.6;
+
+  // respect user contrast preferences
+  @media (prefers-contrast: less) {
+    filter: contrast(.8);
+  }
+}
+
+h1 {
+  font-size: calc(.5vw + 5rem);
+}
+
+h2 {
+  font-size: calc(1vw + 1.75rem);
+}
+
+h3 {
+  font-size: calc(1vw + 1.5rem);
+}
+
+h4 {
+  font-size: calc(1vw + 1.125rem);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $secondary;
+}
+
+p {
+  margin: 1rem 0 1.5rem;
+}
+
+p, li, dt, dd {
+  font-size: calc(.5vw + 1.1rem);
+  line-height: 1.4;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 75rem;
-  padding: 0 .8rem;
+  padding: 6vh;
+  max-width: 80rem;
   width: 100%;
 }
 
 
+
+// outer container for header
+
+.wrapper-masthead {
+  background-color: $primary;
+}
+
+/* inner container with header/nav */
+
 .masthead {
     display: flex;
+    padding-block: .8em;
     justify-content: space-between;
-    .site-info {flex-basis: auto;}
-    nav {flex-basis: auto;}
+    align-items: end;
+    
+    nav {
+      display: inline-flex;
+
+      a {
+        color: $foreground-light;
+        padding-inline: .5em;
+        font-size: calc(.5vw + 1.25rem);
+        font-weight: 500;
+        text-decoration: none;
+
+        &:visited {
+          color: darken($foreground-light, 10%);
+        }
+
+        &:focus,
+        &:hover {
+          color: $white;
+          outline: 2px solid currentColor;
+        }
+
+        [aria-current=page] {
+          border-bottom: 3px solid currentColor;
+        }
+      }
+    }
+    
     ul {
-        list-style: none;
-        list-style-type: none;
-        li {
-      display: inline-block;
-      padding: 0 5px;      
+      list-style: none;
+      list-style-type: none;
+      li {
+        display: inline-block;
+        padding: 0 5px;      
       }
     }
 }
 
-
-
 .site-info {
-  a{ 
-  display: flex;
-   align-items:center;
-    text-decoration:none;
-    span {
-      text-transform:uppercase;
-      display: inline-block;
-      
-      font-size: calc(.5vw + 1rem);
-      padding-left:1em;
-    }
+  flex-basis: auto;
 
+  a { 
+    display: flex;
+    align-items: center;
+    color: $foreground-light;
+    text-decoration: none;
+      
+    span {
+      display: inline-block;
+      padding-inline-start: 1.2rem;
+      font-family: $oswald;
+      font-size: 3.1rem;
+      line-height: 1;
+    }
   }
 }
 
 #summary{
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 .summary {
@@ -71,25 +145,176 @@ body {
     padding: 1em;
     font-size: calc(.5vw + 0.9rem);
 }
+
+
+// First section on Home
+
 #intro {
-  margin: 0 auto;
-  display:flex;
-  h1 {
-    font-size: calc(0.5vw + 3.5rem);
+  background-color: $background-dark;
+  color: $foreground-light;
+  display: grid;
+  grid-template-areas: "hero";
+
+  // thanks, Stephanie Eckles!
+  // moderncss.dev/3-popular-website-heroes-created-with-css-grid-layout/
+  > * { 
+    grid-area: hero;
   }
-    p{
+
+  > .container {
+    width: 100vw;
+    display: grid;
+    gap: .5em;
+    grid-template-columns: repeat(auto-fit, Minmax(30ch, auto));
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    padding-block: .6em;
+    font-family: $dm-serif-display;
+    font-size: calc(0.5vw + 3.5rem);
+    line-height: 1.2;
+  }
+  
+  span {
+    color: lighten($primary, 15%);
+    font-weight: 800;
+    letter-spacing: .05em;
+  }
+
+  p {
     font-size: calc(0.5vw + 1rem);
-    }
+  }
+  
+  img {
+    justify-self: end;
+  }
 }
 
 .callout {
-    font-size: calc(.5vw + 1rem);
+  display: flex;
+  justify-content: center;
+
+  p {
+    max-width: 45ch;
+    padding: 6vh;
+    color: $blue-dark;
+    font-family: $dm-serif-display;
+    font-size: calc(.5vw + 1.9rem);
+    font-weight: 500;
+  }
 }
 
-.inline-quote {
-    width:100%;
+#section-video {
+  background-image: linear-gradient($background-dark 33%, $background);
+  padding-block-start: 10vh;
+
+  .wrapper-video {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-block-end: 56.25%; /* 16:9 */
+    height: 0;
+
+    .video {
+      position: absolute;
+      width: 80%;
+      height: 80%;
+      box-shadow: 25px -25px $tertiary;
+    }
+  }
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: $blue-navy;
+  color: $foreground-light;
+  padding-block: 4vh;
+
+  p {
+    margin-block-end: 1.4em;
+    font-size: calc(.5vw + 1.3rem);
+  }
+
+  a {
+    color: lighten($blue-faded, 20%);
+    font-weight: 600;
+  }
+}
+
+#testimonials {
+  padding: 6vh;
+
+  h2 {
+    margin-block-end: 2.75em;
+    color: $blue-dark;
     text-align: center;
-        font-size: calc(.5vw + 1rem);
+  }
+  .quotes {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(30ch, 1fr));
+  }
+  
+  figure {
+    margin-block-end: 3rem;
+    background-color: $white;
+    color: $blue-navy;
+    position: relative;
+
+    &::before {
+      bottom: 0;
+      content: "";
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      background-color: $white;
+      transform: skewY(15deg);
+      z-index: -1;
+    }
+
+    blockquote {
+      position: relative;
+      margin-bottom: 0;
+      padding: 5rem 2rem 1.5rem;
+      font-size: 1.125rem;
+      line-height: 1.5;
+
+      &::before {
+        position: absolute;
+        left: 10%;
+        top: .25em;
+        content: "\201C";
+        color: $primary;
+        font-size: 4.5em;
+        line-height: .5;
+        opacity: .3;
+      }
+    }
+    figcaption {
+      padding-block-end: 2rem;
+      padding-inline-end: 2rem;
+      color: $primary;
+      text-align: right;
+
+      &::before,
+      &::after {
+        content: '\2014';
+      }
+    }
+  }
+}
+
+
+.inline-quote {
+    width: 100%;
+    text-align: center;
+    font-size: calc(.5vw + 1rem);
 }
 
 .posts {
@@ -128,34 +353,6 @@ body {
 }
 
 
-h1 {
-  font-size: calc(.5vw + 5rem);
-}
-
-h2 {
-  font-size: calc(1vw + 1.75rem);
-}
-
-h3 {
-  font-size: calc(1vw + 1.5rem);
-}
-
-h4 {
-  font-size: calc(1vw + 1.125rem);
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: $gray;
-}
-
-p {
-  margin: 1rem 0 1.5rem;
-}
-
-p, li, dt, dd {
-  font-size: calc(.5vw + 1.1rem);
-  line-height: 1.4;
-}
-
 .posts {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
@@ -184,21 +381,21 @@ p, li, dt, dd {
 
   }
 }
-// Nicolas Gallaghers micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
+
+
+// Global footer
+
+.wrapper-footer {
+  background-color: $tertiary;
 }
 
-.clearfix:after {
-    clear: both;
+footer {
+  color: $foreground-light;
+
+  a {
+    color: $foreground-light;
+  }
 }
-
-
-
-
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
@@ -219,27 +416,28 @@ p, li, dt, dd {
 
 
 
+// User toolbar
+#toolbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: $secondary;
+  color: $foreground-light;
+}
+
 // Skip link
 
-.skip-link:not(:focus):not(:hover) {
-    -webkit-transform: translateY(-4em);
-    -ms-transform: translateY(-4em);
-    transform: translateY(-4em);
-    opacity: 0;
-}
-
-.skip-link:hover, .skip-link:focus,
-.skip-link:hover, .skip-link:focus {
-  background-color: $red;
-  color: $white;
-  border-radius: 8px;
+.skip-link {
+  display: inline-block;
+  color: $foreground-light;
+  padding: .8rem 1rem;
   text-decoration: none;
-	padding: .75rem;
-  transition: all .3s ease-in-out;
+
+  &:focus,
+  &:hover {
+    background-color: $tertiary;
+    outline: 2px solid currentColor;
+    transition: all .3s ease-in-out;
+  }
 }
 
-
-
-
-
-
+// Theme toggle
