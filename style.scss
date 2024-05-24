@@ -211,7 +211,8 @@ p, li, dt, dd {
   padding-block-start: 10vh;
 
   .able-wrapper {
-    padding-inline: 20%;
+    margin-inline: 10%;
+    box-shadow: 25px -25px $tertiary;
     .able-status-bar {
       padding-block-start: 0;
       padding-block-end: 0;
