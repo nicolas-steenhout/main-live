@@ -4,18 +4,49 @@ title: Meet Nic Steenhout
 permalink: /meet-nic/
 ---
 
-<div class="section-video">
-  {% include speaker-reel.html %}
-</div>
+<div id="callout">Keynote speaker, Trainer, Accessibility expert.</div>
 
-Nic Steenhout has been an accessibility trainer and troubleshooter for over 25 years. He’s worked on three continents, collaborating with various organizations, from local governments to large corporations, focusing on web accessibility and digital inclusion. Known for his pragmatic, down-to-Earth approach, Nic helps his clients navigate complex accessibility challenges. When he is not off on a birdwatching adventure, you can find him speaking at events or leading workshops. 
+Nicolas Steenhout in a few words:
 
-Inclusivity is vital to a democratic Internet. And for more than 25 years, Nicolas Steenhout has been addressing this subject head-on as an accessibility expert.
+* I've been speaking about and training on accessibility for over 25 years.
+* I've collaborated with various organizations, fron local government to large corporations.
+* I have a pragmatic, down-to-earth approach.
+* I've worked on three continents.
+* I will help you identify and navigate complex accessibility challenges.
 
-Working as a developer in the mid-’90s, Nic was approached by colleagues, clients and friends with web-based issues that weren’t yet part of the public consciousness. Images weren’t being properly announced to people who are blind; video-only tutorials didn’t account for people who are deaf; over engineered webpages made it impossible for those with ADHD to engage. Nic quickly realized that amid a major technological revolution, a significant part of the digital landscape was being neglected.
+## Working with Nic 
 
-In 1996, he took on a federally-funded position in the US disability sector. The world of non-profits allowed him to work closely with people with a wide variety of impairments. It gave him an even greater understanding of the web’s shortcomings. At the same time, the experience introduced him to new assistive technologies—technologies that were breaking barriers for people with disabilities.
+### Nic excels at
 
-Over the next two decades, Nic continued his work for both the non-profit and private sectors. He has held several Executive positions and currently provides his services as an independent consultant. Businesses and government agencies seek Nic’s expertise in strategic planning and training.
+Bacon ipsum dolor amet pork belly leberkas landjaeger brisket tail. Meatloaf tongue tri-tip fatback short loin, turducken pancetta shank swine ground round tenderloin short ribs. Swine pork chop chislic leberkas hamburger. Shank chicken t-bone, fatback drumstick porchetta picanha spare ribs chuck. Bacon chuck tongue cow, shoulder buffalo short loin.
 
-All over North America, Europe and Australasia, he’s engaged with thousands of individuals with disabilities. These interactions have fuelled his passion for storytelling. Public speaker, avid blogger, and podcaster, Nic provides real-world insight into everyday accessibility issues. He explores everything from disability awareness and security to how JavaScript can be used to better the web for all. He’ll even share the occasional anecdote about his service dog.
+### Nic's motivations
+
+Venison sausage ham, beef ribs alcatra beef cupim burgdoggen drumstick pork pork chop chicken. Biltong pork chop bresaola turducken boudin. Cupim tri-tip brisket sirloin pork loin biltong hamburger shank leberkas flank. Jowl corned beef tail bacon short ribs boudin, shank brisket turkey ham hock drumstick chicken leberkas pork belly.
+
+### Nic's focus
+
+Bacon shankle shank t-bone biltong pastrami filet mignon prosciutto leberkas buffalo flank. Buffalo brisket pastrami swine. Buffalo meatloaf corned beef, cow chuck ball tip tail kevin jowl fatback tongue. Leberkas tongue landjaeger capicola.
+
+## Meet Nic's colleague, Winston
+
+![Close up head shot of a black dog. His head is laying down on a knee. He's looking up at the camera.](/img/winston.jpg)
+
+Winston is Nic's colleague, friend, and companion. Winston is Nic's service dog and you won't often see one without the other.
+
+Winston is fully trained and has three main tasks:
+
+* Pulling Nic's wheelchair 
+* Retrieve objects on command
+* Help with transfers
+
+## When Nic isn't working in accessibility...
+
+## Bird watching
+In his down time, Nic escapes to nature as often as weather permits. He loves bird watching and taking photos of birds. 
+![An adult bald eagle with a salmon grabbed in his talons, taking off above shallow water. The bird's wings are tight in a M shape above him.](/img/bald-eagle.jpg)
+
+
+## Quilting
+When the weather doesn't permit, Nic creates patchwork quilts.
+![A 60 inch square quilt on the lawn. The quilt has a dark purple background and a patchwork heart shape occupies nearly the entirety of the quilt. The fabrics for the heart are a riot of Kaffe Fassett fabrics in reds, oranges, blues, yellows, and greens. The bottom right of the quilt is folded over showing a teal printed backing](/img/heart-quilt.jpg)
