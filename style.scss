@@ -75,51 +75,7 @@ p, li, dt, dd {
 
 /* inner container with header/nav */
 
-.masthead {
-    display: flex;
-    padding-block: .8em;
-    justify-content: space-between;
-    align-items: end;
-
-    nav {
-      display: inline-flex;
-
-      a {
-        color: $foreground-light;
-        padding-inline: .5em;
-        font-size: calc(.5vw + 1.25rem);
-        font-weight: 500;
-        text-decoration: none;
-
-        &:visited {
-          color: darken($foreground-light, 10%);
-        }
-
-        &:focus,
-        &:hover {
-          color: $white;
-          outline: 2px solid currentColor;
-        }
-
-        [aria-current=page] {
-          border-bottom: 3px solid currentColor;
-        }
-      }
-    }
-
-    ul {
-      list-style: none;
-      list-style-type: none;
-      li {
-        display: inline-block;
-        padding: 0 5px;
-      }
-    }
-}
-
 .site-info {
-  flex-basis: auto;
-
   a {
     display: flex;
     align-items: center;
@@ -130,11 +86,12 @@ p, li, dt, dd {
       display: inline-block;
       padding-inline-start: 1.2rem;
       font-family: $oswald;
-      font-size: 3.1rem;
+      font-size: calc(clamp(2rem, 2vw + 1.8rem, 3.1rem));
       line-height: 1;
     }
   }
 }
+
 
 #summary{
     display: flex;
@@ -457,6 +414,7 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+@import "mobile-nav";
 
 // Nic added styles
 .a11y-hidden {
