@@ -10,9 +10,20 @@ Disposable post to trash to test Able Player works as expected.
     
 </figure>
 
+### Linking to my digital ocean space
 <video id="video1" data-able-player preload="auto" width="480" height="360" poster="https://dev.nicolas-steenhout.com/img/red-error-msg.png">
 
   <source type="video/mp4" src="https://a11yrules.ams3.cdn.digitaloceanspaces.com/nicolas-steenhout.com/target.mp4" data-desc-src="path_to_described_video.mp4"/>
   
 </video>
 
+
+
+### Now linking to a youtube
+
+
+<video id="video1" data-able-player preload="auto" width="480" height="360" poster="https://dev.nicolas-steenhout.com/img/red-error-msg.png">
+
+  <source type="video/mp4" src="https://www.youtube.com/watch?v=NnPzNxkvUS8" data-desc-src="path_to_described_video.mp4"/>
+  
+</video>
