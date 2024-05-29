@@ -28,11 +28,15 @@
 	  <div id="toolbar">
 		  <a href="#main" class="skip-link">Skip to main content</a>
       <fieldset>
-        <legend>Theme:</legend>
-        <label for="light">Light</label>
-        <input id="light" name="theme" type="radio">
-        <label for="dark">Dark</label>
-        <input id="dark" name="theme" type="radio">
+        <legend>Choose theme:</legend>
+        <label for="light">
+          Light
+          <input id="light" value="light" name="theme" type="radio">
+        </label>
+        <label for="dark">
+          Dark
+          <input id="dark" value="dark" name="theme" type="radio">
+        </label>
       </fieldset>
 	  </div>
     <div class="wrapper-masthead">
@@ -85,6 +89,7 @@
     </div>
 
      <!-- Mobile navigation -->
+     <script src="/js/themeToggle.js"></script>
      <script src="/js/collapse.js"></script>
   </body>
 </html>
