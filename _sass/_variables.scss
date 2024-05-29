@@ -19,7 +19,8 @@ $black: #2B3033;
 $silver: #D9DFE6;
 $white: #f9f9f9;
 
-$primary: $blue-logo;
+// light, dark theme
+$primary: $blue-logo, darken($blue-logo, 10%);
 $secondary: $blue-bright;
 $tertiary: $red-dark;
 

@@ -46,7 +46,7 @@
   justify-content: center;
   flex-direction: column;
   outline: 3px solid currentColor;
-  background-color: $primary;
+  background-color: light-dark($primary);
   color: $foreground-light;
   padding: 1vh 3.5vh;
 
@@ -98,7 +98,7 @@
   }
 
   .navbar-links {
-    background-color: $primary;
+    background-color: light-dark($primary);
     margin-block-start: 1.8rem;
     padding: 1em;
     max-height: none;

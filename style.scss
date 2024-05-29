@@ -13,12 +13,17 @@
 /* BASE RULES */
 /**************/
 
+:root {
+  color-scheme: light dark;
+}
 
 body {
   display: flex;
   flex-direction: column;
-  background-color: $background;
-  color: $foreground;
+  background-color: 
+    light-dark($background, $background-dark);
+  color: 
+    light-dark($foreground, $foreground-light);
   font-family: $dm-sans;
   font-weight: 300;
   line-height: 1.6;
@@ -70,7 +75,7 @@ p, li, dt, dd {
 // outer container for header
 
 .wrapper-masthead {
-  background-color: $primary;
+  background-color: light-dark($primary);
 }
 
 /* inner container with header/nav */
@@ -136,7 +141,7 @@ p, li, dt, dd {
   }
 
   span {
-    color: lighten($primary, 15%);
+    color: light-dark($primary);
     font-weight: 800;
     letter-spacing: .05em;
   }
@@ -259,7 +264,7 @@ p, li, dt, dd {
         left: 10%;
         top: .25em;
         content: "\201C";
-        color: $primary;
+        color: light-dark($primary);
         font-size: 4.5em;
         line-height: .5;
         opacity: .3;
@@ -268,7 +273,7 @@ p, li, dt, dd {
     figcaption {
       padding-block-end: 2rem;
       padding-inline-end: 2rem;
-      color: $primary;
+      color: light-dark($primary);
       text-align: right;
 
       &::before,
