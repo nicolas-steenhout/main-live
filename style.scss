@@ -175,8 +175,12 @@ p, li, dt, dd {
   padding-block-start: 6vh;
 
   .able-wrapper {
-    margin-inline: 10vw;
-  
+    aspect-ratio: 16/9;
+
+    .able-controller {
+      background-color: light-dark($contrast1);
+    }
+
     .able-status-bar {
       padding-block-start: 0;
       padding-block-end: 0;
@@ -184,16 +188,12 @@ p, li, dt, dd {
   }
 
   .wrapper-video {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    padding-block-end: 56.25%; /* 16:9 */
-    height: 0;
+    max-width: 50rem;
+    margin: 0 auto;
+    padding-block: 2vh;
 
     .video {
-      position: absolute;
-      width: 80%;
-      height: 80%;
+      width: 100%;
     }
   }
 }
@@ -477,14 +477,4 @@ footer {
     outline: 2px solid currentColor;
     transition: all .3s ease-in-out;
   }
-}
-
-// Theme toggle
-
-
-// Nic toying with CSS
-
-.video-container {
-    width: 1080px;
-    margin: auto 0;
 }
