@@ -20,10 +20,8 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: 
-    light-dark($background, $background-dark);
-  color: 
-    light-dark($foreground, $foreground-light);
+  background-color: $background;
+  color: $foreground;
   font-family: $dm-sans;
   font-weight: 300;
   line-height: 1.6;
@@ -84,7 +82,7 @@ p, li, dt, dd {
   a {
     display: flex;
     align-items: center;
-    color: $foreground-light;
+    color: $white;
     text-decoration: none;
 
     span {
@@ -103,7 +101,7 @@ p, li, dt, dd {
     justify-content: center;
 }
 .summary {
-    border: 3px dashed lighten($foreground, 80%);
+    border: 3px dashed lighten($black, 80%);
     max-width: 70%;
     padding: 1em;
     font-size: calc(.5vw + 0.9rem);
@@ -113,8 +111,8 @@ p, li, dt, dd {
 // First section on Home
 
 #intro {
-  background-color: $background-dark;
-  color: $foreground-light;
+  background-color: $black;
+  color: $white;
   display: grid;
   grid-template-areas: "hero";
 
@@ -141,7 +139,7 @@ p, li, dt, dd {
   }
 
   span {
-    color: light-dark($primary);
+    color: light-dark($blue-logo, $silver);
     font-weight: 800;
     letter-spacing: .05em;
   }
@@ -162,7 +160,7 @@ p, li, dt, dd {
   p {
     max-width: 45ch;
     padding: 6vh;
-    color: $blue-dark;
+    color: light-dark($blue-dark, $silver);
     font-family: $dm-serif-display;
     font-size: calc(.5vw + 1.9rem);
     font-weight: 500;
@@ -170,7 +168,7 @@ p, li, dt, dd {
 }
 
 .bg-gradient {
-  background-image: linear-gradient($background-dark 33%, $background);
+  background-image: light-dark(linear-gradient($black 33%, $silver), transparent);
 }
 
 .section-video {
@@ -205,8 +203,8 @@ p, li, dt, dd {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  background-color: $blue-navy;
-  color: $foreground-light;
+  background-color: light-dark($contrast1);
+  color: light-dark($contrast2);
   padding-block: 4vh;
 
   p {
@@ -225,7 +223,7 @@ p, li, dt, dd {
 
   h2 {
     margin-block-end: 2.75em;
-    color: $blue-dark;
+    color: light-dark($contrast3);
     text-align: center;
   }
   .quotes {
@@ -236,8 +234,8 @@ p, li, dt, dd {
 
   figure {
     margin-block-end: 3rem;
-    background-color: $white;
-    color: $blue-navy;
+    background-color: light-dark($background);
+    color: light-dark($contrast3);
     position: relative;
 
     &::before {
@@ -247,7 +245,7 @@ p, li, dt, dd {
       position: absolute;
       right: 0;
       top: 0;
-      background-color: $white;
+      background-color: light-dark($background);
       transform: skewY(15deg);
       z-index: -1;
     }
@@ -264,7 +262,7 @@ p, li, dt, dd {
         left: 10%;
         top: .25em;
         content: "\201C";
-        color: light-dark($primary);
+        color: light-dark($contrast3);
         font-size: 4.5em;
         line-height: .5;
         opacity: .3;
@@ -273,7 +271,7 @@ p, li, dt, dd {
     figcaption {
       padding-block-end: 2rem;
       padding-inline-end: 2rem;
-      color: light-dark($primary);
+      color: light-dark($contrast3);
       text-align: right;
 
       &::before,
@@ -300,8 +298,8 @@ p, li, dt, dd {
 
 #heading-about {
   display: flex;
-  background-color: $blue-navy;
-  color: $foreground-light;
+  background-color: light-dark($contrast1);
+  color: light-dark($contrast2);
   
   h1 {
     padding-block: 12vh;
@@ -316,7 +314,7 @@ p, li, dt, dd {
   margin-block: 1em;
 
   > .post {
-    border: 3px dashed lighten($foreground, 80%);
+    border: 3px dashed lighten($black, 80%);
   }
 
   .post {
@@ -352,7 +350,7 @@ p, li, dt, dd {
   margin-block: 1em;
 
   > .post {
-    border: 3px dashed lighten($foreground, 80%);
+    border: 3px dashed lighten($black, 80%);
   }
 
   .post {
@@ -379,13 +377,13 @@ p, li, dt, dd {
 // Global footer
 
 .wrapper-footer {
-  background-color: $tertiary;
+  background-color: light-dark($tertiary);
 }
 
 footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, Minmax(30ch, auto));
-  color: $foreground-light;
+  color: $silver;
 
   ul {
     display: flex;
@@ -397,14 +395,14 @@ footer {
   }
 
   a {
-    color: $foreground-light;
+    color: $silver;
   }
 
   .svg-icon {
     width: 50px;
     height: 50px;
     display: inline-block;
-    border: 5px solid $foreground-light;
+    border: 5px solid $silver;
     border-radius: 50%;
 
     &:focus,
@@ -439,21 +437,43 @@ footer {
 #toolbar {
   display: flex;
   justify-content: space-between;
-  background-color: $secondary;
-  color: $foreground-light;
+  background-color: light-dark($secondary);
+  color: light-dark($foreground);
+
+  fieldset {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    padding-inline: 1em;
+    color: light-dark($contrast2);
+
+    legend {
+      float: left;
+      padding-inline-end: 1em;
+    }
+
+    label:hover,
+    [type=radio]:focus {
+      outline: 2px solid currentColor;
+    }
+
+    label + [type=radio][checked] {
+      background-color: $tertiary;
+    }
+  }
 }
 
 // Skip link
 
 .skip-link {
   display: inline-block;
-  color: $foreground-light;
+  color: $white;
   padding: .8rem 1rem;
   text-decoration: none;
 
   &:focus,
   &:hover {
-    background-color: $tertiary;
+    background-color: light-dark($tertiary);
     outline: 2px solid currentColor;
     transition: all .3s ease-in-out;
   }

@@ -21,16 +21,14 @@ $white: #f9f9f9;
 
 // light, dark theme
 $primary: $blue-logo, darken($blue-logo, 10%);
-$secondary: $blue-bright;
-$tertiary: $red-dark;
+$secondary: $blue-bright, darken($blue-bright, 10%);
+$tertiary: $red-dark, darken($red-dark, 10%);
+$contrast1: $blue-navy, lighten($blue-navy, 10%);
+$contrast2: $white, $silver;
+$contrast3: $blue-dark, $silver;
 
-// light mode
-$background: $silver;
-$foreground: $black;
-
-//dark mode
-$background-dark: $black;
-$foreground-light: $white;
+$background: $silver, lighten($black, 10%);
+$foreground: $black, $silver;
 
 
 //
