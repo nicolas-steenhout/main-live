@@ -80,7 +80,8 @@ p, li, dt, dd {
 
 .site-info {
   a {
-    display: flex;
+    display: grid;
+    grid-template-columns: minmax(100px, 25%) 1fr;
     align-items: center;
     color: $white;
     text-decoration: none;
