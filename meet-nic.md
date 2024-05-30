@@ -18,15 +18,15 @@ Nicolas Steenhout in a few words:
 
 ### Nic excels at
 
-Bacon ipsum dolor amet pork belly leberkas landjaeger brisket tail. Meatloaf tongue tri-tip fatback short loin, turducken pancetta shank swine ground round tenderloin short ribs. Swine pork chop chislic leberkas hamburger. Shank chicken t-bone, fatback drumstick porchetta picanha spare ribs chuck. Bacon chuck tongue cow, shoulder buffalo short loin.
+I'll simplify complext topics and explain them in ways that are easier to digest. I use concrete examples and lived stories to illustrate concepts that are sometimes more intangible.
 
 ### Nic's motivations
 
-Venison sausage ham, beef ribs alcatra beef cupim burgdoggen drumstick pork pork chop chicken. Biltong pork chop bresaola turducken boudin. Cupim tri-tip brisket sirloin pork loin biltong hamburger shank leberkas flank. Jowl corned beef tail bacon short ribs boudin, shank brisket turkey ham hock drumstick chicken leberkas pork belly.
+I love working with motivated teams. Curiosity and a desire to learn is key here - because there is a lot to learn about accessibility. It's a great spark for me seeing that metaphorical lightbulb turn on in your head when I explained something and it made you go "ah ha!".
 
-### Nic's focus
+### The thin line
 
-Bacon shankle shank t-bone biltong pastrami filet mignon prosciutto leberkas buffalo flank. Buffalo brisket pastrami swine. Buffalo meatloaf corned beef, cow chuck ball tip tail kevin jowl fatback tongue. Leberkas tongue landjaeger capicola.
+There's a thin line between not doing enough and working within a system's limitation. I'll help you stay accountable. I'll do it with grace and respect because I understand your limitations.
 
 ## Meet Nic's colleague, Winston
 
