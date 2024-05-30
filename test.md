@@ -10,7 +10,7 @@ Permalink: {{ permalink }}
 
 Page url: {{ page.url }}
 
-{% if permalink == "test" %}
+{% if page.url == "/test/" %}
 aria-current="page"
 {% else %}
 not aria-current
