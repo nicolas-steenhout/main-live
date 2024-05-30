@@ -8,6 +8,8 @@ permalink: /test/
 
 Permalink: {{ permalink }}
 
+Page url: {{ page.url }}
+
 {% if permalink == "test" %}
 aria-current="page"
 {% else %}
