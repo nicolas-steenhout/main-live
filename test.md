@@ -10,6 +10,6 @@ Permalink: {{ permalink }}
 
 Page url: {{ page.url }}
 
-{% if page.url == "/test/" %}
+{% if page.url == "/boo/" %}
 aria-current="page"
 {% endif %}
