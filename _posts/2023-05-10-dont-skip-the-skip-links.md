@@ -22,7 +22,7 @@ It becomes a lot more work for the keyboard-only user if you have a lot of inter
 
 Suddenly keyboard-only users have to tab through nearly 40 elements before reaching the main content. That's additional effort, and additional cognitive load to process all that information.
 
-<div class="inline-quote">I once audited a newspaper website that had 173 interactive elements between the top of the page and the main content!</div>
+<div class="inline-quote" aria-hidden>I once audited a newspaper website that had 173 interactive elements between the top of the page and the main content!</div>
 
 Some might suggest it's fine if it's the first time they are visiting your site. Because it gives users the option to explore and see all the navigation option. If they want. But we shouldn't force users to do this.
 ## Where to place the skip link?

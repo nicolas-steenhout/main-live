@@ -17,7 +17,7 @@ Today, the Founder and CEO of AccessiBe, Shir Ekerling, wrote a long letter of a
 
 There is a long history of overlay vendors in general, and AccessiBe in particular, harassing disabled individual voicing concerns and valid criticism about their product. I am reminded of one particular incident, related on Twitter, where Chancey Fleet was bullied, insulted and yelled at by Mr. Ekerling. I won't get into details of every incident I've heard about where AccessiBe and their representatives behaved abominably towards their critiques, including disabled folks. There are a lot of these stories hanging around. If you haven't heard about these stories, I'll ask you to take my word for it, or read the [Overlay Fact Sheet](https://overlayfactsheet.com/), or do your own research.
 
-<div class="inline-quote">Check out the Overlay Fact Sheet for information about overlays</div>
+<div class="inline-quote" aria-hidden>Check out the Overlay Fact Sheet for information about overlays</div>
 
 To me, this so-called apology is a lot of empty words. It is pure spin. And AccessiBe have long been known to really good at marketing spin.
 ## Other advocates’ perspectives
@@ -35,7 +35,7 @@ The fact the so-called apology is published only on the NFB website is telling t
 
 Mr. Ekerling states in his letter that over the past two years they focused on seeking guidance and training from disabled leaders, activists, individuals, and disability-led organizations. It's interesting that I haven't heard about a single known and respected individual or organization in the field working with AccessiBe. I'll admit, I don't know everyone. But I have been around the block in disability rights advocacy from my early days leading Centers for Independent Living in the US. I've also been involved for decades in the digital accessibility community. I know enough people and organizations in this field to think I'd have heard from people working with AccessiBe. If you are an individual or part of an organization that has done positive work and have seen AccessiBe change, I'd love to hear from you.
 
-<div class="inline-quote">Words are cheap</div>
+<div class="inline-quote" aria-hidden>Words are cheap</div>
 
 Bottom line: Words are cheap.
 

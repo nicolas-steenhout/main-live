@@ -27,7 +27,7 @@ The first group most accessibility efforts focus on is the end user. That makes 
 
 Chances are you'll find "more bang for the buck" by making the "front end" (the parts that your end users interact with) accessible if you weren't thinking about accessibility when you created your first build.
 
-<div class="inline-quote">Did you know there's more than 3,000 web accessibility lawsuits annually in the US?</div>
+<div class="inline-quote" aria-hidden>Did you know there's more than 3,000 web accessibility lawsuits annually in the US?</div>
 
 Chances are that's the part of your site or application that is most exposed to risk. By risk, I mean exposure to complaints and possibly lawsuits. As an aside, did you know there's more than 3,000 web accessibility lawsuits annually in the US?
 

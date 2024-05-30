@@ -21,7 +21,7 @@ When I asked for more information to get an idea of exactly what they wanted fro
 
 > Hey Nicolas, I hope you are doing well! As previously mentioned, we are currently speaking to Accessibility experts to better understand best practices in terms of process & people. Right now this would be an exploratory call to understand the landscape & some best practices. Let me know if we can chat over a brief 30 min call on Tuesday or Wednesday this week? In case that doesn't work, feel free to suggest an alternative day that works better for you. I appreciate your time and look forward to your response.
 
-<div class="inline-quote">They wanted me to provide strategic accessibility consultation.</div>
+<div class="inline-quote" aria-hidden>They wanted me to provide strategic accessibility consultation.</div>
 
 I pointed out that what they wanted was my time and expertise, garnered over more than two decades. They wanted me to provide strategic accessibility consultation. I said I'd make myself available, but that I'd have to bill them for my time.
 
@@ -50,7 +50,7 @@ What I can't afford is to keep on giving to the point of burn out. Julianna Rows
 
 > if you've done this for long, you start to realize you are constantly setting yourself on fire to help others out and it burns you down and out.
 
-<div class="inline-quote">Free advice is rarely valued.</div>
+<div class="inline-quote" aria-hidden>Free advice is rarely valued.</div>
 
 I've also learned over the years that companies value what they pay for. Free advice is rarely valued. Asking for free advice with the implied "if we like what we hear, we'll maybe pay you" clearly indicates that they don't, actually, value my feedback.
 
@@ -59,6 +59,6 @@ Are they going through an exercise of showing interest in accessibility because 
 
 If they really have an interest in learning about the lay of the land, about best practices, they could do research. There's a lot of information about this kind of thing. Assigning staff to read blogs like mine, or Lainey Feingold's, or to look at social media. Or even look up more official spaces like the WAI website. These things could all be done for *research*, before even reaching out to experts.
 
-<div class="inline-quote">And they could compensate experts for their time.</div>
+<div class="inline-quote" aria-hidden>And they could compensate experts for their time.</div>
 
 But it seems they want their information pre-digested. And I'm sorry folks. I'm not giving it away for free. Or if I do, it’ll only be on my own terms. And I hope that if you're an accessibility expert, you also won't give it away for free.
