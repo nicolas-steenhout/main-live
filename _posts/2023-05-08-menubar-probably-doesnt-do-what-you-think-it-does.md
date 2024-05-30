@@ -18,7 +18,7 @@ It should not be used for web navigation. Simple as that.
 
 A lot of sites, and even patterns libraries, use the menubar role, and its children elements to build navigation menus. To implement it correctly requires a lot of heavy lifting. Unfortunately, I see a lot of poorly implemented menus relying on role=”menubar”.
 
-<div class="inline-quote">But it's the wrong element to use for mega menus or web navigation. Even if it's implemented correctly!</div>
+<div class="inline-quote" aria-hidden>But it's the wrong element to use for mega menus or web navigation. Even if it's implemented correctly!</div>
 
 Semantics matter. If a screen reader user encounters a menubar, they'll have certain expectations of behavior, based on the element they are encountering.
 

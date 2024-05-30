@@ -20,8 +20,8 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: $background;
-  color: $foreground;
+  background-color: light-dark($background);
+  color: light-dark($foreground);
   font-family: $dm-sans;
   font-weight: 300;
   line-height: 1.6;
@@ -29,6 +29,12 @@ body {
   // respect user contrast preferences
   @media (prefers-contrast: less) {
     filter: contrast(.8);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    img {
+      filter: brightness(80%);
+    }
   }
 }
 
@@ -94,18 +100,6 @@ p, li, dt, dd {
       line-height: 1;
     }
   }
-}
-
-
-#summary{
-    display: flex;
-    justify-content: center;
-}
-.summary {
-    border: 3px dashed lighten($black, 80%);
-    max-width: 70%;
-    padding: 1em;
-    font-size: calc(.5vw + 0.9rem);
 }
 
 
@@ -235,7 +229,7 @@ p, li, dt, dd {
 
   figure {
     margin-block-end: 3rem;
-    background-color: light-dark($background);
+    background-color: light-dark($white, lighten($black, 10%));
     color: light-dark($contrast3);
     position: relative;
 
@@ -246,7 +240,7 @@ p, li, dt, dd {
       position: absolute;
       right: 0;
       top: 0;
-      background-color: light-dark($background);
+      background-color: light-dark($white, lighten($black, 10%));
       transform: skewY(15deg);
       z-index: -1;
     }
@@ -284,13 +278,6 @@ p, li, dt, dd {
 }
 
 
-.inline-quote {
-    width: 100%;
-    text-align: center;
-    font-size: calc(.5vw + 1rem);
-}
-
-
 // Pages
 
 .page {
@@ -312,65 +299,118 @@ p, li, dt, dd {
 .posts {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-  margin-block: 1em;
+  gap: 1.5em;
+  margin-block: 10vh 2rem;
+
+  /* cards with excerpt on blog page */
 
   > .post {
-    border: 3px dashed lighten($black, 80%);
-  }
+    background-color: transparent;
+    outline: 6px solid light-dark($contrast3);
 
-  .post {
+    > img {
+      width: 100%;
+      height: 18rem;
+      object-fit: cover;
+      object-position: center;
+    }
+
     .post-details {
       padding: .3em 2em 1.5em;
 
       h2 {
-        margin: .5em 0 .3em;
+        margin: .5em 0;
+        line-height: 1.1;
+
+        > a {
+          font-size: calc(clamp(1.4rem, 4vw + 2rem, 2.5rem));
+        }
       }
 
-      p {
-        font-size: 1.3em;
+      p,
+      .entry {
+        font-size: calc(clamp(1rem, 4vw + 1.25rem, 1.4rem));
       }
-    }
-
-    h2 > a {
-      font-size: calc(1.4rem + 1vw);
-    }
-
-    > img {
-      width: 100%;
-      height: 12em;
-      object-fit: cover;
-      object-position: center;
     }
   }
 }
 
+/* individual posts */
 
-.posts {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-  margin-block: 1em;
-
-  > .post {
-    border: 3px dashed lighten($black, 80%);
+.post {
+  h1 {
+    padding-block: 14vh 2vh;
+    color: light-dark($contrast3);
+    font-size: calc(clamp(2rem, 4vw + 2rem, 4rem));
+    font-weight: 800;
+    line-height: 1;
+    text-align: center;
   }
 
-  .post {
-    .post-details {
-      padding: .3em 2em 1.5em;
+  .date {
+    font-style: oblique;
+    text-align: center;
+  }
 
-      h2 {
-        margin: .5em 0 .3em;
-      }
+  #summary {
+    display: flex;
+    justify-content: center;
+  }
 
-      p {
-        font-size: 1.3em;
-      }
+  .summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, Minmax(20ch, auto));
+    // grid-template-columns: minmax(10ch, 15%) 1fr;
+    place-items: stretch;
+    margin-block: 0 8vh;
+    outline: 5px solid light-dark($foreground);
+    max-width: 90vw;
+
+    h2,
+    p {
+      padding: 1em 2rem;
     }
 
-    h2 > a {
-      font-size: calc(1.4rem + 1vw);
+    h2 {
+      background-color: light-dark($primary);
+      color: light-dark($contrast2);
+      font-weight: 600;
+      letter-spacing: .15rem;
+      text-align: center;
     }
+  }
 
+  h2 {
+    padding-block: 4.5vh 2vh;
+  }
+
+  img {
+    max-width: 100%;
+    margin: 6vh auto;
+  }
+
+  figcaption {
+    margin-block-start: -1.4em;
+    font-size: 1.2rem;
+  }
+
+  blockquote {
+    margin-block: 1.5em;
+    padding-inline-start: 1em;
+    font-size: 1.8em;
+    font-weight: 500;
+    letter-spacing: .08em;
+  }
+
+  .inline-quote {
+    width: 100%;
+    border-block: 3px solid light-dark($contrast3);
+    margin-block: 6vh;
+    padding: 4vh .8em;
+    text-align: center;
+    font-size: calc(clamp(1.3rem, 4vw + 1.6rem, 2rem));
+    font-weight: 500;
+    line-height: 1.2;
   }
 }
 
