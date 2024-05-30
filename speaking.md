@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Speaker
-permalink: /speaker/
+permalink: /speaking/
 ---
 
 # Hire Nicolas Steenhout for your next event
