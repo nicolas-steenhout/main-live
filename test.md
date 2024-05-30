@@ -12,6 +12,4 @@ Page url: {{ page.url }}
 
 {% if page.url == "/test/" %}
 aria-current="page"
-{% else %}
-not aria-current
 {% endif %}
