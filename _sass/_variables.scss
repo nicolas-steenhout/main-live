@@ -27,7 +27,7 @@ $contrast1: $blue-navy, lighten($blue-navy, 10%);
 $contrast2: $white, $silver;
 $contrast3: $blue-dark, $silver;
 
-$background: $silver, lighten($black, 10%);
+$background: $silver, $black;
 $foreground: $black, $silver;
 
 
