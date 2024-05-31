@@ -5,13 +5,13 @@ permalink: /contact/
 ---
 
 <div class="grid-reflow">
-  <img src="/img/nic-temp.png" alt="">
-
-  <div>
-    ## Reach out! Let's talk.
+  <img src="/img/nic-temp.jpg" alt="">
+    <h2>Reach out! Let's talk.</h2>
 
 Feel free to reach out and ask any questions you might have about working with me, or any questions about accessibility!
 
+  <div>
+   
 <form action="https://usebasin.com/f/f369a9edd4dd" method="POST">
     <label for="name" autocomplete="on">Name (required)</label>
     <input type="text" id="name" name="name" required="">
