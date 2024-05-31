@@ -15,14 +15,14 @@ If you need assistance with this site, the best ways to reach me is via [email](
 
 
 ## Accessibility Background
-I've been working in the field of web accessibility since the early 1990's. I'm an expert accessibility consultant who provides accessibility training and consults with small and large companies. This site should be working just fine for everyones. The site conforms to WCAG 2.1 AA (as of February 2024)
+I've been working in the field of web accessibility since the early 1990's. I'm an expert accessibility consultant who provides accessibility training and consults with small and large companies. This site should be working just fine for everyones. 
 
 ## Current Conformance Status
-The site is being developped in February 2024 to meet WCAG 2.2 Level AA. All areas of the site will conform with this accessibility standard by the time the site is done. This is a hobby site for me and development might take a while.
+As of June 2024, the site meets at least WCAG 2.2 Level AA.
 
 ## Feedback
 I welcome your feedback on the accessibility of this site. Please let me know if you encounter accessibility barriers on this site.
 
 * Email: [nic@incl.ca](mailto:nic@incl.ca)
 
-
+<SCRIPT LANGUAGE="JavaScript">user = 'info';site = 'nicolas-steenhout.com';document.write('<a href=\"mailto:' + user + '@' + site + '\">');document.write(user + '@' + site + '</a>');</SCRIPT>
