@@ -11,7 +11,7 @@ I'm committed to accessibility. This website should work for everyone. Simple as
 This statement includes a description of my current, and future efforts in accessibility, contact information, and current conformance status. There are no currently known issues to be worked around.
 
 ## Contact Information
-If you need assistance with this site, the best ways to reach me is via [email](mailto:nic@incl.ca?Subject=Quilting).
+If you need assistance with this site, the best ways to reach me is via <SCRIPT LANGUAGE="JavaScript">user = 'info';site = 'nicolas-steenhout.com';document.write('<a href=\"mailto:' + user + '@' + site + '\?Subject=Site accessibility problem.">');document.write(user + '@' + site + '</a>');</SCRIPT>.
 
 
 ## Accessibility Background
@@ -23,6 +23,6 @@ As of June 2024, the site meets at least WCAG 2.2 Level AA.
 ## Feedback
 I welcome your feedback on the accessibility of this site. Please let me know if you encounter accessibility barriers on this site.
 
-* Email: [nic@incl.ca](mailto:nic@incl.ca)
+* Email: <SCRIPT LANGUAGE="JavaScript">user = 'info';site = 'nicolas-steenhout.com';document.write('<a href=\"mailto:' + user + '@' + site + '\?Subject=Site accessibility problem.">');document.write(user + '@' + site + '</a>');</SCRIPT>
 
-<SCRIPT LANGUAGE="JavaScript">user = 'info';site = 'nicolas-steenhout.com';document.write('<a href=\"mailto:' + user + '@' + site + '\">');document.write(user + '@' + site + '</a>');</SCRIPT>
+
