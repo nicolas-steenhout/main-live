@@ -9,7 +9,7 @@ permalink: /contact/
 Feel free to reach out and ask any questions you might have about working with me, or any questions about accessibility!
 
 <form action="https://usebasin.com/f/f369a9edd4dd" method="POST">
-    <label for="name" autocomplete="on">Name:</label>
+    <label for="name" autocomplete="on">Name (required)</label>
     <input type="text" id="name" name="name" required="">
      <label for="email" autocomplete="on">Email (required):</label>
    <input type="email" id="email" name="email" aria-required="true">
