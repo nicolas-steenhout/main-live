@@ -445,6 +445,50 @@ a {
 }
 
 
+// Form
+
+form {
+  --font-size: 1.2em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.3em 0;
+  margin: 8vh auto;
+  max-width: 50rem;
+
+  label {
+    font-size: var(--font-size);
+  }
+
+  input[type=text],
+  input[type=email],
+  textarea {
+    outline: 2px solid light-dark($contrast3);
+    border-radius: 5px;
+    padding: .8rem 1rem;
+    font-size: var(--font-size);
+
+    &:focus {
+      outline: 5px solid light-dark($contrast3);
+    }
+  }
+
+  input[type=submit] {
+    margin-block-start: 1em;
+    padding: 1em;
+    @include colors(light-dark($primary), light-dark($contrast2));
+    font-size: var(--font-size);
+
+    &:focus,
+    &:hover {
+      @include colors(light-dark($secondary), light-dark($contrast2));
+      outline: 5px solid light-dark($contrast3);
+    }
+  }
+}
+
+
 // Global footer
 
 .wrapper-footer {
