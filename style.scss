@@ -7,6 +7,7 @@
 
 @import "reset";
 @import "variables";
+@import "mixins";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -69,7 +70,7 @@ p, li, dt, dd {
 
 .container {
   margin: 0 auto;
-  padding: 6vh;
+  padding: 6vh 2vh;
   max-width: 80rem;
   width: 100%;
 }
@@ -153,17 +154,13 @@ p, li, dt, dd {
   justify-content: center;
 
   p {
-    max-width: 45ch;
+    max-width: 50ch;
     padding: 6vh;
     color: light-dark($blue-dark, $silver);
     font-family: $dm-serif-display;
     font-size: calc(.5vw + 1.9rem);
     font-weight: 500;
   }
-}
-
-.bg-gradient {
-  background-image: light-dark(linear-gradient($black 33%, $silver), transparent);
 }
 
 .section-video {
@@ -277,6 +274,36 @@ p, li, dt, dd {
   }
 }
 
+.box-with-shadow {
+  padding: 1em 1.5em 1.5em;
+  box-shadow: 16px 16px light-dark($contrast3);
+}
+
+.grid-reflow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  place-items: center;
+}
+
+.flex-reflow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2em;
+
+  > div {
+    flex: 1 1 200px;
+  }
+}
+
+.dark-on-light {
+  @include colors(light-dark($background), light-dark($foreground));
+}
+
+.light-on-primary {
+  @include colors(light-dark($primary), light-dark($contrast2));
+}
+
 
 // Pages
 
@@ -311,6 +338,7 @@ p, li, dt, dd {
     > img {
       width: 100%;
       height: 18rem;
+      margin: 0 auto;
       object-fit: cover;
       object-position: center;
     }
@@ -380,15 +408,6 @@ p, li, dt, dd {
     }
   }
 
-  h2 {
-    padding-block: 4.5vh 2vh;
-  }
-
-  img {
-    max-width: 100%;
-    margin: 6vh auto;
-  }
-
   figcaption {
     margin-block-start: -1.4em;
     font-size: 1.2rem;
@@ -411,6 +430,31 @@ p, li, dt, dd {
     font-size: calc(clamp(1.3rem, 4vw + 1.6rem, 2rem));
     font-weight: 500;
     line-height: 1.2;
+  }
+}
+
+.entry {
+  h2 {
+    padding-block: 4.5vh 2vh;
+    color: light-dark($contrast3);
+    font-weight: 500;
+  }
+
+  h3 {
+    padding-block: 3vh 1.8vh;
+  }
+
+  img {
+    @include img-responsive;
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-inline-start: 2em;
+
+    li {
+      padding-inline-start: .8em;
+    }
   }
 }
 

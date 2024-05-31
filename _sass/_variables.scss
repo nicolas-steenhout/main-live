@@ -39,10 +39,3 @@ $kanit: "Kanit", sans-serif;
 $dm-sans: "DM Sans", sans-serif;
 $dm-serif-display: "DM Serif Display", serif;
 $oswald: "Oswald", sans-serif;
-
-// Mobile breakpoints
-@mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
-  }
-}
