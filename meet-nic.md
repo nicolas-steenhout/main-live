@@ -9,9 +9,8 @@ permalink: /meet-nic/
 </div>
 
 <div class="grid-reflow">
-  <div>
-    <img src="/img/nic.png" alt="">
-  </div>
+  <img src="/img/nic.png" alt="">
+
   <div class="box-with-shadow light-on-primary">
     <p>Nicolas Steenhout in a few words:</p>
     <ul>
@@ -43,27 +42,34 @@ permalink: /meet-nic/
   </div>
 </div>
 
-## Meet Nic's colleague, Winston
+<div class="light-on-primary margin-vertical pad-inline">
+  <h2>Meet Nic's colleague, Winston</h2>
 
-![Close up head shot of a black dog. His head is laying down on a knee. He's looking up at the camera.](/img/winston.jpg)
-
-Winston is Nic's colleague, friend, and companion. Winston is Nic's service dog and you won't often see one without the other.
-
-Winston is fully trained and has three main tasks:
-
-* Pulling Nic's wheelchair 
-* Retrieve objects on command
-* Help with transfers
+  <div class="grid-reflow">
+    <div>
+      <p>Winston is Nic's colleague, friend, and companion. Winston is Nic's service dog and you won't often see one without the other.</p>
+      <p>Winston is fully trained and has three main tasks:</p>
+      <ul>
+        <li>Pulling Nic's wheelchair</li>
+        <li>Retrieve objects on command</li>
+        <li>Help with transfers</li>
+      </ul>
+    </div>
+    <img src="/img/winston.jpg" alt="Close up head shot of a black dog. His head is laying down on a knee. He's looking up at the camera.">
+  </div>
+</div>
 
 ## When Nic isn't working in accessibility...
 
-### Bird watching
-In his down time, Nic escapes to nature as often as weather permits. He loves bird watching and taking photos of birds. 
-
-![An adult bald eagle with a salmon grabbed in his talons, taking off above shallow water. The bird's wings are tight in a M shape above him.](/img/bald-eagle.jpg)
-
-
-### Quilting
-When the weather doesn't permit, Nic creates patchwork quilts.
-
-![A 60 inch square quilt on the lawn. The quilt has a dark purple background and a patchwork heart shape occupies nearly the entirety of the quilt. The fabrics for the heart are a riot of Kaffe Fassett fabrics in reds, oranges, blues, yellows, and greens. The bottom right of the quilt is folded over showing a teal printed backing](/img/heart-quilt.jpg)
+<div class="flex-reflow">
+  <div>
+    <h3>Bird watching</h3>
+    <p>In his down time, Nic escapes to nature as often as weather permits. He loves bird watching and taking photos of birds.</p>
+    <img src="/img/bald-eagle.jpg" alt="An adult bald eagle with a salmon grabbed in his talons, taking off above shallow water. The bird's wings are tight in a M shape above him.">
+  </div>
+  <div>
+    <h3>Quilting</h3>
+    <p>When the weather doesn't permit, Nic creates patchwork quilts.</p>
+    <img src="/img/heart-quilt.jpg" alt="A 60 inch square quilt on the lawn. The quilt has a dark purple background and a patchwork heart shape occupies nearly the entirety of the quilt. The fabrics for the heart are a riot of Kaffe Fassett fabrics in reds, oranges, blues, yellows, and greens. The bottom right of the quilt is folded over showing a teal printed backing">
+  </div>
+</div>
