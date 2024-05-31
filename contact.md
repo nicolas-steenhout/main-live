@@ -4,9 +4,10 @@ title: Contact Nic
 permalink: /contact/
 ---
 
+## Reach out! let's talk.
 <div class="grid-reflow">
   <img src="/img/nic-temp.jpg" alt="">
-    <h2>Reach out! Let's talk.</h2>
+   
 
 Feel free to reach out and ask any questions you might have about working with me, or any questions about accessibility!
 
