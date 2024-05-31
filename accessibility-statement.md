@@ -23,6 +23,6 @@ As of June 2024, the site meets at least WCAG 2.2 Level AA.
 ## Feedback
 I welcome your feedback on the accessibility of this site. Please let me know if you encounter accessibility barriers on this site.
 
-* Email: <SCRIPT LANGUAGE="JavaScript">user = 'info';site = 'nicolas-steenhout.com';document.write('<a href=\"mailto:' + user + '@' + site + '\?Subject=Site accessibility problem.">');document.write(user + '@' + site + '</a>');</SCRIPT>
+* Email: <SCRIPT LANGUAGE="JavaScript">user = 'info';site = 'nicolas-steenhout.com';document.write('<a href=\"mailto:' + user + '@' + site + '?Subject=Site accessibility problem.'\">');document.write(user + '@' + site + '</a>');</SCRIPT>
 
 
