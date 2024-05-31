@@ -6,10 +6,12 @@ permalink: /contact/
 
 ## Reach out! let's talk.
 <div class="grid-reflow">
-  <img src="/img/nic-temp.jpg" alt="">
+    <p><img src="/img/nic-temp.jpg" alt=""></p>
    
 
 <p>Feel free to reach out and ask any questions you might have about working with me, or any questions about accessibility!</p>
+
+<p>Use the contact form on this page, or email me directly at <a href="info@nicolas-steenhout.com">info@nicolas-steenhout.com</a></p>
 
   <div>
    
