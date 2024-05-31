@@ -50,6 +50,7 @@ h2 {
 
 h3 {
   font-size: calc(1vw + 1.5rem);
+  line-height: 1.2;
 }
 
 h4 {
@@ -69,6 +70,13 @@ p, li, dt, dd {
 }
 
 a {
+  color: light-dark($blue-logo, $white);
+
+  &:visited,
+  &:active {
+    color: light-dark($red-bright, lighten($blue-logo, 10%));
+  }
+
   &[aria-current] {
     border-block-end: 5px solid currentColor;
 
@@ -518,6 +526,11 @@ footer {
 
   a {
     color: $silver;
+
+    &:visited,
+    &:active {
+      color: inherit;
+    }
   }
 
   .svg-icon {
@@ -623,7 +636,13 @@ footer {
   gap: 2em;
 
   > div {
+    display: inherit;
+    flex-direction: column;
     flex: 1 1 200px;
+  }
+
+  img {
+    place-self: center;
   }
 }
 
@@ -641,6 +660,12 @@ footer {
   h3,
   h4 {
     color: inherit;
+  }
+
+  a {
+    color: $white;
+    font-size: 1.2em;
+    font-weight: 500;
   }
 }
 
@@ -663,4 +688,8 @@ footer {
 .box-with-shadow {
   padding: 1em 1.5em 1.5em;
   box-shadow: 16px 16px light-dark($contrast3);
+}
+
+.round-corners {
+  border-radius: 8px;
 }
