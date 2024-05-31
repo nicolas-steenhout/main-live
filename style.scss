@@ -68,6 +68,17 @@ p, li, dt, dd {
   line-height: 1.4;
 }
 
+a {
+  &[aria-current] {
+    border-block-end: 5px solid currentColor;
+
+    @include mobile {
+      border-block-end: none;
+      background-color: light-dark($contrast1);
+    }
+  }
+}
+
 .container {
   margin: 0 auto;
   padding: 6vh 2vh;
@@ -86,6 +97,8 @@ p, li, dt, dd {
 /* inner container with header/nav */
 
 .site-info {
+  flex: 1;
+
   a {
     display: grid;
     grid-template-columns: minmax(100px, 25%) 1fr;
@@ -152,14 +165,16 @@ p, li, dt, dd {
 .callout {
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 8vh 4vh;
 
   p {
-    max-width: 50ch;
-    padding: 6vh;
+    max-width: 35ch;
     color: light-dark($blue-dark, $silver);
     font-family: $dm-serif-display;
-    font-size: calc(.5vw + 1.9rem);
+    font-size: calc(clamp(1.3rem, 4vw + 1rem, 2.7rem));
     font-weight: 500;
+    line-height: 1.5;
   }
 }
 
@@ -272,36 +287,6 @@ p, li, dt, dd {
       }
     }
   }
-}
-
-.box-with-shadow {
-  padding: 1em 1.5em 1.5em;
-  box-shadow: 16px 16px light-dark($contrast3);
-}
-
-.grid-reflow {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-  place-items: center;
-}
-
-.flex-reflow {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 2em;
-
-  > div {
-    flex: 1 1 200px;
-  }
-}
-
-.dark-on-light {
-  @include colors(light-dark($background), light-dark($foreground));
-}
-
-.light-on-primary {
-  @include colors(light-dark($primary), light-dark($contrast2));
 }
 
 
@@ -435,9 +420,10 @@ p, li, dt, dd {
 
 .entry {
   h2 {
-    padding-block: 4.5vh 2vh;
+    padding-block: 5vh 2vh;
     color: light-dark($contrast3);
     font-weight: 500;
+    text-align: center;
   }
 
   h3 {
@@ -562,4 +548,68 @@ footer {
     outline: 2px solid currentColor;
     transition: all .3s ease-in-out;
   }
+}
+
+//
+//
+// Helper classes
+//
+//
+
+/* Layout */
+
+.grid-reflow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  place-items: center;
+  gap: 2rem;
+}
+
+.flex-reflow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2em;
+
+  > div {
+    flex: 1 1 200px;
+  }
+}
+
+/* Background, Foreground */
+
+.dark-on-light {
+  @include colors(light-dark($background), light-dark($foreground));
+}
+
+.light-on-primary {
+  @include colors(light-dark($primary), light-dark($contrast2));
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: inherit;
+  }
+}
+
+.light-on-dark {
+  @include colors(light-dark($contrast1), light-dark($contrast2));
+}
+
+/* Spacing */
+
+.margin-vertical {
+  margin-block: 10vh;
+}
+
+.pad-inline {
+  padding-inline: 2em; 
+}
+
+/* Shadow */
+
+.box-with-shadow {
+  padding: 1em 1.5em 1.5em;
+  box-shadow: 16px 16px light-dark($contrast3);
 }
