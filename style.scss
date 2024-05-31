@@ -81,7 +81,7 @@ a {
 
 .container {
   margin: 0 auto;
-  padding: 6vh 2vh;
+  padding: 6vh 3vh;
   max-width: 80rem;
   width: 100%;
 }
@@ -419,6 +419,13 @@ a {
 }
 
 .entry {
+  h1 {
+    padding-block: 8vh;
+    font-size: calc(clamp(2rem, 4vw + 1.5rem, 7rem));
+    line-height: 1;
+    text-align: center;
+  }
+
   h2 {
     padding-block: 5vh 2vh;
     color: light-dark($contrast3);
