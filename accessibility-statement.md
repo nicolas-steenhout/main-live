@@ -23,11 +23,11 @@ As of June 2024, the site meets at least WCAG 2.2 Level AA.
 ## Feedback
 I welcome your feedback on the accessibility of this site. Please let me know if you encounter accessibility barriers on this site.
 
-* Email: [nic@incl.ca](mailto:nic@incl.ca)
+* Email: <a href="mailto:info@nicolas-steenhout.com">EMAIL MEEEEEEEE</a>
 
 <SCRIPT LANGUAGE="JavaScript">user = 'info';site = 'nicolas-steenhout.com';document.write('[' + user + '@' + site + ']\(mailto:' + user + '@' + site + '\)');document.write(user + '@' + site + '</a>');</SCRIPT>
 
 
 
-<SCRIPT LANGUAGE="JavaScript">user = 'info';site = 'nicolas-steenhout.com';document.write('<a href=\"mailto:' + user + '@' + site + '\">');document.write(user + '@' + site + '</a>');</SCRIPT>
+
 
