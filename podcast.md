@@ -10,23 +10,26 @@ Nic interviewed nearly 200 people since 2017. The show is very popular, particul
 
 As these are podcasts talking about accessibility, I've made sure the show is accessible. Every episode has a text transcript on the page for the episode. These transcripts are human edited for accuracy. Whether you have an access need because audio is hard to process for you, or you're in a hurry and read faster than listen, Nic's got you covered!
 
-![A11y Rules Logo - A stylized a with the words a11y rules stacked beside the a.](/img/a11yrules-logo.png)
+<section class="light-on-primary margin-vertical pad-inline round-corners">
+  <h2>Two series</h2>
 
-## Two series
+  <div class="flex-reflow">
+    <div>
+      <img src="/img/a11yrules-logo.png" alt="A11y Rules Logo - A stylized a with the words a11y rules stacked beside the a." class="round-corners">
+      <h3>A11y Rules Soundbites</h3>
+      <p>Short interviews with disabled people. We discuss what their disability is. What barriers they encounter on the web. And what message they have for designers and developers.</p>
+      <p>It is very powerful to hear about access issues in the words of disabled people. This podcast series highlights accessibility issues beyond the typical ones. This is all about "what should we focus on beyond WCAG conformance".</p>
+      <p><a href="https://a11yrules.com/series/a11y-rules-soundbite/">Check out the A11y Rules Soundbite</a></p>
+    </div>
+    <div>
+      <img src="/img/a11yrules-logo.png" alt="A11y Rules Logo - A stylized a with the words a11y rules stacked beside the a." class="round-corners">
+      <h3>A11y Rules Interviews with accessibility pros</h3>
+      <p>Long form interviews with accessibility professionals. We discuss a wide range of topics, from defining accessibility to discussing important issues found in the world of accessibility, the conversations are fascinating!</p>
+      <p><a href="https://a11yrules.com/series/a11y-rules-podcast/">Check out the A11y Rules original series</a></p>
+    </div>
+  </div>
+</section>
 
-### A11y Rules Soundbites
-
-Short interviews with disabled people. We discuss what their disability is. What barriers they encounter on the web. And what message they have for designers and developers.
-
-It is very powerful to hear about access issues in the words of disabled people. This podcast series highlights accessibility issues beyond the typical ones. This is all about "what should we focus on beyond WCAG conformance".
-
-[Check out the A11y Rules Soundbite](https://a11yrules.com/series/a11y-rules-soundbite/)
-
-### A11y Rules Interviews with accessibility pros
-
-Long form interviews with accessibility professionals. We discuss a wide range of topics, from defining accessibility to discussing important issues found in the world of accessibility, the conversations are fascinating!
-
-[Check out the A11y Rules original series](https://a11yrules.com/series/a11y-rules-podcast/)
 
 ## Special episodes
 
