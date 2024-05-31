@@ -9,7 +9,7 @@ permalink: /contact/
   <img src="/img/nic-temp.jpg" alt="">
    
 
-Feel free to reach out and ask any questions you might have about working with me, or any questions about accessibility!
+<p>Feel free to reach out and ask any questions you might have about working with me, or any questions about accessibility!</p>
 
   <div>
    
