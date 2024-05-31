@@ -57,13 +57,13 @@ Winston is fully trained and has three main tasks:
 
 ## When Nic isn't working in accessibility...
 
-## Bird watching
+### Bird watching
 In his down time, Nic escapes to nature as often as weather permits. He loves bird watching and taking photos of birds. 
 
 ![An adult bald eagle with a salmon grabbed in his talons, taking off above shallow water. The bird's wings are tight in a M shape above him.](/img/bald-eagle.jpg)
 
 
-## Quilting
+### Quilting
 When the weather doesn't permit, Nic creates patchwork quilts.
 
 ![A 60 inch square quilt on the lawn. The quilt has a dark purple background and a patchwork heart shape occupies nearly the entirety of the quilt. The fabrics for the heart are a riot of Kaffe Fassett fabrics in reds, oranges, blues, yellows, and greens. The bottom right of the quilt is folded over showing a teal printed backing](/img/heart-quilt.jpg)
