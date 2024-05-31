@@ -8,8 +8,36 @@ permalink: /speaking/
   <p>Hire Nicolas Steenhout for your next event.</p>
 </div>
 
+## Keynotes - In-Person or virtual workshops
+
+<div class="grid-reflow">
+    <div>
+    </div>
+    
+<img src="/img/nic.png" alt="">
+</div>
+
 ## Speaker reel
-Bacon ipsum dolor amet pork belly leberkas landjaeger brisket tail. Meatloaf tongue tri-tip fatback short loin, turducken pancetta shank swine ground round tenderloin short ribs. Swine pork chop chislic leberkas hamburger. 
+<div class="section-video">
+    {%- include speaker-reel.html -%}
+</div>
+
+<div class="grid-reflow">
+    <figure>
+        <img src="/img/nic-steenhout-evil-captcha.jpg" alt="Nic Steenhout facing a crowd. A slide is shown behind Nic, with a cat reaching on top of a table and the words Captchas are Evil.">
+            <figcaption>Nic presenting on Accessibility and Security at AccessU in Austin, TX</figcaption>
+    </figure>
+    <figure>
+        <img src="/img/nic-steenhout-workshop-apple.jpg" alt="Nic Steenhout sitting in front of a group of people. The logo for Apple Genius Bar is on the wall behind Nic.">
+            <figcaption>Nic giving a workshop about assistive technologies at an Apple store in Vancouver, BC.</figcaption>
+    </figure>
+    <figure>
+        <img src="/img/nic-steenhout-javascript-accessibility.jpg" alt="Nic Steenhout on a stage in front of an audience. A slide behind Nic says Don't turn off that JavaScript just yet!">
+            <figcaption>Nic presenting about JavaScript and accessibility at A11yMTL in Montreal, QC</figcaption>
+    </figure>
+    
+</div>
+    
 
 <section class="light-on-dark margin-block pad-inline">
     <h2>Keynote and presentation topics</h2>
