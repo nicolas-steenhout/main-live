@@ -1,0 +1,27 @@
+//
+//
+// Mixins
+//
+//
+
+// Mobile breakpoints
+
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
+
+// responsive images
+
+@mixin img-responsive {
+  max-width: 100%;
+  margin: 6vh auto;
+}
+
+// couple background and foreground colors together
+
+@mixin colors($bgcolor, $color) {
+  background-color: $bgcolor;
+  color: $color;
+}
