@@ -26,3 +26,4 @@ I welcome your feedback on the accessibility of this site. Please let me know if
 * Email: <SCRIPT LANGUAGE="JavaScript">user = 'info';site = 'nicolas-steenhout.com';document.write('<a href=\"mailto:' + user + '@' + site + '\">');document.write(user + '@' + site + '</a>');</SCRIPT>
 
 
+<SCRIPT LANGUAGE="JavaScript">user = 'info';site = 'nicolas-steenhout.com';document.write('<a href=\"mailto:' + user + '@' + site + '\">');document.write(user + '@' + site + '</a>');</SCRIPT>
