@@ -23,6 +23,8 @@ permalink: /speaking/
     {%- include speaker-reel.html -%}
 </div>
 
+## Some past events
+
 <div class="grid-reflow">
     <figure>
         <img src="/img/nic-steenhout-evil-captcha.jpg" alt="Nic Steenhout facing a crowd. A slide is shown behind Nic, with a cat reaching on top of a table and the words Captchas are Evil.">
@@ -71,3 +73,9 @@ Nic Steenhout has been an accessibility trainer and troubleshooter for over 25 y
         </figure>
     </div>
 </section>
+
+<section>
+    <h2>Some of the clients I've worked with in the past</h2>
+    A BUNCH OF LOGOS WILL GO HERE
+</section>
+    
