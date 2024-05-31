@@ -4,7 +4,11 @@ title: Contact Nic
 permalink: /contact/
 ---
 
-## Reach out! Let's talk.
+<div class="grid-reflow">
+  <img src="/img/nic-temp.png" alt="">
+
+  <div>
+    ## Reach out! Let's talk.
 
 Feel free to reach out and ask any questions you might have about working with me, or any questions about accessibility!
 
@@ -17,6 +21,10 @@ Feel free to reach out and ask any questions you might have about working with m
     <textarea id="msg" name="msg" rows="5" cols="20"></textarea>
    <input type="submit" value="Submit">
 </form>
+  </div>
+</div>
+
+
 
 ## What happens after you contact me?
 
