@@ -66,7 +66,7 @@ p {
 
 p, li, dt, dd {
   font-size: calc(.5vw + 1.1rem);
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 a {
@@ -74,7 +74,7 @@ a {
 
   &:visited,
   &:active {
-    color: light-dark($red-bright, lighten($blue-logo, 10%));
+    color: light-dark($red-bright, lighten($blue-logo, 20%));
   }
 
   &[aria-current] {
@@ -344,8 +344,9 @@ a {
       padding: .3em 2em 1.5em;
 
       h2 {
-        margin: .5em 0;
+        padding-block: 2vh 3vh;
         line-height: 1.1;
+        text-align: left;
 
         > a {
           font-size: calc(clamp(1.4rem, 4vw + 2rem, 2.5rem));
@@ -419,7 +420,7 @@ a {
   }
 
   .inline-quote {
-    width: 100%;
+    max-width: 50ch;
     border-block: 3px solid light-dark($contrast3);
     margin-block: 6vh;
     padding: 4vh .8em;
@@ -573,6 +574,7 @@ footer {
 
 
 // User toolbar
+
 #toolbar {
   display: flex;
   justify-content: space-between;
@@ -606,7 +608,7 @@ footer {
 
 .skip-link {
   display: inline-block;
-  color: $white;
+  color: $white !important;
   padding: .8rem 1rem;
   text-decoration: none;
 
@@ -659,6 +661,15 @@ footer {
     place-self: center;
   }
 }
+
+.grid-top {
+  place-items: start;
+}
+
+.text-center {
+  text-align: center;
+}
+
 
 /* Background, Foreground */
 
@@ -714,4 +725,14 @@ footer {
 
 .round-corners {
   border-radius: 8px;
+}
+
+/* list */
+
+.list-none {
+  li {
+    flex: 1 1 150px;
+    list-style-type: none;
+    padding-inline-start: 0 !important;
+  }
 }
