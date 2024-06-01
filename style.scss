@@ -716,7 +716,7 @@ footer {
   padding-block-end: 1.5em;
 }
 
-/* Shadow */
+/* Touch-ups */
 
 .box-with-shadow {
   padding: 1em 1.5em 1.5em;
@@ -725,6 +725,14 @@ footer {
 
 .round-corners {
   border-radius: 8px;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.filter-gray {
+  filter: grayscale(100%);
 }
 
 /* list */
