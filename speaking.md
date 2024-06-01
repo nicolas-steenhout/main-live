@@ -14,8 +14,7 @@ permalink: /speaking/
     <div>
         <p>Bacon ipsum dolor amet pork belly leberkas landjaeger brisket tail. Meatloaf tongue tri-tip fatback short loin, turducken pancetta shank swine ground round tenderloin short ribs. Swine pork chop chislic leberkas hamburger. </p>
     </div>
-    
-<img src="/img/nic.png" alt="">
+    <img src="/img/nic.png" alt="">
 </div>
 
 ## Speaker reel
@@ -42,14 +41,9 @@ permalink: /speaking/
 </div>
     
 
-<section class="light-on-dark margin-vertical pad-inline">
+<section class="light-on-dark margin-vertical pad-inline round-corners">
     <h2>Keynote and presentation topics</h2>
     <p>Bacon ipsum dolor amet pork belly leberkas landjaeger brisket tail. Meatloaf tongue tri-tip fatback short loin, turducken pancetta shank swine ground round tenderloin short ribs. Swine pork chop chislic leberkas hamburger. </p>
-    <div class="flex-reflow">
-        <img src="/img/fake-sorry-signs.jpg" alt="">
-        <img src="/img/heart-quilt.jpg" alt="">
-        <img src="/img/speaker-reel-still-v1.png" alt="">
-    </div>
 </section>
 
 
