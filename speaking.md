@@ -48,14 +48,14 @@ permalink: /speaking/
     <li><strong>The evolution of assistive technologies</strong> - Assistive technologies, or tools, devices, and software that help disabled people, often get adopted by the public at large, making all our lives easier. And then get refined for further use by disabled folks. It's a healthy cycle. </li>
     <li><strong>Introduction to digital accessibility</strong> - Filled with real life example, this talk introduces the concepts of what is digital accessibility and why it's so important.</li>
     <li><strong>ARIA 101</strong> - An introduction to the Accessible Rich Internet Application standard, and how to use it to improve accessibility.</li>
-    <ul>
+    </ul>
 </section>
 
 <section>
     <h2>Speaker bio</h2>
 
 Nic Steenhout has been an accessibility trainer and troubleshooter for over 25 years. He’s worked on three continents, collaborating with various organizations, from local governments to large corporations, focusing on web accessibility and digital inclusion. Known for his pragmatic, down-to-Earth approach, Nic helps his clients navigate complex accessibility challenges. When he is not off on a birdwatching adventure, you can find him speaking at events or leading workshops. 
-<section>
+</section>
 
 <section id="testimonials">
     <h2>Testimonials</h2>
