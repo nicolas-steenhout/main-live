@@ -15,7 +15,7 @@ permalink: /meet-nic/
     <p>Nicolas Steenhout in a few words:</p>
     <ul>
       <li>I've been speaking about and training on accessibility for over 25 years.</li>
-      <li>I've collaborated with various organizations, fron local government to large corporations.</li>
+      <li>I've collaborated with various organizations, from local government to large corporations.</li>
       <li>I have a pragmatic, down-to-earth approach.</li>
       <li>I've worked on three continents.</li>
       <li>I will help you identify and navigate complex accessibility challenges.</li>
