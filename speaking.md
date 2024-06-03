@@ -36,12 +36,11 @@ permalink: /speaking/
     <figure>
         <img src="/img/nic-steenhout-javascript-accessibility.jpg" alt="Nic Steenhout on a stage in front of an audience. A slide behind Nic says Don't turn off that JavaScript just yet!">
             <figcaption>Nic presenting about JavaScript and accessibility at A11yMTL in Montreal, QC</figcaption>
-    </figure>
-    
+    </figure>  
 </div>
-    
-<section class="light-on-dark margin-vertical pad-inline round-corners">
-    <h2>Keynote and presentation topics</h2>
+
+<section>
+<h2>Keynote and presentation topics</h2>
     <p>Presentations that help your organization and teams understand and implement accessibility.</p>
     <p>I can also create a bespoke presentation for your organization.</p>
     <ul>
