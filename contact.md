@@ -17,12 +17,13 @@ permalink: /contact/
   <div>
    
 <form action="https://usebasin.com/f/f369a9edd4dd" method="POST">
-    <label for="name" autocomplete="on">Name (required)</label>
-    <input type="text" id="name" name="name" required="">
-     <label for="email" autocomplete="on">Email (required):</label>
+    <label for="name" autocomplete="on">Name <span aria-hidden="true">(required)</span>:</label>
+    <input type="text" id="name" name="name" aria-required="true">
+     <label for="email" autocomplete="on">Email <span aria-hidden="true">(required)</span>:</label>
    <input type="email" id="email" name="email" aria-required="true">
-    <label for="msg">Message:</label>
-    <textarea id="msg" name="msg" rows="5" cols="20"></textarea>
+    <label for="msg">Message <span aria-hidden="true">(required)</span>:</label>
+    <textarea id="msg" name="msg" rows="5" cols="20" aria-required="true"></textarea>
+    <input class="a11y-hidden" id="honey" name="honey" aria-label="Bot trap. Do not fill" tabindex="-1">
    <input type="submit" value="Submit">
 </form>
   </div>
