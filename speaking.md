@@ -51,11 +51,11 @@ permalink: /speaking/
     </ul>
 </section>
 
-<section>
-    <h2>Speaker bio</h2>
+
+<h2>Speaker bio</h2>
 
 Nic Steenhout has been an accessibility trainer and troubleshooter for over 25 years. He’s worked on three continents, collaborating with various organizations, from local governments to large corporations, focusing on web accessibility and digital inclusion. Known for his pragmatic, down-to-Earth approach, Nic helps his clients navigate complex accessibility challenges. When he is not off on a birdwatching adventure, you can find him speaking at events or leading workshops. 
-</section>
+
 
 <section id="testimonials">
     <h2>Testimonials</h2>
