@@ -20,17 +20,17 @@ permalink: /contact/
 
 	<div class="field">
 		<label for="name">Name <span aria-hidden="true">(required)</span>:</label>
-		<input type="text" id="name" name="name" aria-required="true">
+		<input class="jsFieldName" type="text" id="name" name="name" aria-required="true">
 	</div>
 
 	<div class="field">
 		<label for="email">Email <span aria-hidden="true">(required)</span>:</label>
-		<input type="email" id="email" name="email" aria-required="true">
+		<input class="jsFieldEmail" type="email" id="email" name="email" aria-required="true">
 	</div>
 
 	<div class="field">
 		<label for="msg">Message <span aria-hidden="true">(required)</span>:</label>
-		<textarea id="msg" name="msg" rows="5" cols="20" aria-required="true"></textarea>
+		<textarea class="jsFieldMessage" id="msg" name="msg" rows="5" cols="20" aria-required="true"></textarea>
 	</div>
 
 	<input class="a11y-hidden" id="honey" name="honey" aria-label="Bot trap. Do not fill" tabindex="-1">
