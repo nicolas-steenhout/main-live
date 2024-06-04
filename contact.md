@@ -16,7 +16,7 @@ permalink: /contact/
 </div>
   <div>
    
-<form action="https://usebasin.com/f/f369a9edd4dd" method="POST">
+<form action="https://usebasin.com/f/f369a9edd4dd" method="POST" novalidate>
     <label for="name" autocomplete="on">Name <span aria-hidden="true">(required)</span>:</label>
     <input type="text" id="name" name="name" aria-required="true">
      <label for="email" autocomplete="on">Email <span aria-hidden="true">(required)</span>:</label>
