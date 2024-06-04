@@ -16,19 +16,19 @@ Nic Steenhout has successfuly trained hundreds of teams and individuals on acces
     For designers
   </li>
   <li>
-    <img src="" alt="">
+    {% include glyph-developers-blue.html %}
     For developers
   </li>
   <li>
-    <img src="" alt="">
+    {% include glyph-qa-blue.html %}
     For QA testers
   </li>
   <li>
-    <img src="" alt="">
+    {% include glyph-content-blue.html %}
     For content creators
   </li>
   <li>
-    <img src="" alt="">
+    {% include glyph-product-blue.html %}
     For product owners
   </li>
 </ul>
