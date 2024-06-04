@@ -7,7 +7,7 @@ permalink: /contact/
 ## Reach out! let's talk.
 <div class="grid-reflow">
     <div>
-    <p><img src="/img/nic-temp.jpg" alt=""></p>
+    <p><img src="/img/nicolas-steenhout-frame.jpg" alt="Head and shoulder portrait of Nic Steenhout holding his hands in front of his face, forming a lose frame."></p>
    
 
 <p>Feel free to reach out and ask any questions you might have about working with me, or any questions about accessibility!</p>
