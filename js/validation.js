@@ -99,7 +99,7 @@ function updateFieldDOM(el, isValid, errorMessage, opts) {
 		// If the field is invalid, add error styling and message
 		elField.classList.add("isInvalid");
 		el.setAttribute("aria-invalid", "true");
-		elError.setAttribute("aria-live", isLive ? "assertive" : "off");
+		elError.setAttribute("aria-live", isLive ? "polite" : "off");
 		elError.innerText = errorMessage;
 	}
 }
