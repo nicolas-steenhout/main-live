@@ -20,17 +20,17 @@ permalink: /contact/
 
 	<div class="field">
 		<label for="name">Name <span aria-hidden="true">(required)</span>:</label>
-		<input class="jsFieldName" type="text" id="name" name="name" aria-required="true" aria-describedby="nameError">
+		<input class="jsFieldName" type="text" id="name" name="name" aria-required="true" aria-describedby="nameError" data-error-message="Name cannot be left blank.">
 	</div>
 
 	<div class="field">
 		<label for="email">Email <span aria-hidden="true">(required)</span>:</label>
-		<input class="jsFieldEmail" type="email" id="email" name="email" aria-required="true" aria-describedby="nameEmail">
+		<input class="jsFieldEmail" type="email" id="email" name="email" aria-required="true" aria-describedby="nameEmail" data-error-message="Email cannot be left blank.">
 	</div>
 
 	<div class="field">
 		<label for="msg">Message <span aria-hidden="true">(required)</span>:</label>
-		<textarea class="jsFieldMessage" id="msg" name="msg" rows="5" cols="20" aria-required="true" aria-describedby="nameMessage"></textarea>
+		<textarea class="jsFieldMessage" id="msg" name="msg" rows="5" cols="20" aria-required="true" aria-describedby="nameMessage" data-error-message="Message cannot be left blank."></textarea>
 	</div>
 
 	<input class="a11y-hidden" id="honey" name="honey" aria-label="Bot trap. Do not fill" tabindex="-1">
