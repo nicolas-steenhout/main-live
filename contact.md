@@ -22,7 +22,7 @@ permalink: /contact/
 		<label for="name">Name <span aria-hidden="true">(required)</span>:</label>
 		<input class="jsFieldName" type="text" id="name" name="name" aria-required="true" aria-describedby="nameError" data-error-message="Name cannot be left blank.">
 			<span class="field-hint">
-			<span class="field-error" id="nameError" aria-live="assertive">
+			<span class="field-error" id="nameError" aria-live="polite">
 				<!-- Error message -->
 			</span>
 		</span>
@@ -32,7 +32,7 @@ permalink: /contact/
 		<label for="email">Email <span aria-hidden="true">(required)</span>:</label>
 		<input class="jsFieldEmail" type="email" id="email" name="email" aria-required="true" aria-describedby="emailError" data-error-message="Email cannot be left blank.">
 			<span class="field-hint">
-			<span class="field-error" id="emailError" aria-live="assertive">
+			<span class="field-error" id="emailError" aria-live="polite">
 				<!-- Error message -->
 			</span>
 		</span>
@@ -42,7 +42,7 @@ permalink: /contact/
 		<label for="msg">Message <span aria-hidden="true">(required)</span>:</label>
 		<textarea class="jsFieldMessage" id="msg" name="msg" rows="5" cols="20" aria-required="true" aria-describedby="messageError" data-error-message="Message cannot be left blank."></textarea>
 			<span class="field-hint">
-			<span class="field-error" id="messageError" aria-live="assertive">
+			<span class="field-error" id="messageError" aria-live="polite">
 				<!-- Error message -->
 			</span>
 		</span>
