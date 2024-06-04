@@ -44,9 +44,11 @@ We chose the modules that best fit your teams' needs. We decide if you need to a
 <section class="light-on-primary margin-vertical pad-inline round-corners">
   <h2>Modules</h2>
   <div class="grid-reflow grid-top">
-    <div>
+<div>
       <h3>Introduction to accessibility</h3>
+        <div class="flex-glyph">
     {% include glyph-accessibility-white.html %}
+    </div>
       <p>The perfect overview of the issues surrounding accessibility, this training will introduce your teams to various disabilities and assistive technologies as well as the legal and regulatory environment.</p>
       <p>This module is a pre-requisite for every other module. Everyone in your organization should have a minimum baseline understanding of the groups who benefit from accessibility work.</p>
     </div>
