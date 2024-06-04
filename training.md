@@ -12,7 +12,7 @@ Nic Steenhout has successfuly trained hundreds of teams and individuals on acces
 
 <ul class="flex-reflow list-none text-center">
   <li>
-    <img src="" alt="">
+    {% include glyph-designer-blue.html %}
     For designers
   </li>
   <li>
