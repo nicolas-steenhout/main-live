@@ -506,6 +506,13 @@ form {
       outline: 5px solid light-dark($contrast3);
     }
   }
+
+  .field {
+	
+	.field-error {
+		color: #d52424;
+		display: block;
+	}
 }
 
 
