@@ -12,7 +12,7 @@ permalink: /contact/
 
 <p>Feel free to reach out and ask any questions you might have about working with me, or any questions about accessibility!</p>
 
-<p>Use the contact form on this page, or email me directly at <a href="info@nicolas-steenhout.com">info@nicolas-steenhout.com</a></p>
+<p>Use the contact form on this page, or email me directly at <a href="info@nicolas-steenhout.com">info@nicolas-steenhout.com</a>. If a voice call works better for you, please feel free to phone <a href="tel:+16048449041">+1 604-844-9041</a>, but please be aware you are unlikely to get me directly.</p>
 </div>
   <div>
    
