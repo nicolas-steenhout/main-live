@@ -42,6 +42,12 @@ permalink: /meet-nic/
   </div>
 </div>
 
+<h2>Nic's journey to today</h2>
+
+<p>Bacon ipsum dolor amet shank ribeye turducken porchetta, hamburger tongue buffalo short loin. Kevin pancetta shankle pork. Brisket pancetta prosciutto fatback bacon pork. Ground round pork belly salami jerky tenderloin boudin flank andouille brisket. Shoulder tri-tip hamburger beef ribs sausage cupim.</p>
+
+<p>Salami t-bone buffalo flank short ribs, ribeye sausage. Pork corned beef turkey prosciutto buffalo, meatball rump. Rump ham hock chuck, pork belly boudin burgdoggen landjaeger shank pork flank cow pancetta bresaola turkey meatball. Boudin fatback shank burgdoggen meatball ball tip andouille venison prosciutto rump short ribs ribeye doner pork chop. Pastrami fatback beef ribs pork loin kevin venison. Corned beef brisket turducken leberkas.</p>
+
 <div class="light-on-primary margin-vertical pad-inline">
   <h2>Meet Nic's colleague, Winston</h2>
 
