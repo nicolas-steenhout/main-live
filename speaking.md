@@ -14,7 +14,7 @@ permalink: /speaking/
     <div>
         <p>Bacon ipsum dolor amet pork belly leberkas landjaeger brisket tail. Meatloaf tongue tri-tip fatback short loin, turducken pancetta shank swine ground round tenderloin short ribs. Swine pork chop chislic leberkas hamburger. </p>
     </div>
-    <img src="/img/nic.png" alt="">
+    <img src="/img/nicolas-steenhout-04.png" alt="Nic Steenhout, a white man with short hair and glasses.">
 </div>
 
 ## Speaker reel
