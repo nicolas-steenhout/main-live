@@ -9,7 +9,7 @@ permalink: /meet-nic/
 </div>
 
 <div class="grid-reflow">
-  <img src="/img/nic.png" alt="">
+  <img src="/img/nicolas-steenhout-03.png" alt="Nic Steenhout, a white man with short hair and glasses.">
 
   <div class="box-with-shadow light-on-primary">
     <p>Nicolas Steenhout in a few words:</p>
