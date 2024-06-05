@@ -1,19 +1,9 @@
-// Thanks to 
-// https://inclusive-components.design/collapsible-sections/
-
-
-(function() {
-  const headings = document.querySelectorAll('h3');
-  
-  Array.prototype.forEach.call(headings, h => {
-    let btn = h.querySelector('button');
-    let target = h.nextElementSibling;
-    
-    btn.onclick = () => {
-      let expanded = btn.getAttribute('aria-expanded') === 'true';
-      
-      btn.setAttribute('aria-expanded', !expanded);
-      target.hidden = expanded;  
-    }
-  });
-})()
+const accordionHeaders = document.querySelectorAll('data-accordion-header');
+Array.prototype.forEach.call(accordionHeaders, accordionHeader => {
+  let target = accordionHeader.parentElement.nextElementSibling;
+  accordionHeader.onclick = () => {
+    let expanded = accordionHeader.getAttribute('aria-expanded') === 'true' || false;
+    accordionHeader.setAttribute('aria-expanded', !expanded);
+    target.hidden = expanded;
+  }
+})
