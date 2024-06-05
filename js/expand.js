@@ -4,7 +4,7 @@
 
 (function() {
   // Get all the <h2> headings
-  const headings = document.querySelectorAll('h3.transcript')
+  const headings = document.querySelectorAll('.transcript h3')
   
   Array.prototype.forEach.call(headings, heading => {
     // Give each <h2> a toggle button child
