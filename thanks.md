@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Nic says thanks!
+title: Thank you!
 permalink: /thanks/
 ---
 
-Nic says thank you very much for your question or comment. Stay tuned for his awesome answer. 
+Thank you for reaching out. I'll get back to you as soon as I can.
