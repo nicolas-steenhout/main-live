@@ -579,7 +579,19 @@ footer {
   width: 1px
 }
 
+.flex-glyph {
+    display: flex;
+    justify-content: center;
+    svg {width:60%;}
+}
 
+details summary { 
+  cursor: pointer;
+}
+
+details summary > * {
+  display: inline;
+}
 
 // User toolbar
 
@@ -713,21 +725,6 @@ footer {
   }
 }
 
-/* Nic stuff */
-
-.flex-glyph {
-    display: flex;
-    justify-content: center;
-    svg {width:60%;}
-}
-
-details summary { 
-  cursor: pointer;
-}
-
-details summary > * {
-  display: inline;
-}
 /* Spacing */
 
 .margin-vertical {
