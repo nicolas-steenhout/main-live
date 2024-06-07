@@ -19,6 +19,8 @@ permalink: /speaking/
 <p>I'm on a mission! I'm here to guide your company make more products that are more accessible. And to do it in such a way that is less painful. </p>
 
 <p>I am not a "motivational speaker", but I will motivate you and your teams. </p>
+
+<p><a href="/contact/">Book Nic</a>.</p>
     </div>
     <img src="/img/nicolas-steenhout-04.png" alt="Nic Steenhout, a white man with short hair and glasses.">
 </div>
@@ -67,6 +69,7 @@ permalink: /speaking/
     <li><strong>Introduction to digital accessibility</strong> - Filled with real life example, this talk introduces the concepts of what is digital accessibility and why it's so important.</li>
     <li><strong>ARIA 101</strong> - An introduction to the Accessible Rich Internet Application standard, and how to use it to improve accessibility.</li>
     </ul>
+    <p><a href="/contact/">Book Nic</a>.</p>
 </section>
 
 
