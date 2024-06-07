@@ -12,7 +12,13 @@ permalink: /speaking/
 
 <div class="grid-reflow">
     <div>
-        <p>Bacon ipsum dolor amet pork belly leberkas landjaeger brisket tail. Meatloaf tongue tri-tip fatback short loin, turducken pancetta shank swine ground round tenderloin short ribs. Swine pork chop chislic leberkas hamburger. </p>
+        <p>Most companies have a problem that isn't quite on their radar: Accessible products. </p>
+
+<p>Or rather, they aren't building accessible websites, applications and documents. They don't realize how much of a problem it is for them. And for the up to 25% of their target audience that have disabilities.</p>
+
+<p>I'm on a mission! I'm here to guide your company make more products that are more accessible. And to do it in such a way that is less painful. </p>
+
+<p>I am not a "motivational speaker", but I will motivate you and your teams. </p>
     </div>
     <img src="/img/nicolas-steenhout-04.png" alt="Nic Steenhout, a white man with short hair and glasses.">
 </div>
