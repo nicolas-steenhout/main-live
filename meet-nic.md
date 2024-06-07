@@ -44,9 +44,19 @@ permalink: /meet-nic/
 
 <h2>Nic's journey to today</h2>
 
-<p>Bacon ipsum dolor amet shank ribeye turducken porchetta, hamburger tongue buffalo short loin. Kevin pancetta shankle pork. Brisket pancetta prosciutto fatback bacon pork. Ground round pork belly salami jerky tenderloin boudin flank andouille brisket. Shoulder tri-tip hamburger beef ribs sausage cupim.</p>
+<p>I was working on accessibility in the build environment in the early 1990's. I was also experimenting with building websites. In the space of 3 weeks, 3 colleagues came to me with web accessibility problems they were facing.</p>
+<ol>
+    <li>One was blind and couldn't understand the page they were visiting because the site used images of text instead of text in the main menu.</li>
+    <li>One was deaf and couldn't access the information to setup up their new printer because the instructions came on a CD with a video without captions.</li>
+    <li>One had ADHD and was unable to use any web page because of all the colors and size differences, and animations.</li>
+    </ol>
+<div class="container callout">
+<p>It was a "eureka" moment. It was the point where everything clicked for me. Accessibility to digital environments was as important as accessibility in the built environment.</p>
+</div>
 
-<p>Salami t-bone buffalo flank short ribs, ribeye sausage. Pork corned beef turkey prosciutto buffalo, meatball rump. Rump ham hock chuck, pork belly boudin burgdoggen landjaeger shank pork flank cow pancetta bresaola turkey meatball. Boudin fatback shank burgdoggen meatball ball tip andouille venison prosciutto rump short ribs ribeye doner pork chop. Pastrami fatback beef ribs pork loin kevin venison. Corned beef brisket turducken leberkas.</p>
+<p>In the years since, I continued to grow my knowledge about digital accessibility. I worked on Open Source software to help improve accessibility. I discussed accessibility with <strong>a lot</strong> of disabled individuals. I advised non-profits and tertiary education providers. I consulted with local, state, and federal government organizations in the United States, Canada, New Zealand, Australia, and Belgium. I guided corporations towards building an internal culture of accessibility that allows them to build accessible products with less friction than they faced originally. I worked on the Web Content Accessibility Standard Education and Outreach team.</p>
+
+<p>And throughout all that, I trained teams about accessibility. I spoke at conferences, small and large, about web accessibility. I gave keynote presentations about digital accessibility, and inclusion. Which I continue to do today!</p>
 
 <div class="light-on-primary margin-vertical pad-inline">
   <h2>Meet Nic's colleague, Winston</h2>
