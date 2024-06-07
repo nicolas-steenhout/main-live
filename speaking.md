@@ -5,7 +5,7 @@ permalink: /speaking/
 ---
 
 <div class="callout">
-  <p>Hire Nicolas Steenhout for your next event.</p>
+  <p>Book Nicolas Steenhout for your next event.</p>
 </div>
 
 ## Keynotes - In-Person or virtual workshops
@@ -23,10 +23,22 @@ permalink: /speaking/
     <img src="/img/nicolas-steenhout-04.png" alt="Nic Steenhout, a white man with short hair and glasses.">
 </div>
 
+
 ## Speaker reel
 <div class="section-video">
     {%- include speaker-reel.html -%}
 </div>
+
+<section class="light-on-dark margin-vertical pad-inline round-corners">
+<h2>Typical presentation takeaways</h2>
+    <ul>
+    <li>Understand why accessibility is so important to your company, to your clients, and to disabled end users.</li>
+    <li>Discover why and how to build an internal network of accessibility champions.</li>
+    <li>Find out what accessibility-related laws and regulations apply to your company, and how you can become compliant.</li>
+    <li>Learn through story telling what positive impact removing barriers can have on disabled end users.</li>
+    <li>Identify processes and workflows you can improve to reach a point where accessibility work becomes second nature rather than a major effort.</li>
+    </ul>
+</section>
 
 ## Some past events
 
