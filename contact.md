@@ -14,7 +14,7 @@ permalink: /contact/
 
 <p>Use the contact form on this page, or email me directly, or phone me!</p>
 <ul>
-    <li>Email: <a href="info@nicolas-steenhout.com">info@nicolas-steenhout.com</a></li>
+    <li>Email: <a href="mailto:info@nicolas-steenhout.com">info@nicolas-steenhout.com</a></li>
     <li>Phone: <a href="tel:+16048449041">+1 604-844-9041</a></li>
     </ul>
 </div>
