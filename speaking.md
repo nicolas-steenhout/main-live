@@ -99,7 +99,7 @@ Nic Steenhout has been an accessibility trainer and troubleshooter for over 25 y
 <section>
     <h2>Some of the clients I've worked with in the past</h2>
     <ul>
-        <li><img src="/img/mailchimp.png" alt=""><br>Mailchimp</li>
+        <li><img src="/img/mailchimp.png" alt=""><br>Intuit Mailchimp</li>
         <li><img src="/img/yelp.png" alt=""><br>Yelp</li>
         <li><img src="/img/lfg.jpg" alt=""><br>Lincoln Financial Group</li>
         <li><img src="/img/vimeo.png" alt=""><br>Vimeo</li>
