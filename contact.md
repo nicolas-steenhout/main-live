@@ -24,7 +24,7 @@ permalink: /contact/
 
 	<div class="field">
 		<label for="name">Name <span aria-hidden="true">(required)</span>:</label>
-		<input class="jsFieldName" type="text" id="name" name="name" aria-required="true" aria-describedby="nameError" data-error-message="Name cannot be left blank.">
+		<input class="jsFieldName" type="text" id="name" name="name" autocomplete="given-name" aria-required="true" aria-describedby="nameError" data-error-message="Name cannot be left blank.">
 			<span class="field-hint">
 			<span class="field-error" id="nameError" aria-live="polite">
 				<!-- Error message -->
@@ -34,7 +34,7 @@ permalink: /contact/
 
 	<div class="field">
 		<label for="email">Email <span aria-hidden="true">(required)</span>:</label>
-		<input class="jsFieldEmail" type="email" id="email" name="email" aria-required="true" aria-describedby="emailError" data-error-message="Email cannot be left blank.">
+		<input class="jsFieldEmail" type="email" autocomplete="email" id="email" name="email" aria-required="true" aria-describedby="emailError" data-error-message="Email cannot be left blank.">
 			<span class="field-hint">
 			<span class="field-error" id="emailError" aria-live="polite">
 				<!-- Error message -->
@@ -62,7 +62,7 @@ permalink: /contact/
 
 ## What happens after you contact me?
 
-* I'll review your ask and may need a couple days to respond.
-* We might book a call, or continue the conversation via email.
-* We proceed if we're both happy!
+1. I'll review your ask and may need a couple days to respond.
+2. We might book a call, or continue the conversation via email.
+3. We proceed if we're both happy!
 
