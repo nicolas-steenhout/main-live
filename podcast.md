@@ -45,4 +45,4 @@ The podcast name refers to the word "accessibility" by using a common numeronym 
 
 There are 11 letters between the letters "a" and "y" in the word accessibility. So we get a+11+y, which reads a11y.
 
-There are other common numeronyms in tech, such as i18n (internationalization), l10n (localization ), or p13n (personalization). <a href="#a11y-note">Back to top</a.>
+There are other common numeronyms in tech, such as i18n (internationalization), l10n (localization ), or p13n (personalization). <a href="#a11y-note">Back to top</a>.
