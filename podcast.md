@@ -33,7 +33,7 @@ As these are podcasts talking about accessibility, I've made sure the show is ac
 
 ## Special episodes
 
-Nic also moderated panel discussions for special episodes highlighting [Global Accessibiliy Awareness Day](https://accessibility.day/)
+Nic also moderated panel discussions for special episodes highlighting [Global Accessibility Awareness Day](https://accessibility.day/)
 
 * [Global Accessibility Awareness Day Special 2018](https://a11yrules.com/podcast/gaad-2018-special/)
 * [Global Accessibility Awareness Day Special 2019](https://a11yrules.com/podcast/global-accessibility-awareness-day-2019-special-episode/)
