@@ -4,11 +4,11 @@ title: Podcast
 permalink: /podcast/
 ---
 
-Nic Steenhout is the founder and host of the [A11y Rules Podcast](https://a11yrules.com). The A11y <a href="#numeronym" aria-label="note" id="a11y-note">*</a>, or Accessibility, Rules Podcast focuses on conversations around web accessibility.
+I am the founder and host of the [A11y Rules Podcast](https://a11yrules.com). The A11y <a href="#numeronym" aria-label="note" id="a11y-note">*</a>, or Accessibility, Rules Podcast focuses on conversations around web accessibility.
 
-Nic interviewed nearly 200 people since 2017. The show is very popular, particularly in the disability community and in the accessibility community.
+I have interviewed nearly 200 people since 2017. The show is very popular, particularly in the disability community and in the accessibility community.
 
-As these are podcasts talking about accessibility, I've made sure the show is accessible. Every episode has a text transcript on the page for the episode. These transcripts are human edited for accuracy. Whether you have an access need because audio is hard to process for you, or you're in a hurry and read faster than listen, Nic's got you covered!
+As these are podcasts talking about accessibility, I've made sure the show is accessible. Every episode has a text transcript on the page for the episode. These transcripts are human edited for accuracy. Whether you have an access need because audio is hard to process for you, or you're in a hurry and read faster than listen, I've got you covered!
 
 <section class="light-on-primary margin-vertical pad-inline round-corners">
   <h2>Two series</h2>
@@ -33,7 +33,7 @@ As these are podcasts talking about accessibility, I've made sure the show is ac
 
 ## Special episodes
 
-Nic also moderated panel discussions for special episodes highlighting [Global Accessibility Awareness Day](https://accessibility.day/)
+I also moderated panel discussions for special episodes highlighting [Global Accessibility Awareness Day](https://accessibility.day/)
 
 * [Global Accessibility Awareness Day Special 2018](https://a11yrules.com/podcast/gaad-2018-special/)
 * [Global Accessibility Awareness Day Special 2019](https://a11yrules.com/podcast/global-accessibility-awareness-day-2019-special-episode/)

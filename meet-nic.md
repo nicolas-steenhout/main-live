@@ -28,12 +28,12 @@ permalink: /meet-nic/
 <div class="flex-reflow">
   <div>
     <h3>Nic excels at</h3>
-    <p>I'll simplify complext topics and explain them in ways that are easier to digest. I use concrete examples and lived stories to illustrate concepts that are sometimes more intangible.</p>
+    <p>I'll simplify complex topics and explain them in ways that are easier to digest. I use concrete examples and lived stories to illustrate concepts that are sometimes intangible and harder to grasp.</p>
   </div>
   
   <div>
     <h3>Nic's motivations</h3>
-    <p>I love working with motivated teams. Curiosity and a desire to learn is key here - because there is a lot to learn about accessibility. It's a great spark for me seeing that metaphorical lightbulb turn on in your head when I explained something and it made you go "ah ha!".</p>
+    <p>I love working with motivated teams. Curiosity and a desire to learn is key here - because there is a lot to learn about accessibility. It's a great reward for me to see that metaphorical lightbulb turn on in your head after I explained something and it made you go "Ah ha! I get it now.".</p>
   </div>
 
   <div>
@@ -51,24 +51,24 @@ permalink: /meet-nic/
     <li>One had ADHD and was unable to use any web page because of all the colors and size differences, and animations.</li>
     </ol>
 <div class="container callout">
-<p>It was a "eureka" moment. It was the point where everything clicked for me. Accessibility to digital environments was as important as accessibility in the built environment.</p>
+<p>It was a "eureka" moment for me. It was the point where everything clicked. Accessibility to digital environments was as important as accessibility in the built environment.</p>
 </div>
 
 <p>In the years since, I continued to grow my knowledge about digital accessibility. I worked on Open Source software to help improve accessibility. I discussed accessibility with <strong>a lot</strong> of disabled individuals. I advised non-profits and tertiary education providers. I consulted with local, state, and federal government organizations in the United States, Canada, New Zealand, Australia, and Belgium. I guided corporations towards building an internal culture of accessibility that allows them to build accessible products with less friction than they faced originally. I worked on the Web Content Accessibility Standard Education and Outreach team.</p>
 
-<p>And throughout all that, I trained teams about accessibility. I spoke at conferences, small and large, about web accessibility. I gave keynote presentations about digital accessibility, and inclusion. Which I continue to do today!</p>
+<p>And throughout all that, I trained teams about accessibility. I spoke at conferences, small and large, about web accessibility. I gave keynote presentations about digital accessibility, and inclusion. Which I continue to do to this day!</p>
 
 <div class="light-on-primary margin-vertical pad-inline">
   <h2>Meet Nic's colleague, Winston</h2>
 
   <div class="grid-reflow">
     <div>
-      <p>Winston is Nic's colleague, friend, and companion. Winston is Nic's service dog and you won't often see one without the other.</p>
+      <p>Winston is my colleague, friend, and companion. Winston is my service dog and you won't often see one without the other.</p>
       <p>Winston is fully trained and has three main tasks:</p>
       <ul>
-        <li>Pulling Nic's wheelchair</li>
-        <li>Retrieve objects on command</li>
-        <li>Help with transfers</li>
+        <li>Pulling my wheelchair</li>
+        <li>Retrieving objects on command</li>
+        <li>Helping with transfers</li>
       </ul>
     </div>
     <img src="/img/winston.jpg" alt="Close up head shot of a black dog. His head is laying down on a knee. He's looking up at the camera.">
@@ -80,12 +80,12 @@ permalink: /meet-nic/
 <div class="flex-reflow">
   <div>
     <h3>Bird watching</h3>
-    <p>In his down time, Nic escapes to nature as often as weather permits. He loves bird watching and taking photos of birds.</p>
+    <p>In my down time, I escapes to nature as often as weather permits. I love bird watching and taking photos of birds.</p>
     <img src="/img/bald-eagle.jpg" alt="An adult bald eagle with a salmon grabbed in his talons, taking off above shallow water. The bird's wings are tight in a M shape above him.">
   </div>
   <div>
     <h3>Quilting</h3>
-    <p>When the weather doesn't permit, Nic creates patchwork quilts.</p>
+    <p>When the weather isn't conducive to going bird watching, I enjoy creating patchwork quilts.</p>
     <img src="/img/heart-quilt.jpg" alt="A 60 inch square quilt on the lawn. The quilt has a dark purple background and a patchwork heart shape occupies nearly the entirety of the quilt. The fabrics for the heart are a riot of Kaffe Fassett fabrics in reds, oranges, blues, yellows, and greens. The bottom right of the quilt is folded over showing a teal printed backing">
   </div>
 </div>

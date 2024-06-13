@@ -37,7 +37,7 @@ Nic Steenhout has successfuly trained hundreds of teams and individuals on acces
 
 Every team in your organization has some level of responsibility to implement and ensure an accessible product. 
 
-Nic's approach to training is targeted and modular. Your teams get the training they need without having to sit through hours of content that doesn't directly concern them.
+My approach to training is targeted and modular. Your teams get the training they need without having to sit through hours of content that doesn't directly concern them.
 
 We chose the modules that best fit your teams' needs. We decide if you need to access the trainings back-to-back or spread out over time. It's a pragmatic way to fulfil your training needs.
 

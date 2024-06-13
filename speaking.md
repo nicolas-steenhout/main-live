@@ -14,7 +14,7 @@ permalink: /speaking/
     <div>
         <p>Most companies have a problem that isn't quite on their radar: Accessible products. </p>
 
-<p>Or rather, they aren't building accessible websites, applications and documents. They don't realize how much of a problem it is for them. And for the up to 25% of their target audience that have disabilities.</p>
+<p>Or rather, they aren't building accessible websites, applications and documents. They don't realize how much of a problem it is for them. And for the up to 25% of their target audience. Because approximately 1 in 4 adults have a disability.</p>
 
 <p>I'm on a mission! I'm here to guide your company make more products that are more accessible. And to do it in such a way that is less painful. </p>
 
