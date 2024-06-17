@@ -95,6 +95,31 @@ a {
 }
 
 
+// silver background
+
+.section-light {
+  background-color: light-dark($background);
+  color: light-dark($foreground);
+
+  h2 {
+    color: light-dark($contrast3);
+    text-align: center;
+  }
+}
+
+// dark blue background
+
+.section-dark {
+  background-color: light-dark($contrast1);
+  color: light-dark($contrast2);
+
+  h2 {
+    color: light-dark($white, $silver);
+    text-align: center;
+  }
+}
+
+
 
 // outer container for header
 
@@ -128,8 +153,6 @@ a {
 // First section on Home
 
 #intro {
-  background-color: $black;
-  color: $white;
   display: grid;
   grid-template-areas: "hero";
 
@@ -217,7 +240,7 @@ a {
   }
 }
 
-.text-section {
+.section-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -242,13 +265,12 @@ a {
 
   h2 {
     margin-block-end: 2.75em;
-    color: light-dark($contrast3);
-    text-align: center;
   }
-  .quotes {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fill, minmax(30ch, 1fr));
+  ul {
+    list-style-type: none;
+    // display: grid;
+    // gap: 2rem;
+    // grid-template-columns: repeat(auto-fill, minmax(30ch, 1fr));
   }
 
   figure {
@@ -266,7 +288,6 @@ a {
       top: 0;
       background-color: light-dark($white, lighten($black, 10%));
       transform: skewY(15deg);
-      z-index: -1;
     }
 
     blockquote {
@@ -585,13 +606,26 @@ footer {
     svg {width:60%;}
 }
 
-details summary { 
-  cursor: pointer;
+details {
+  margin-block: 1em 4em;
+  border: 3px solid currentColor;
+  border-radius: 8px;
+  padding: 2.5vh;
+
+  summary {
+    cursor: pointer;
+    text-align: center;
+
+    > * {
+      display: inline;
+    }
+
+    &::marker {
+      font-size: 2em;
+    }
+  }
 }
 
-details summary > * {
-  display: inline;
-}
 
 // User toolbar
 
@@ -651,7 +685,7 @@ details summary > * {
 .grid-reflow {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-  place-items: center;
+
   gap: 2rem;
 
   figure {
