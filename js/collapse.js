@@ -13,7 +13,6 @@ let menuText = navbarToggleText.textContent;
 function openMobileNavbar() {
   navbar.classList.add("opened");
   navbarToggle.setAttribute("aria-expanded", "true");
-  navbarToggleText.textContent = "Close";
 }
 
 function closeMobileNavbar() {
