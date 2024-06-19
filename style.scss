@@ -473,17 +473,19 @@ a {
 }
 
 
-// Form
+// Contact form
 
-form {
-  --font-size: 1.2em;
+.jsForm {
+  --font-size: 1.4rem;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1.3em 0;
-  margin: 8vh auto;
-  max-width: 50rem;
+  .field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.3em 0;
+    margin: 8vh auto;
+    max-width: 50rem;
+  }
 
   label {
     font-size: var(--font-size);
