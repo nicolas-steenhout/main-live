@@ -478,13 +478,15 @@ a {
 .jsForm {
   --font-size: 1.4rem;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   .field {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 1.3em 0;
-    margin: 8vh auto;
-    max-width: 50rem;
   }
 
   label {
@@ -505,6 +507,7 @@ a {
   }
 
   input[type=submit] {
+    width: 100%;
     margin-block-start: 1em;
     padding: 1em;
     @include colors(light-dark($primary), light-dark($contrast2));
@@ -517,12 +520,15 @@ a {
     }
   }
 
-  .field {
-	
-	.field-error {
-		color: #d52424;
-		display: block;
-	}
+  .isInvalid {
+    .field-hint {
+      @include colors($red-dark, $white);
+      display: block;
+      margin-block-end: 1.3em;
+      border: 2px solid currentColor;
+      padding: .3em .5em;
+      font-size: 1.2rem;
+    }
   }
 }
 
