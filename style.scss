@@ -69,8 +69,21 @@ p, li, dt, dd {
   line-height: 1.5;
 }
 
+ol {
+  padding-inline-start: 1.5em;
+
+  li {
+    padding-inline: 1em;
+
+    &::marker {
+    text-align: start;
+  }
+  }
+}
+
 a {
-  color: light-dark($blue-logo, $white);
+  color: light-dark($blue-bright, lighten($blue-bright, 40%));
+  font-weight: 500;
 
   &:visited,
   &:active {
@@ -691,6 +704,12 @@ details {
 
   figcaption {
     font-size: 1.4rem;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
