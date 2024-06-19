@@ -69,8 +69,21 @@ p, li, dt, dd {
   line-height: 1.5;
 }
 
+ol {
+  padding-inline-start: 1.5em;
+
+  li {
+    padding-inline: 1em;
+
+    &::marker {
+    text-align: start;
+  }
+  }
+}
+
 a {
-  color: light-dark($blue-logo, $white);
+  color: light-dark($blue-bright, lighten($blue-bright, 40%));
+  font-weight: 500;
 
   &:visited,
   &:active {
@@ -473,17 +486,21 @@ a {
 }
 
 
-// Form
+// Contact form
 
-form {
-  --font-size: 1.2em;
+.jsForm {
+  --font-size: 1.4rem;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1.3em 0;
-  margin: 8vh auto;
-  max-width: 50rem;
+
+  .field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.3em 0;
+  }
 
   label {
     font-size: var(--font-size);
@@ -503,6 +520,7 @@ form {
   }
 
   input[type=submit] {
+    width: 100%;
     margin-block-start: 1em;
     padding: 1em;
     @include colors(light-dark($primary), light-dark($contrast2));
@@ -515,12 +533,15 @@ form {
     }
   }
 
-  .field {
-	
-	.field-error {
-		color: #d52424;
-		display: block;
-	}
+  .isInvalid {
+    .field-hint {
+      @include colors($red-dark, $white);
+      display: block;
+      margin-block-end: 1.3em;
+      border: 2px solid currentColor;
+      padding: .3em .5em;
+      font-size: 1.2rem;
+    }
   }
 }
 
@@ -683,6 +704,12 @@ details {
 
   figcaption {
     font-size: 1.4rem;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
