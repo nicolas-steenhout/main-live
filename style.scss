@@ -81,14 +81,14 @@ ol {
   }
 }
 
-a:not(.cta) {
+a {
   color: light-dark($blue-bright, lighten($blue-bright, 40%));
   font-weight: 500;
 
-  &:visited,
-  &:active {
-    color: light-dark($red-bright, lighten($blue-logo, 20%));
-  }
+  // &:visited,
+  // &:active {
+  //   color: light-dark($red-bright, lighten($blue-logo, 20%));
+  // }
 
   &[aria-current] {
     border-block-end: 5px solid currentColor;
@@ -832,7 +832,7 @@ details {
 }
 
 .cta-light {
-  @include colors(light-dark(transparent), light-dark($primary));
+  @include colors(light-dark(transparent), light-dark($blue-logo, lighten($blue-logo, 30%)));
 
   &:focus,
   &:hover {
