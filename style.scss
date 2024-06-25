@@ -85,10 +85,10 @@ a {
   color: light-dark($blue-bright, lighten($blue-bright, 40%));
   font-weight: 500;
 
-  &:visited,
-  &:active {
-    color: light-dark($red-bright, lighten($blue-logo, 20%));
-  }
+  // &:visited,
+  // &:active {
+  //   color: light-dark($red-bright, lighten($blue-logo, 20%));
+  // }
 
   &[aria-current] {
     border-block-end: 5px solid currentColor;
@@ -218,7 +218,7 @@ a {
     font-family: $dm-serif-display;
     font-size: calc(clamp(1.3rem, 4vw + 1rem, 2.7rem));
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.2;
   }
 }
 
@@ -226,8 +226,6 @@ a {
   padding-block-start: 6vh;
 
   .able-wrapper {
-    aspect-ratio: 16/9;
-
     .able-controller {
       background-color: light-dark($contrast1);
     }
@@ -813,3 +811,61 @@ details {
   }
 }
 
+/* call to action */
+
+.cta {
+  display: inline-block;
+  margin-block: 2vh;
+  border: 2px solid currentColor;
+  border-radius: 4rem;
+  padding: .6em 1.2em;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:focus,
+  &:hover {
+    outline: 3px solid;
+    border-color: $background;
+  }
+}
+
+.cta-light {
+  @include colors(light-dark(transparent), light-dark($blue-logo, lighten($blue-logo, 30%)));
+
+  &:focus,
+  &:hover {
+    @include colors(light-dark($primary), light-dark($contrast2));
+    outline-color: light-dark($primary);
+    box-shadow: 0 0 20px light-dark($foreground);
+  }
+}
+
+.cta-dark {
+  @include colors(light-dark($background), light-dark($foreground));
+
+  &:focus,
+  &:hover {
+    @include colors(light-dark($primary), light-dark($contrast2));
+    outline-color: light-dark($primary);
+    box-shadow: 0 0 20px light-dark($background);
+  }
+}
+
+.logos {
+  margin-block: 6vh;
+  padding-inline-start: 0 !important; /* override .entry */
+  list-style: none !important;
+
+  li {
+    padding-inline-start: 0 !important;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin: 2vh auto;
+  }
+}

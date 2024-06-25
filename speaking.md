@@ -13,14 +13,10 @@ permalink: /speaking/
 <div class="grid-reflow">
     <div>
         <p>Most companies have a problem that isn't quite on their radar: Accessible products. </p>
-
-<p>Or rather, they aren't building accessible websites, applications and documents. They don't realize how much of a problem it is for them. And for the up to 25% of their target audience. Because approximately 1 in 4 adults have a disability.</p>
-
-<p>I'm on a mission! I'm here to guide your company make more products that are more accessible. And to do it in such a way that is less painful. </p>
-
-<p>I am not a "motivational speaker", but I will motivate you and your teams. </p>
-
-<p><a href="/contact/">Book Nic</a>.</p>
+        <p>Or rather, they aren't building accessible websites, applications and documents. They don't realize how much of a problem it is for them. And for the up to 25% of their target audience. Because approximately 1 in 4 adults have a disability.</p>
+        <p>I'm on a mission! I'm here to guide your company make more products that are more accessible. And to do it in such a way that is less painful. </p>
+        <p>I am not a "motivational speaker", but I will motivate you and your teams. </p>
+        <p><a href="/contact/" class="cta cta-light">Book Nic</a></p>
     </div>
     <img src="/img/nicolas-steenhout-04.png" alt="Nic Steenhout, a white man with short hair and glasses.">
 </div>
@@ -60,7 +56,7 @@ permalink: /speaking/
 </div>
 
 <section class="light-on-dark margin-vertical pad-inline round-corners">
-<h2>Keynote and presentation topics</h2>
+    <h2>Keynote and presentation topics</h2>
     <p>Presentations that help your organization and teams understand and implement accessibility.</p>
     <p>I can also create a bespoke presentation for your organization.</p>
     <ul>
@@ -69,7 +65,7 @@ permalink: /speaking/
     <li><strong>Introduction to digital accessibility</strong> - Filled with real life example, this talk introduces the concepts of what is digital accessibility and why it's so important.</li>
     <li><strong>ARIA 101</strong> - An introduction to the Accessible Rich Internet Application standard, and how to use it to improve accessibility.</li>
     </ul>
-    <p><a href="/contact/">Book Nic</a>.</p>
+    <p><a href="/contact/" class="cta cta-dark">Book Nic</a></p>
 </section>
 
 
@@ -78,35 +74,60 @@ permalink: /speaking/
 Nic Steenhout has been an accessibility trainer and troubleshooter for over 25 years. He’s worked on three continents, collaborating with various organizations, from local governments to large corporations, focusing on web accessibility and digital inclusion. Known for his pragmatic, down-to-Earth approach, Nic helps his clients navigate complex accessibility challenges. When he is not off on a birdwatching adventure, you can find him speaking at events or leading workshops. 
 
 
-<section id="testimonials">
-    <h2>Testimonials</h2>
-    <div class="quotes">
-        <figure>
-            <blockquote>Really great talk that left me mildly horrified about my own sites as I could immediately think of examples where I had been unknowingly doing things wrong. Nic brought many things to my attention that I had not thought of before and moving forward I feel this session will improve my coding and accessibility practices dramatically.</blockquote>
-            <figcaption>Crysta McKenney</figcaption>
-            </figure>
-        <figure>    
-            <blockquote>Excellent talk! Really opened my eyes to how many different ways people with disabilities navigate the web and what we can do to improve upon their experiences.</blockquote>  
-            <figcaption>Michael Sullivan</figcaption>
-        </figure>
-        <figure>
-            <blockquote>Nic broadened my understanding of what it means for something have a “barrier.” Accessibility matters to a lot more people and in a lot more ways than I had previously realized. He provided plenty of examples of what to do about it, as well as further avenues for investigation.</blockquote> 
-            <figcaption>Vesna Vuynovich Kovach</figcaption>
-        </figure>
+<section id="testimonials" class="section-light">
+    <div class="container">
+        <h2>Testimonials</h2>
+        <ul class="grid-reflow">
+            <li>
+                <figure>
+                    <blockquote>Really great talk that left me mildly horrified about my own sites as I could immediately think of examples where I had been unknowingly doing things wrong. Nic brought many things to my attention that I had not thought of before and moving forward I feel this session will improve my coding and accessibility practices dramatically.</blockquote>
+                    <figcaption>Crysta McKenney</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>    
+                    <blockquote>Excellent talk! Really opened my eyes to how many different ways people with disabilities navigate the web and what we can do to improve upon their experiences.</blockquote>  
+                    <figcaption>Michael Sullivan</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <blockquote>Nic broadened my understanding of what it means for something have a “barrier.” Accessibility matters to a lot more people and in a lot more ways than I had previously realized. He provided plenty of examples of what to do about it, as well as further avenues for investigation.</blockquote> 
+                    <figcaption>Vesna Vuynovich Kovach</figcaption>
+                </figure>
+            </li>
+        </ul>
     </div>
 </section>
 
 <section>
     <h2>Some of the clients I've worked with in the past</h2>
-    <ul>
-        <li><img src="/img/mailchimp.png" alt=""><br>Intuit Mailchimp</li>
-        <li><img src="/img/yelp.png" alt=""><br>Yelp</li>
-        <li><img src="/img/lfg.jpg" alt=""><br>Lincoln Financial Group</li>
-        <li><img src="/img/vimeo.png" alt=""><br>Vimeo</li>
-        <li><img src="/img/cirque.png" alt=""><br>Cirque du Soleil</li>
-        <li><img src="/img/jetblue.png" alt=""><br>jetBlue</li>
-        <li><img src="/img/airbnb.png" alt=""><br>AirBNB</li>
-        <li><img src="/img/science-museum.png" alt=""><br>Griffin Museum of Science and Industry</li>
+    <ul class="logos grid-reflow">
+        <li>
+        <img src="/img/mailchimp.png" alt="">
+        Intuit Mailchimp
+        </li>
+        <li><img src="/img/yelp.png" alt="">
+        Yelp
+        </li>
+        <li><img src="/img/lfg.jpg" alt="">
+        Lincoln Financial Group
+        </li>
+        <li><img src="/img/vimeo.png" alt="">
+        Vimeo
+        </li>
+        <li><img src="/img/cirque.png" alt="">
+        Cirque du Soleil
+        </li>
+        <li><img src="/img/jetblue.png" alt="">
+        jetBlue
+        </li>
+        <li><img src="/img/airbnb.png" alt="">
+        AirBNB
+        </li>
+        <li><img src="/img/science-museum.png" alt="">
+        Griffin Museum of Science and Industry
+        </li>
     </ul>
     
 </section>
