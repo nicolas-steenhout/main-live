@@ -10,7 +10,7 @@ Nic Steenhout has successfuly trained hundreds of teams and individuals on acces
 
 <!-- need icons/images with these -->
 
-<ul class="flex-reflow list-none text-center">
+<ul class="flex-reflow logos">
   <li>
     {% include glyph-designer-blue.html %}
     For designers

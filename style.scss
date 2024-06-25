@@ -717,7 +717,7 @@ details {
   justify-content: space-evenly;
   gap: 2em;
 
-  > div {
+  > * {
     display: inherit;
     flex-direction: column;
     flex: 1 1 200px;
@@ -862,10 +862,11 @@ details {
     padding-inline-start: 0 !important;
     font-size: 1.2em;
     text-align: center;
-  }
 
-  img {
-    display: block;
-    margin: 2vh auto;
+    img,
+    [role=img] {
+      display: block;
+      margin: 2vh auto;
+    }
   }
 }
