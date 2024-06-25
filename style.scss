@@ -81,7 +81,7 @@ ol {
   }
 }
 
-a {
+a:not(.cta) {
   color: light-dark($blue-bright, lighten($blue-bright, 40%));
   font-weight: 500;
 
@@ -218,7 +218,7 @@ a {
     font-family: $dm-serif-display;
     font-size: calc(clamp(1.3rem, 4vw + 1rem, 2.7rem));
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.2;
   }
 }
 
@@ -811,3 +811,44 @@ details {
   }
 }
 
+/* call to action */
+
+.cta {
+  display: inline-block;
+  margin-block: 2vh;
+  border: 2px solid currentColor;
+  border-radius: 4rem;
+  padding: .6em 1.2em;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:focus,
+  &:hover {
+    outline: 3px solid;
+    border-color: $background;
+  }
+}
+
+.cta-light {
+  @include colors(light-dark(transparent), light-dark($primary));
+
+  &:focus,
+  &:hover {
+    @include colors(light-dark($primary), light-dark($contrast2));
+    outline-color: light-dark($primary);
+    box-shadow: 0 0 20px light-dark($foreground);
+  }
+}
+
+.cta-dark {
+  @include colors(light-dark($background), light-dark($foreground));
+
+  &:focus,
+  &:hover {
+    @include colors(light-dark($primary), light-dark($contrast2));
+    outline-color: light-dark($primary);
+    box-shadow: 0 0 20px light-dark($background);
+  }
+}

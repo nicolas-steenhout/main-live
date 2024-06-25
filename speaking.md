@@ -13,14 +13,10 @@ permalink: /speaking/
 <div class="grid-reflow">
     <div>
         <p>Most companies have a problem that isn't quite on their radar: Accessible products. </p>
-
-<p>Or rather, they aren't building accessible websites, applications and documents. They don't realize how much of a problem it is for them. And for the up to 25% of their target audience. Because approximately 1 in 4 adults have a disability.</p>
-
-<p>I'm on a mission! I'm here to guide your company make more products that are more accessible. And to do it in such a way that is less painful. </p>
-
-<p>I am not a "motivational speaker", but I will motivate you and your teams. </p>
-
-<p><a href="/contact/">Book Nic</a>.</p>
+        <p>Or rather, they aren't building accessible websites, applications and documents. They don't realize how much of a problem it is for them. And for the up to 25% of their target audience. Because approximately 1 in 4 adults have a disability.</p>
+        <p>I'm on a mission! I'm here to guide your company make more products that are more accessible. And to do it in such a way that is less painful. </p>
+        <p>I am not a "motivational speaker", but I will motivate you and your teams. </p>
+        <p><a href="/contact/" class="cta cta-light">Book Nic</a></p>
     </div>
     <img src="/img/nicolas-steenhout-04.png" alt="Nic Steenhout, a white man with short hair and glasses.">
 </div>
@@ -60,7 +56,7 @@ permalink: /speaking/
 </div>
 
 <section class="light-on-dark margin-vertical pad-inline round-corners">
-<h2>Keynote and presentation topics</h2>
+    <h2>Keynote and presentation topics</h2>
     <p>Presentations that help your organization and teams understand and implement accessibility.</p>
     <p>I can also create a bespoke presentation for your organization.</p>
     <ul>
@@ -69,7 +65,7 @@ permalink: /speaking/
     <li><strong>Introduction to digital accessibility</strong> - Filled with real life example, this talk introduces the concepts of what is digital accessibility and why it's so important.</li>
     <li><strong>ARIA 101</strong> - An introduction to the Accessible Rich Internet Application standard, and how to use it to improve accessibility.</li>
     </ul>
-    <p><a href="/contact/">Book Nic</a>.</p>
+    <p><a href="/contact/" class="cta cta-dark">Book Nic</a></p>
 </section>
 
 
