@@ -102,15 +102,32 @@ Nic Steenhout has been an accessibility trainer and troubleshooter for over 25 y
 
 <section>
     <h2>Some of the clients I've worked with in the past</h2>
-    <ul>
-        <li><img src="/img/mailchimp.png" alt=""><br>Intuit Mailchimp</li>
-        <li><img src="/img/yelp.png" alt=""><br>Yelp</li>
-        <li><img src="/img/lfg.jpg" alt=""><br>Lincoln Financial Group</li>
-        <li><img src="/img/vimeo.png" alt=""><br>Vimeo</li>
-        <li><img src="/img/cirque.png" alt=""><br>Cirque du Soleil</li>
-        <li><img src="/img/jetblue.png" alt=""><br>jetBlue</li>
-        <li><img src="/img/airbnb.png" alt=""><br>AirBNB</li>
-        <li><img src="/img/science-museum.png" alt=""><br>Griffin Museum of Science and Industry</li>
+    <ul class="logos grid-reflow">
+        <li>
+        <img src="/img/mailchimp.png" alt="">
+        Intuit Mailchimp
+        </li>
+        <li><img src="/img/yelp.png" alt="">
+        Yelp
+        </li>
+        <li><img src="/img/lfg.jpg" alt="">
+        Lincoln Financial Group
+        </li>
+        <li><img src="/img/vimeo.png" alt="">
+        Vimeo
+        </li>
+        <li><img src="/img/cirque.png" alt="">
+        Cirque du Soleil
+        </li>
+        <li><img src="/img/jetblue.png" alt="">
+        jetBlue
+        </li>
+        <li><img src="/img/airbnb.png" alt="">
+        AirBNB
+        </li>
+        <li><img src="/img/science-museum.png" alt="">
+        Griffin Museum of Science and Industry
+        </li>
     </ul>
     
 </section>

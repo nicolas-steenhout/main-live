@@ -852,3 +852,20 @@ details {
     box-shadow: 0 0 20px light-dark($background);
   }
 }
+
+.logos {
+  margin-block: 6vh;
+  padding-inline-start: 0 !important; /* override .entry */
+  list-style: none !important;
+
+  li {
+    padding-inline-start: 0 !important;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin: 2vh auto;
+  }
+}
