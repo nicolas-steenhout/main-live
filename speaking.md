@@ -75,7 +75,7 @@ Nic Steenhout has been an accessibility trainer and troubleshooter for over 25 y
 
 
 <section id="testimonials" class="section-light">
-    <div class="container">
+
         <h2>Testimonials</h2>
         <ul class="grid-reflow">
             <li>
@@ -97,7 +97,6 @@ Nic Steenhout has been an accessibility trainer and troubleshooter for over 25 y
                 </figure>
             </li>
         </ul>
-    </div>
 </section>
 
 <section>

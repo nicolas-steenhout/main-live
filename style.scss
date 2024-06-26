@@ -166,28 +166,12 @@ a {
 // First section on Home
 
 #intro {
-  display: grid;
-  grid-template-areas: "hero";
-
-  // thanks, Stephanie Eckles!
-  // moderncss.dev/3-popular-website-heroes-created-with-css-grid-layout/
-  > * {
-    grid-area: hero;
-  }
-
-  > .container {
-    width: 100vw;
-    display: grid;
-    gap: .5em;
-    grid-template-columns: repeat(auto-fit, Minmax(30ch, auto));
-    justify-content: center;
-    align-items: center;
-  }
+  width: 100%;
 
   h1 {
     padding-block: .6em;
     font-family: $dm-serif-display;
-    font-size: calc(0.5vw + 3.5rem);
+    font-size: calc(clamp(2.5rem, 3vw + 1rem, 3.5rem));
     line-height: 1.2;
   }
 
@@ -198,11 +182,12 @@ a {
   }
 
   p {
-    font-size: calc(0.5vw + 1rem);
+    font-size: calc(clamp(1rem, 1.25vw + 1rem, 1.5rem));
   }
 
   img {
     justify-self: end;
+    max-width: 100%;
   }
 }
 
@@ -272,16 +257,18 @@ a {
 }
 
 #testimonials {
-  padding: 6vh;
+  // padding: 6vh;
 
   h2 {
     margin-block-end: 2.75em;
   }
   ul {
     list-style-type: none;
-    // display: grid;
-    // gap: 2rem;
-    // grid-template-columns: repeat(auto-fill, minmax(30ch, 1fr));
+    padding-inline-start: 0;
+
+    li {
+      padding-inline-start: 0;
+    }
   }
 
   figure {
@@ -305,7 +292,7 @@ a {
     blockquote {
       position: relative;
       margin-bottom: 0;
-      padding: 4rem 2rem 1.5rem;
+      padding: 4.2rem 2rem 1.5rem;
       font-size: 1.125rem;
       line-height: 1.5;
     }
@@ -551,14 +538,12 @@ a {
 }
 
 footer {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, Minmax(30ch, auto));
   color: $silver;
 
   ul {
     display: flex;
     gap: 2rem;
-    justify-content: center;
+    justify-content: end;
     padding-block: 4vh;
     list-style-type: none;
     padding-left: 0;
@@ -690,9 +675,9 @@ details {
 
 .grid-reflow {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 2rem;
+  margin-block-end: 5vh;
 
   figure {
     img {
@@ -704,10 +689,8 @@ details {
     font-size: 1.4rem;
   }
 
-  > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  img {
+    margin: 0 auto;
   }
 }
 
@@ -778,7 +761,7 @@ details {
 }
 
 .pad-inline {
-  padding-inline: 2em; 
+  padding-inline: 2vw; 
   padding-block-end: 1.5em;
 }
 
