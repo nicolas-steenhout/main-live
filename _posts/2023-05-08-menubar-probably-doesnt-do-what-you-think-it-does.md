@@ -10,7 +10,7 @@ ARIA roles are powerful, but they need to be used correctly!
 Did you know that the ARIA role "menubar" isn't actually intended to build mega menus for website? It's intended for web applications to replicate the functionality of menubars in desktop applications.
 
 <figure>
-    <img src="/img/menubar.jpg" alt="Screenshot of Microsoft Word interface on MacOS, showing the menubar.">
+    <img src="/img/menubar.jpg" alt="Screenshot of Microsoft Word interface on MacOS, showing the menubar. A list of menu items at the top of the MS Word application window, including such items as: Word, File, Edit, View, etc.">
     <figcaption class="image-caption"><span>Photo by </span><a href="https://unsplash.com/@anniespratt" rel="">Annie Spratt</a><span> on </span><a href="https://unsplash.com" rel="">Unsplash</a></figcaption>
     </figure>
 
