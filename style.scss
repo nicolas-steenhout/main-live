@@ -176,7 +176,7 @@ a {
   }
 
   span {
-    color: light-dark($blue-logo, $silver);
+    color: light-dark(lighten($blue-logo, 15%), lighten($blue-logo, 30%));
     font-weight: 800;
     letter-spacing: .05em;
   }
@@ -203,7 +203,7 @@ a {
     font-family: $dm-serif-display;
     font-size: calc(clamp(1.3rem, 4vw + 1rem, 2.7rem));
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.4;
   }
 }
 
