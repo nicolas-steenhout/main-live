@@ -54,10 +54,10 @@ h3 {
 }
 
 h4 {
-  font-size: calc(1vw + 1.125rem);
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  font-size: calc(clamp(1.125rem, 1vw + 1.5rem, 1.8rem));
+  font-weight: 500;
   color: $secondary;
+  text-align: center;
 }
 
 p {
@@ -114,7 +114,8 @@ a {
   background-color: light-dark($background);
   color: light-dark($foreground);
 
-  h2 {
+  h2,
+  h3 {
     color: light-dark($contrast3);
     text-align: center;
   }
@@ -126,7 +127,8 @@ a {
   background-color: light-dark($contrast1);
   color: light-dark($contrast2);
 
-  h2 {
+  h2,
+  h3 {
     color: light-dark($white, $silver);
     text-align: center;
   }
@@ -592,9 +594,13 @@ footer {
 }
 
 .flex-glyph {
-    display: flex;
-    justify-content: center;
-    svg {width:60%;}
+  padding-block: 1em;
+  display: flex;
+  justify-content: center;
+  
+  svg {
+    width: 60%;
+  }
 }
 
 details {
@@ -673,6 +679,12 @@ details {
 
 /* Layout */
 
+.grid-3x2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  gap: 2rem;
+}
+
 .grid-reflow {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
@@ -733,6 +745,7 @@ details {
   h2,
   h3,
   h4 {
+    margin-block: 1em;
     color: inherit;
   }
 
