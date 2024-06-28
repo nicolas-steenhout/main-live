@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Red means stop
-summary: I explain the difference between headers and headings
-excerpt: I explain the difference between headers and headings.
+summary: Red text often has negative implications. Be careful when you use it.
+excerpt: Red text often has negative implications. Be careful when you use it.
 ---
 Typically, styling text in red indicates an error message. You will confuse your users if you use it with all messages, including success messages.
 
