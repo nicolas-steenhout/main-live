@@ -8,7 +8,7 @@ excerpt: Pay people you want working with you. Free accessibility advice isn't g
 When large companies ask you to do consulting for them for free, with the hope they might like what you say enough to pay you.
 
 <figure>
-    <img src="/img/a11y-spec-work.jpg" alt="Woman viewed from the back, working at a computer with a large screen.">
+    <img src="/img/a11y-spec-work.jpg" alt="A white woman viewed from the back, working at a computer with a large screen.">
     <figcaption class="image-caption"><span>Photo by </span><a href="https://unsplash.com/@anniespratt" rel="">Annie Spratt</a><span> on </span><a href="https://unsplash.com" rel="">Unsplash</a></figcaption>
     </figure>
 
