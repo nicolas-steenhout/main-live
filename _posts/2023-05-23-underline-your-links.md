@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Link styling: Underline your links. Test with night mode. Test in greyscale
+title: Link styling - Underline your links. Test with night mode. Test in greyscale
 summary: Link styling and colors matter if you want your links to be perceived. 
 excerpt: Link styling and colors matter if you want your links to be perceived.
 ---
