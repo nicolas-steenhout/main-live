@@ -36,7 +36,7 @@ He wants to use AI to create individualized user experiences. Fine. I'm sure the
 
 But, as long as we keep looking at digital accessibility as solely a tech problem, we are, as Nielsen says, <q>doomed to create substandard user experiences</q>.
 
-I'm not looking at AI to solve all our accessibility problems. In fact, it's no secret that I believe we're relying over much on AI for so many things. Quite aside from the environmental impact of AI, the fact is, it's just not ready for prime time. Maybe some day it will be reliable enough, but right now, it's not.
+I'm not looking at AI to solve all our accessibility problems. In fact, it's no secret that I believe we're overly relying on AI for so many things. Quite aside from the environmental impact of AI, the fact is, it's just not ready for prime time. Maybe some day it will be reliable enough, but right now, it's not.
 
 To suggest we can rely on generative AI to make everything more accessible is... dreaming. To think AI can fix accessibility is looking at accessibility issues as a tech problem.
 
@@ -52,7 +52,7 @@ That's your problem - your designers don't know accessibility. Your developers d
 
 It wouldn't be much more expensive if you had accessibility in the organization's DNA though. Because you'd just be doing it.
 
-Security and performacne should also be left alone if we were to look at those through the lens of "it's expensive". But of course, no one is talking about not implementing those aspects of digital properties.
+Security and performance should also be left alone if we were to look at those through the lens of "it's expensive". But of course, no one is talking about not implementing those aspects of digital properties.
 
 ## Systemic ableism
 
