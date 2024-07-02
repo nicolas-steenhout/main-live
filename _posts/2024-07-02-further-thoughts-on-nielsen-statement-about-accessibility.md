@@ -52,7 +52,7 @@ That's your problem - your designers don't know accessibility. Your developers d
 
 It wouldn't be much more expensive if you had accessibility in the organization's DNA though. Because you'd just be doing it.
 
-Besides, security and performance, if we look at it throught he lens of "it's expensive", should also be left alone. But of course, no one is talking about not implementing those aspects of digital properties.
+Security and performacne should also be left alone if we were to look at those through the lens of "it's expensive". But of course, no one is talking about not implementing those aspects of digital properties.
 
 ## Systemic ableism
 
