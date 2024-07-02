@@ -8,17 +8,16 @@ const navbar = document.getElementById("navbar"),
       navbarMenu = navbar.querySelector("#navbar-menu"),
       navbarLinksContainer = navbar.querySelector(".navbar-links");
 
-let menuText = navbarToggleText.textContent;
-
 function openMobileNavbar() {
   navbar.classList.add("opened");
   navbarToggle.setAttribute("aria-expanded", "true");
+  navbarMenu.setAttribute("aria-labelledby", "navbar-toggle")
 }
 
 function closeMobileNavbar() {
   navbar.classList.remove("opened");
   navbarToggle.setAttribute("aria-expanded", "false");
-  navbarToggleText.textContent = "Menu";
+  navbarMenu.setAttribute("aria-labelledby", "")
 }
 
 navbarToggle.addEventListener("click", () => {
