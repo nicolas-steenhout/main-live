@@ -22,10 +22,10 @@ permalink: /speaking/
 </div>
 
 
-## Speaker reel
+<!--## Speaker reel
 <div class="section-video">
     {%- include speaker-reel.html -%}
-</div>
+</div>-->
 
 <section class="light-on-dark margin-vertical pad-inline round-corners">
 <h2>Typical presentation takeaways</h2>
