@@ -26,7 +26,6 @@ permalink: /blog/
       {% endfor %}
 
       <div class="post-details">
-      <p><strong>{{post.url}}</strong></p>
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
         <p class="excerpt-date">{{ post.date | date_to_string }}</p>
