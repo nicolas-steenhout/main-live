@@ -6,7 +6,7 @@ permalink: /blog/
 
 ## Exploring accessibility and inclusion
 
-You can also find an [archive of posts on my old site](https://incl.ca), going back to the early 2000's.
+<!--You can also find an [archive of posts on my old site](https://incl.ca), going back to the early 2000's.-->
 
 <div class="posts">
   {% for post in site.posts %}
