@@ -7,7 +7,7 @@ summary: AI cannot fix accessibility until those who program it understand that 
 ---
 "Traditional accessibility methods are dead". That's the take-away I, and so many other people in the digital accessibility community took from an article Jakob Nielsen wrote in February 2024. I said on <a href="https://www.linkedin.com/feed/update/urn:li:activity:7213627661581996032?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7213627661581996032%2C7213748673715871744%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287213748673715871744%2Curn%3Ali%3Aactivity%3A7213627661581996032%29">LinkedIn</a> that I couldn't trust anything Nielsen writes anymore because of this take. A response to my comment leads me to write this.
 
-<div class="inline-quote">All y'all are looking at accessibility through the wrong lens.</a>
+<div class="inline-quote">All y'all are looking at accessibility through the wrong lens.</div>
 
 <figure>
     <img src="/img/robot-book.jpg" alt="Human-shaped robot sitting on a wooden bench, reading a book.">
