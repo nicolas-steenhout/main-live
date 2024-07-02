@@ -23,7 +23,7 @@ Accessibility hasn't failed. People and organizations have failed to implement a
 ## Here's what Nielsen says.
 
 <blockquote><p>Traditional methods for accessibility have been tried for 30 years without substantially improving computer usability for disabled users. It’s time for a change, and AI will soon come to the rescue with the ability to generate a different user interface for every user, optimized for that person’s unique needs.</p>
-    <p>Jakob Nielsen - <cite><a href="https://jakobnielsenphd.substack.com/p/accessibility-generative-ui">Accessibility Has Failed: Try Generative UI = Individualized UX</a></cite></blockquote>
+    <p>Jakob Nielsen - <cite><a href="https://jakobnielsenphd.substack.com/p/accessibility-generative-ui">Accessibility Has Failed: Try Generative UI = Individualized UX</a></cite></p></blockquote>
   
 Nielsen outlines two main reasons to explain why "accessibility has failed":
 
