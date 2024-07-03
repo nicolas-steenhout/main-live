@@ -66,6 +66,9 @@ Until **society** sees and thinks about disabled people as people, we are doomed
 
 Accessibility: It's about people. It's not about tech. Accessibility is about disabled people trying to function in a broken system that wasn't designed with accessibility in mind. 
 
-AI will never be good for accessibility as long as the people who program and teach the AI have internalized that disabled people are people, and that we have needs. As long as their beliefs and understanding of disability reflects the current systemic ableism, AI will be doomed to fail at accessibility.
+People who program and teach AI have a big responsibility. As long as their beliefs and understanding of disability reflects the current systemic ableism, AI will be doomed to fail at accessibility. AI can only everbe good for accessibility when the people who teach and program it have internalized a couple concepts:
+
+* Disabled people are people.
+* Disabled people have needs.
 
 
