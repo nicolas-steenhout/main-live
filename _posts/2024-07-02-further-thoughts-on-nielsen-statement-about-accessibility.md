@@ -2,8 +2,8 @@
 layout: post
 title: Further thoughts about Jakob Nielsen's statement that accessibility has failed
 summary: Further thoughts about Jakob Nielsen's statement that accessibility has failed 
-excerpt: AI cannot fix accessibility until those who program it understand that accessibility is about disabled people, and as long as systemic ableism continues to exist.
-summary: AI cannot fix accessibility until those who program it understand that accessibility is about disabled people, and as long as systemic ableism continues to exist.
+excerpt: AI cannot fix accessibility until those who program it understand that accessibility is about disabled people, and as long as systemic ableism continues to exist, AI won't be able to fix accessibility.
+summary: AI cannot fix accessibility until those who program it understand that accessibility is about disabled people, and as long as systemic ableism continues to exist, AI won't be able to fix accessibility.
 ---
 "Traditional accessibility methods are dead". That's the take-away I, and so many other people in the digital accessibility community took from an article Jakob Nielsen wrote in February 2024. I said on <a href="https://www.linkedin.com/feed/update/urn:li:activity:7213627661581996032?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7213627661581996032%2C7213748673715871744%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287213748673715871744%2Curn%3Ali%3Aactivity%3A7213627661581996032%29">LinkedIn</a> that I couldn't trust anything Nielsen writes anymore because of this take. A response to my comment leads me to write this.
 
