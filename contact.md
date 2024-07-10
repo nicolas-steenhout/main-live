@@ -14,6 +14,7 @@ permalink: /contact/
 			<li>Email: <a href="mailto:info@nicolas-steenhout.com">info@nicolas-steenhout.com</a></li>
 			<li>Phone: <a href="tel:+16048449041">+1 604-844-9041</a></li>
 		</ul>
+      <p>I am located in Lower Mainland, British Columbia, Canada. But I'm happy to travel anywhere.</p>
 	</div>
 	<form class="jsForm" action="https://usebasin.com/f/e143f1ebdb1a" method="POST" novalidate>
 		<div class="field">
