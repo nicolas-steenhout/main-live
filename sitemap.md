@@ -21,7 +21,7 @@ permalink: /sitemap/
 ## Blog posts
 
  {% for post in site.posts %}
- * <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> - Published {{ post.date | date: "%B %d, %y" }}
+ * <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> - Published {{ post.date | date: "%B %d, %Y" }}
  {% endfor %}
  
    
