@@ -27,12 +27,12 @@ permalink: /meet-nic/
 
 <div class="flex-reflow">
   <div>
-    <h3>Nic excels at</h3>
+    <h3>I excel at</h3>
     <p>I'll simplify complex topics and explain them in ways that are easier to digest. I use concrete examples and lived stories to illustrate concepts that are sometimes intangible and harder to grasp.</p>
   </div>
   
   <div>
-    <h3>Nic's motivations</h3>
+    <h3>My motivations</h3>
     <p>I love working with motivated teams. Curiosity and a desire to learn is key here - because there is a lot to learn about accessibility. It's a great reward for me to see that metaphorical lightbulb turn on in your head after I explained something and it made you go "Ah ha! I get it now.".</p>
   </div>
 
@@ -42,7 +42,7 @@ permalink: /meet-nic/
   </div>
 </div>
 
-<h2>Nic's journey to today</h2>
+<h2>My journey to today</h2>
 
 <p>I was working on accessibility in the build environment in the early 1990's. I was also experimenting with building websites. In the space of 3 weeks, 3 colleagues came to me with web accessibility problems they were facing.</p>
 <ol>
@@ -59,7 +59,7 @@ permalink: /meet-nic/
 <p>And throughout all that, I trained teams about accessibility. I spoke at conferences, small and large, about web accessibility. I gave keynote presentations about digital accessibility, and inclusion. Which I continue to do to this day!</p>
 
 <div class="light-on-primary margin-vertical pad-inline">
-  <h2>Meet Nic's colleague, Winston</h2>
+  <h2>Meet my colleague, Winston</h2>
 
   <div class="grid-reflow">
     <div>
@@ -75,7 +75,7 @@ permalink: /meet-nic/
   </div>
 </div>
 
-## When Nic isn't working in accessibility...
+## When I'm not working in accessibility...
 
 <div class="flex-reflow">
   <div>
