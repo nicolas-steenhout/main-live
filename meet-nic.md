@@ -48,7 +48,7 @@ permalink: /meet-nic/
 <ol>
     <li>One was blind and couldn't understand the page they were visiting because the site used images of text instead of text in the main menu.</li>
     <li>One was deaf and couldn't access the information to setup up their new printer because the instructions came on a CD with a video without captions.</li>
-    <li>One had ADHD and was unable to use any web page because of all the colors and size differences, and animations.</li>
+    <li>One had ADHD (Attention Deficit Hyperactivity Disorder) and was unable to use any web page because of all the colors and size differences, and animations.</li>
     </ol>
 <div class="container callout">
 <p>It was a "eureka" moment for me. It was the point where everything clicked. Accessibility to digital environments was as important as accessibility in the built environment.</p>
