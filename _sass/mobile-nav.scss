@@ -21,7 +21,7 @@
   list-style-type: none;
 
   a {
-    color: $white;
+    color: light-dark($white, $white);
     padding: .3em .5em;
     text-decoration: none;
     
@@ -43,12 +43,12 @@
   flex-direction: column;
   outline: 3px solid currentColor;
   background-color: light-dark($primary);
-  color: $white;
+  color: light-dark($white, $white);
   padding: 1vh 3.5vh;
 
   &:focus,
   &:hover {
-    background-color: $blue-navy;
+    background-color: light-dark($blue-navy, $blue-navy);
   }
 }
 

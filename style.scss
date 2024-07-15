@@ -56,7 +56,7 @@ h3 {
 h4 {
   font-size: calc(clamp(1.125rem, 1vw + 1.5rem, 1.8rem));
   font-weight: 500;
-  color: $secondary;
+  color: light-dark($secondary);
   text-align: center;
 }
 
@@ -151,7 +151,7 @@ a {
     display: grid;
     grid-template-columns: minmax(100px, 25%) 1fr;
     align-items: center;
-    color: $white;
+    color: light-dark($white, $white);
     text-decoration: none;
 
     span {
@@ -539,7 +539,7 @@ a {
 }
 
 footer {
-  color: $silver;
+  color: light-dark($silver, $silver);
 
   ul {
     display: flex;
@@ -551,7 +551,7 @@ footer {
   }
 
   a {
-    color: $silver;
+    color: light-dark($silver, $silver);
 
     &:visited,
     &:active {
@@ -564,12 +564,12 @@ footer {
     height: 50px;
     background-repeat: no-repeat;
     display: inline-block;
-    border: 5px solid $silver;
+    border: 5px solid light-dark($silver, $silver);
     border-radius: 50%;
 
     &:focus,
     &:hover {
-      outline: 5px solid $white;
+      outline: 5px solid light-dark($white, darken($white, 15%));
     }
   }
 }
@@ -625,40 +625,40 @@ details {
 
 // User toolbar
 
-#toolbar {
-  display: flex;
-  justify-content: space-between;
-  background-color: light-dark($secondary);
-  color: light-dark($foreground);
+// #toolbar {
+//   display: flex;
+//   justify-content: space-between;
+//   background-color: light-dark($secondary);
+//   color: light-dark($foreground);
 
-  fieldset {
-    display: flex;
-    align-items: center;
-    gap: .5em;
-    padding-inline: 1em;
-    color: light-dark($contrast2);
+//   fieldset {
+//     display: flex;
+//     align-items: center;
+//     gap: .5em;
+//     padding-inline: 1em;
+//     color: light-dark($contrast2);
 
-    legend {
-      float: left;
-      padding-inline-end: 1em;
-    }
+//     legend {
+//       float: left;
+//       padding-inline-end: 1em;
+//     }
 
-    label:hover,
-    [type=radio]:focus {
-      outline: 2px solid currentColor;
-    }
+//     label:hover,
+//     [type=radio]:focus {
+//       outline: 2px solid currentColor;
+//     }
 
-    label + [type=radio][checked] {
-      background-color: $tertiary;
-    }
-  }
-}
+//     label + [type=radio][checked] {
+//       background-color: light-dark($tertiary);
+//     }
+//   }
+// }
 
 // Skip link
 
 .skip-link {
   display: inline-block;
-  color: $white !important;
+  color: light-dark($white, $silver) !important;
   padding: .8rem 1rem;
   text-decoration: none;
 
@@ -749,7 +749,7 @@ details {
   }
 
   a {
-    color: $white;
+    color: light-dark($white, $silver);
     font-size: 1.2em;
     font-weight: 500;
   }
@@ -822,7 +822,7 @@ details {
   &:focus,
   &:hover {
     outline: 3px solid;
-    border-color: $background;
+    border-color: light-dark($background, $background);
   }
 }
 
