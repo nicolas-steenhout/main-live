@@ -5,7 +5,7 @@ permalink: /meet-nic/
 ---
 
 <div class="callout">
-  <p>Keynote speaker, Trainer, Accessibility expert.</p>
+  <p>Keynote speaker, Trainer, Podcaster, Accessibility expert.</p>
 </div>
 
 <div class="grid-reflow">
