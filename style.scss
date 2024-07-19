@@ -625,34 +625,34 @@ details {
 
 // User toolbar
 
-// #toolbar {
-//   display: flex;
-//   justify-content: space-between;
-//   background-color: light-dark($secondary);
-//   color: light-dark($foreground);
+#toolbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: light-dark($secondary);
+  color: light-dark($foreground);
 
-//   fieldset {
-//     display: flex;
-//     align-items: center;
-//     gap: .5em;
-//     padding-inline: 1em;
-//     color: light-dark($contrast2);
+  fieldset {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    padding-inline: 1em;
+    color: light-dark($contrast2);
 
-//     legend {
-//       float: left;
-//       padding-inline-end: 1em;
-//     }
+    legend {
+      float: left;
+      padding-inline-end: 1em;
+    }
 
-//     label:hover,
-//     [type=radio]:focus {
-//       outline: 2px solid currentColor;
-//     }
+    label:hover,
+    [type=radio]:focus {
+      outline: 2px solid currentColor;
+    }
 
-//     label + [type=radio][checked] {
-//       background-color: light-dark($tertiary);
-//     }
-//   }
-// }
+    label + [type=radio][checked] {
+      background-color: light-dark($tertiary);
+    }
+  }
+}
 
 // Skip link
 
