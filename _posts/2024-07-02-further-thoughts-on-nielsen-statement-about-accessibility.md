@@ -56,7 +56,7 @@ Security and performance should also be left alone if we were to look at those t
 
 ## Systemic ableism
 
-Those of us in the disability community who have been doing any level of advocacy for accessibility and includsion, regardless of whether it's in the built environment, employment, or digital world, we know the problem is attitudinal. The problem is society. The problem is systemic ableism. 
+Those of us in the disability community who have been doing any level of advocacy for accessibility and inclusion, regardless of whether it's in the built environment, employment, or digital world, we know the problem is attitudinal. The problem is society. The problem is systemic ableism. 
 
 I'd go further and suggest that Nielsen's piece reflects this utter ableism.
 
