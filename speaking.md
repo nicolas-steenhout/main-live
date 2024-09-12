@@ -29,11 +29,7 @@ permalink: /speaking/
 
 ## Nicolas Steenhout Speaker One Sheet
 
-<a href="/assets/Nicolas-Steenhout-Speaker-One-Sheet.pdf>
-<img src="/img/one-sheet-thumbnail.png" alt="">
-<br>
-One sheet [PDF | 760 Kb]
-</a>
+<a href="/assets/Nicolas-Steenhout-Speaker-One-Sheet.pdf><img src="/img/one-sheet-thumbnail.png" alt=""><br>One sheet [PDF | 760 Kb]</a>
 
 <section class="light-on-dark margin-vertical pad-inline round-corners">
 <h2>Typical presentation takeaways</h2>
