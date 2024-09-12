@@ -20,7 +20,7 @@ According to the announcement page, they are improving the layout of the hotel's
 <blockquote><p>[...]Guests will find sleek but functional design including spacious common areas and guest rooms that allow for independent movement, eliminating barriers that often exist in traditional hotels[...]</p>
     <p>[...]The hotel’s design features wider hallways, larger guest rooms, and easy access to elevators.[...]</p>
     <p>[...]Specialized services will include staff trained in disability etiquette, assistance with mobility devices, and accommodations such as hearing aid loops and sensory-sensitive colors and lighting.[...]</p>
-    <p>- <cite><a href="https://morgans.org/revolutionary-morgans-hotel-to-pioneer-ultra-accommodations-in-the-hospitality-industry/"></a>Morgan's announcement</cite></p></blockquote>
+    <p>- <cite><a href="https://morgans.org/revolutionary-morgans-hotel-to-pioneer-ultra-accommodations-in-the-hospitality-industry/">Morgan's announcement</a></cite></p></blockquote>
     
 I realize and acknowledge they can't spell out everything they are doing in such an announcement and it may be going further than that. But one thing that makes me hesitant to give too much benefit of the doubt is their use of the term "special needs".    
     
@@ -53,7 +53,7 @@ Parents.com echoes what The Mighty wrote:
 This is important because the words you use impact the perception of the people you're talking about, as pointed out in USA Today:    
 <blockquote>
     <p>Researchers from a 2016 study found people who are referred to as having "special needs" are seen more negatively than those referred to as having a disability.</p>
-    <p><cite><a href="https://www.usatoday.com/story/life/health-wellness/2021/06/11/disabled-not-special-needs-experts-explain-why-never-use-term/7591024002/">'I am not ashamed': Disability advocates, experts implore you to stop saying 'special needs'</a></cite></p></p>
+    <p><cite><a href="https://www.usatoday.com/story/life/health-wellness/2021/06/11/disabled-not-special-needs-experts-explain-why-never-use-term/7591024002/">'I am not ashamed': Disability advocates, experts implore you to stop saying 'special needs'</a></cite></p>
     </blockquote>
 
 It appears the founder of Morgan's has a disabled daughter, but he refers to her as having "special needs". I'm certain the impact of having a disabled family member is enlightning and a great incentive to improve accessibility for all. I can't help wondering though...
@@ -69,7 +69,7 @@ The other aspect of this release is that the site is using an accessibility over
 A blind friend once told me they prefered finding their way on a non-accessible website rather than fight the overlay as well as having to figure out the non-accessible website.
 
 <blockquote><p>To laypersons, these features may seem beneficial, but their practical value is largely overstated because the end users that these features claim to serve will already have the necessary features on their computer, either as a built-in feature or as an additional piece of software that the user needs to access not only the Web but all software.</p>
-    <p>Overlay Fact Sheet - <cite><a href="https://overlayfactsheet.com/en/#strengths-and-weaknesses-of-overlay-widgets">Strengths and weaknesses of overlay "widgets"<a/></cite></p>
+    <p>Overlay Fact Sheet - <cite><a href="https://overlayfactsheet.com/en/#strengths-and-weaknesses-of-overlay-widgets">Strengths and weaknesses of overlay "widgets"</a></cite></p>
         </blockquote>
         
 Companies selling these overlays have very good marketing strategies and a lot of funding behind them. They also aggressively pursue anyone who speaks negatively against them. (This is why I am not specifying the name of this particular overlay.) But they are appealing to organizations who don't know any better. A cheap'ish solution that will solve their accessibility problems is hard to pass by. They don't have the technical know-how to realize this is not a good solution. 
