@@ -8,7 +8,7 @@ permalink: /speaking/
   <p>Book Nicolas Steenhout for your next event.</p>
 </div>
 
-## Keynotes - In-Person or virtual workshops
+## Keynotes &amp; Workshops - In-Person or virtual
 
 <div class="grid-reflow">
     <div>
@@ -26,6 +26,14 @@ permalink: /speaking/
 <div class="section-video">
     {%- include speaker-reel.html -%}
 </div>
+
+## Nicolas Steenhout Speaker One Sheet
+
+<a href="/assets/Nicolas-Steenhout-Speaker-One-Sheet.pdf>
+<img src="/img/one-sheet-thumbnail.png" alt="">
+<br>
+One sheet [PDF | 760 Kb]
+</a>
 
 <section class="light-on-dark margin-vertical pad-inline round-corners">
 <h2>Typical presentation takeaways</h2>
