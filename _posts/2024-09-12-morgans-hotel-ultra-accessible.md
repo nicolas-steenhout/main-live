@@ -30,6 +30,12 @@ They refer to disabled people as "those with special needs" throughout the annou
 
 Disabled people typically prefer to avoid the term "special needs". It seems that in many ways the term "special needs" thrives in the education world, and among parents of disabled children. 
 
+Here's a sentence from the announcement:
+
+<blockquote><p>This will certainly be a hotel for everyone including those with special needs who, going forward, will feel more included, valued, and fulfilled.</p></blockquote>
+
+This way of writing about disabled people very much feels like the <a href="#charity">charity model of disability</a>. It feels othering.
+
 Many years ago I recounted an anecdote from a disability rights protest. <a href="https://incl.ca/beware-the-special-forces/">I wrote</a>: 
 
 <div class="inline-quote">The use of the word "special" as it relates to disabilities is generally quite unpalatable. Think of "special education", "special seating", "special needs", and even "special Olympics"… These tend to carry a limiting, negative and *separating* connotation.</div>
@@ -62,11 +68,11 @@ How can the disability community trust an organization to be "ultra accessible" 
 
 ## Charity model
 
-The words and tone used on that Morgan's Camp About Us page are indicative of a strong charity model. There is a big difference between "We do it FOR people with special needs" and "We do it WITH disabled people".
+<span id="charity">The words and tone used on Morgan's Camp About Us page are indicative of a strong charity model approach to disability</span>. There is a big difference between "We do it FOR people with special needs" and "We do it WITH disabled people".
 
 The charity model is not a great way to approach accessibility. It's certainly not the way to "ultra accessibility".
 
-I'm sure Mr. Hartman has a good heart and great intentions. I'm certain his work has positively impacted many disabled youth and adults. I'm not trying to diminish those accomplishments. But frankly, I'm tired of charity. I know I'm not the only one.
+I'm sure Mr. Hartman has a good heart and great intentions. I'm certain his work has positively impacted many disabled youth and adults. I'm not trying to diminish those accomplishments. But frankly, we (disabled people) are tired of charity.
 
 ## Accessibility overlay
 
