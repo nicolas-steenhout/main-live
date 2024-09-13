@@ -20,7 +20,7 @@ According to the announcement page, they are improving the layout of the hotel's
 <blockquote><p>[...]Guests will find sleek but functional design including spacious common areas and guest rooms that allow for independent movement, eliminating barriers that often exist in traditional hotels[...]</p>
     <p>[...]The hotel’s design features wider hallways, larger guest rooms, and easy access to elevators.[...]</p>
     <p>[...]Specialized services will include staff trained in disability etiquette, assistance with mobility devices, and accommodations such as hearing aid loops and sensory-sensitive colors and lighting.[...]</p>
-    <p>- <cite><a href="https://morgans.org/revolutionary-morgans-hotel-to-pioneer-ultra-accommodations-in-the-hospitality-industry/">Morgan's announcement</a></cite></p></blockquote>
+    <p><cite><a href="https://morgans.org/revolutionary-morgans-hotel-to-pioneer-ultra-accommodations-in-the-hospitality-industry/">Morgan's announcement</a></cite></p></blockquote>
     
 I realize and acknowledge they can't spell out everything they are doing in such an announcement and it may be going further than that. But one thing that makes me hesitant to give too much benefit of the doubt is their use of the term "special needs".    
     
@@ -108,7 +108,7 @@ What about being able to get information on their website in an accessible manne
 
 ## Nothing about us without us
 
-It's well understood in disability communities that the only way to get a truly accessible product/building/facility/experience, you need to include disabled people in the process. Disabled people. Not our loved ones. Not our parents. People with lived experience, and ideally people with a certain level of expertise in the topic raised. 
+You need to include disabled people in the planning and creation of products/buildings/facilities/experiences. It's well understood in disability communities that it's the only way to get a truly accessible product/building/facility/experience. Disabled people. Not our loved ones. Not our parents. People with lived experience, and ideally people with a certain level of expertise in the topic raised. 
 
 For example, I'm a wheelchair user. I've also been trained in doing ADA accessibility audits. I've also been trained in doing building accessibility audits in New Zealand. I feel capable on advising a hotel about what needs to be done for their building to be accessible. My friend Bob, who has been a wheelchair user for a decade or so has not been trained in the regulation and how to do an audit. He can tell them about what makes a hotel accessible for him. But he can't speak for everyone else.
 
