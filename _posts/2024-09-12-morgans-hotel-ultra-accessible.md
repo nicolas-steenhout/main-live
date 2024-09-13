@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Is Morgan's hotel trully ultra accessible?
-summary: Morgans has announced a hotel that is more accessible than required by law. But there are several problems with the claim. I'm not convinced it will be as good as they want us to think.
-excerpt: Morgans has announced a hotel that is more accessible than required by law. But there are several problems with the claim. I'm not convinced it will be as good as they want us to think.
+summary: Morgan's has announced a hotel that is more accessible than required by law. But there are several problems with the claim. I'm not convinced it will be as good as they want us to think.
+excerpt: Morgan's has announced a hotel that is more accessible than required by law. But there are several problems with the claim. I'm not convinced it will be as good as they want us to think.
 ---
 Morgan's hotels announced a "revolutionary" ultra accessible new hotel last month. While I love the idea of "going beyond regular ADA requirements", I'm not entirely sure Morgan's really get it. The future will tell. In the meantime, here are my concerns.
 
