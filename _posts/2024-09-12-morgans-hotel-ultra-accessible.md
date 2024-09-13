@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Is Morgan's hotel trully ultra accessible?
-summary: Morgan's has announced a hotel that is more accessible than required by law. But there are several problems with the claim. I'm not convinced it will be as good as they want us to think.
-excerpt: Morgan's has announced a hotel that is more accessible than required by law. But there are several problems with the claim. I'm not convinced it will be as good as they want us to think.
+title: Is Morgan's hotel truly ultra accessible?
+summary: Morgan's has announced a hotel that is more accessible than required by law. This is encouraging but there are several problems with the claim.
+excerpt: Morgan's has announced a hotel that is more accessible than required by law. This is encouraging but there are several problems with the claim.
 ---
 Morgan's hotels announced a "revolutionary" ultra accessible new hotel last month. While I love the idea of "going beyond regular ADA requirements", I'm not entirely sure Morgan's really get it. The future will tell. In the meantime, here are my concerns.
 
@@ -28,9 +28,9 @@ I realize and acknowledge they can't spell out everything they are doing in such
 
 They refer to disabled people as "those with special needs" throughout the announcment. They do not use the word "disabled" a single time. They do use the word "disability" once when talking about "disability etiquette".
 
-Disabled people typically prefer to avoid the term "special needs". It seems that in many way the term "special needs" thrives in the education world, and among parents of disabled children. 
+Disabled people typically prefer to avoid the term "special needs". It seems that in many ways the term "special needs" thrives in the education world, and among parents of disabled children. 
 
-Many years ago I recounted an anecdote from a disability-rights protest. <a href="https://incl.ca/beware-the-special-forces/">I wrote</a>: 
+Many years ago I recounted an anecdote from a disability rights protest. <a href="https://incl.ca/beware-the-special-forces/">I wrote</a>: 
 
 <div class="inline-quote">The use of the word "special" as it relates to disabilities is generally quite unpalatable. Think of "special education", "special seating", "special needs", and even "special Olympics"… These tend to carry a limiting, negative and *separating* connotation.</div>
 
@@ -56,13 +56,21 @@ This is important because the words you use impact the perception of the people 
     <p><cite><a href="https://www.usatoday.com/story/life/health-wellness/2021/06/11/disabled-not-special-needs-experts-explain-why-never-use-term/7591024002/">'I am not ashamed': Disability advocates, experts implore you to stop saying 'special needs'</a></cite></p>
     </blockquote>
 
-It appears the founder of Morgan's has a disabled daughter, but he refers to her as having "special needs". I'm certain the impact of having a disabled family member is enlightning and a great incentive to improve accessibility for all. I can't help wondering though...
+It appears the founder of Morgan's has a disabled daughter, but both the announcement and the <a href="https://morganscamp.org/about-us/">Morgan's Camp About Us page</a> refer to her as having "special needs". I'm certain the impact of having a disabled family member is enlightning and a great incentive to improve accessibility for all. I can't help wondering though...
 
 How can the disability community trust an organization to be "ultra accessible" when they can't even get basic terminology right?
 
+## Charity model
+
+The words and tone used on that Morgan's Camp About Us page are indicative of a strong charity model. There is a big difference between "We do it FOR people with special needs" and "We do it WITH disabled people".
+
+The charity model is not a great way to approach accessibility. It's certainly not the way to "ultra accessibility".
+
+I'm sure Mr. Hartman has a good heart and great intentions. I'm certain his work has positively impacted many disabled youth and adults. I'm not trying to diminish those accomplishments. But frankly, I'm tired of charity. I know I'm not the only one.
+
 ## Accessibility overlay
 
-The other aspect of this release is that the site is using an accessibility overlay. That is, a solution that is supposed to remediate any accessibility issue found on a website so disabled people can use it. The problem is, accessibility overlays rarely work the way they are marketed and often cause additional barriers to disabled users. In fact, some blind screen reader users have to install a plugin in their browsers to remove the overlay. 
+Another aspect of this release is that the site is using an accessibility overlay. That is, a solution that is supposed to remediate any accessibility issue found on a website so disabled people can use it. The problem is, accessibility overlays rarely work the way they are marketed and often cause additional barriers to disabled users. In fact, some blind screen reader users have to install a plugin in their browsers to remove the overlay. 
 
 <div class="inline-quote" aria-hidden="true">The problem is, accessibility overlays rarely work the way they are marketed and often cause additional barriers to disabled users.</div>
 
@@ -94,7 +102,9 @@ What about being able to get information on their website in an accessible manne
 
 ## Nothing about us without us
 
-It's well understood in disability communities that the only way to get a truly accessible product/building/facility/experience, you need to include disabled people in the process. Disabled people. Not our loved ones. Not our parents. People with lived experience, and ideally people with a certain level of expertise in the topic raised. For example, I'm a wheelchair user. I've also been trained in doing ADA accessibility audits. I've also been trained in doing building accessibility audits in New Zealand. I feel capable on advising a hotel about what needs to be done for their building to be accessible. My friend Bob, who has been a wheelchair user for a decade or so has not been trained in the regulation and how to do an audit. He can tell them about what makes a hotel accessible for him. But he can't speak for everyone else.
+It's well understood in disability communities that the only way to get a truly accessible product/building/facility/experience, you need to include disabled people in the process. Disabled people. Not our loved ones. Not our parents. People with lived experience, and ideally people with a certain level of expertise in the topic raised. 
+
+For example, I'm a wheelchair user. I've also been trained in doing ADA accessibility audits. I've also been trained in doing building accessibility audits in New Zealand. I feel capable on advising a hotel about what needs to be done for their building to be accessible. My friend Bob, who has been a wheelchair user for a decade or so has not been trained in the regulation and how to do an audit. He can tell them about what makes a hotel accessible for him. But he can't speak for everyone else.
 
 So who is advising Morgan's on what constitutes an "ultra accessible" hotel experience? Is this disability led? Is this even disability included?
 
@@ -102,9 +112,9 @@ So who is advising Morgan's on what constitutes an "ultra accessible" hotel expe
 
 No, I'm not just negative about Morgan's aiming to become ultra accessible. I am glad that they are making this effort. We sure can use more hotel facilities working on becoming more accessible. It's just that... I've heard too many unfulfilled promises. I don't want this to be just one more performative dance about "look at us we're doing so good for <strike>disabled</strike> people with special needs".
 
-I hope my doubts are unfounded. I hope they address some of the glaring issues (like an overlay on their website). But I won't hold my breath.
+I hope my doubts are unfounded. I hope they address some of the glaring issues (like an overlay on their website). But I won't hold my breath. I know for a fact several people have told them via LinkedIn about the issues with using an overlay. There has been, to date, no public comment about any of the issues raised by me and others in the community.
 
-And if anyone from Morgan's wants to get in touch to discuss this further, I'd be happy to help.
+If anyone from Morgan's wants to get in touch to discuss this further, I'd be happy to help.
 
 
 
