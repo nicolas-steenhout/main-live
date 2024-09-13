@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Is Morgans hotel trully ultra accessible
+title: Is Morgan's hotel trully ultra accessible
 summary: Morgans has announced a hotel that is more accessible than required by law. But there are several problems with the claim. I'm not convinced it will be as good as they want us to think.
 excerpt: Morgans has announced a hotel that is more accessible than required by law. But there are several problems with the claim. I'm not convinced it will be as good as they want us to think.
 ---
