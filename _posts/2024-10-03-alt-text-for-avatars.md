@@ -47,6 +47,8 @@ You probably can tell their gender. You can tell their approximate age. You can 
 
 This is why avatars or photos of people are considered informational. They require clear and concise alt text that describes the individual. This is in order to at least give part of the same information to blind screen reader users as we get as sighted users.
 
+Note: These photos were AI generated and are not anyone real.
+
 ## What information is important?
 
 Sighted users can typically tell the following information just by looking at a photo:
@@ -68,5 +70,4 @@ It's easier to determine what alt text to write if you're describing your own ph
 <div class="inline-quote" aria-hidden="true">Keep in mind that alt text should be brief, concise, and accurate.</div>
 
 Keep in mind that alt text should be brief, concise, and accurate. There's no actual limit to the length of alt text you can write. Unless a specific platform limits the number of characters. For example, LinkedIn limits you to 1,000 characters. But while there's no character limit, we do want to keep it concise. A super long text alternative becomes cumbersome and maybe less useful.
-
 
