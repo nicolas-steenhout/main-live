@@ -35,11 +35,15 @@ What can you tell me about either Robin Williams or Robin Wright, apart from the
 
 Now let's look at the same screenshots. But we're sighted. So we have access to the information available visually in the photos.
 
-What can you now tell me about Robin Williams and Robin Wright? You probably can tell their gender. You can tell their approximate age. You can tell what their race is. You can tell if they use assistive devices such as glasses or hearing aids. There's a lot of information about someone that comes through photos.
+What can you now tell me about Robin Williams and Robin Wright? 
 
-![Screenshot with an outlined head and shoulder portrait of an elderly white woman with short grey hair. She is wearing black glasses. Text on the screenshot reads: Robin Williams. CEO.]
+Did you assume that Robin Williams was a man and Robin Wright was a woman? It would be easy to do so considering they are famous actors. 
 
-![Screenshot with an outlined head and shoulder portrait of an younger black man. He has very short hair and a dignified black beard. He is wearing hearing aids. Text on the screenshot reads: Robin Wright. CEO.]
+You probably can tell their gender. You can tell their approximate age. You can tell what their race is. You can tell if they use assistive devices such as glasses or hearing aids. There's a lot of information about someone that comes through photos.
+
+![Screenshot with an outlined head and shoulder portrait of an elderly white woman with short grey hair. She is wearing black glasses. Text on the screenshot reads: Robin Williams. CEO.](/img/robin-williams-pix.png)
+
+![Screenshot with an outlined head and shoulder portrait of an younger black man. He has very short hair and a dignified black beard. He is wearing hearing aids. Text on the screenshot reads: Robin Wright. CEO.](/img/robin-wright-pix.png)
 
 This is why avatars or photos of people are considered informational. They require clear and concise alt text that describes the individual. This is in order to at least give part of the same information to blind screen reader users as we get as sighted users.
 
