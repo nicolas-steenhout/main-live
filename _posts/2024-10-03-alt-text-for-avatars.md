@@ -19,6 +19,8 @@ I've seen a couple trends over the years. They kind of make sense to some level,
 1. Use empty or null alt text. This would be using something like alt="". This basically tells screen readers that the image is decorative and not worth worrying about. This is the lazy way out.
 2. Use the person's name as alt text. This would be using something like alt="Nicolas Steenhout". It's somewhat useful if a screen reader user is trying to find an image of the person. But it doesn't tell them anything about what the person looks like.
 
+It's not something that has been picked up by accessibility auditors much. At least, I've not seen it raised in audits from different accessibility companies, or discussed between accessibility experts much. But it is something that I'm hearing more and more blind folks asking for. 
+
 ## Informative image
 
 A user avatar or photo is an informative image. The image was selected specifically to say something about the person. You probably have spent a bit of time pondering what image or photo of yourself to use on social media. You've probably changed that image several times over the time you've been on social media. Each time you change, there's a reason for it. Maybe you don't look like you did back when you last uploaded an image. Maybe you want to suggest a different mood. But these images are not just decoration. They are there to provide some kind of information.
