@@ -59,7 +59,8 @@ Sighted users can typically tell the following information just by looking at a 
 * Clothing style
 * Hair style
 * Facial hair
-* Does the person use glasses or hearing aids?
+* Does the person use glasses or hearing aids or other assistive tech?
+* Anything else that is striking about this person that says something!
 
 This information helps us form a mental image of the person we're interacting with.
 
