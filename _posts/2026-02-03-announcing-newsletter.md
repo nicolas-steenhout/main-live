@@ -33,11 +33,9 @@ The [first edition of my newsletter is available on the web](https://buttondown.
   <label for="bd-email">Enter your email</label>
   <input type="email" name="email" id="bd-email" />
   <input type="submit" value="Subscribe" />
-  <p>
-    <a href="https://buttondown.com/refer/nic-steenhout"
-      Powered by Buttondown.
-    </a>
-  </p>
+
+
+    <a href="https://buttondown.com/refer/nic-steenhout">Powered by Buttondown.</a>
 </form>
 
 I'd love you to subscribe! And pass the word.
