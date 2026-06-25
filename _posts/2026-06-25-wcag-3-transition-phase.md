@@ -7,7 +7,7 @@ excerpt: WCAG 3.0 will not replace WCAG 2.x overnight. Learn why organizations w
 When WCAG 3.0 eventually becomes a W3C Recommendation, many executives will assume their accessibility program has to change right away. The more likely truth is that it can keep running as it is, while something subtler shifts underneath it.
 
 <figure>
-    <img src="/img/rules-compass.png" alt="An old analog compass pointing North North East. On the right an old book titled Regulations.">
+    <img src="/img/compass-rules.jpg" alt="An old analog compass pointing North North East leaning on the edge of an open book.">
     </figure>
 
 What changes is the bookkeeping. For the first time, many organizations will have to manage two accessibility standards at once, because the newest standard will not be the one they are legally required to follow. The gap between those two realities is where the confusion starts.
