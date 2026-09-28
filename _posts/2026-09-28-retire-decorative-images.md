@@ -33,4 +33,4 @@ If we're deliberately giving sighted users some of those things, why are we comf
 
 WCAG 3 is still a draft. There is still time to retire “decorative images.”
 
-And here's a photo of my big fluffy dog, to grab your attention. And yes, I wrote alt text ;)
+(Cross-posted from [LinkedIn](https://lnkd.in/p/g68-BpAC))
