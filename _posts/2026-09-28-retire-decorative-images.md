@@ -8,7 +8,7 @@ excerpt: Very few images are truly decorative. An image can add meaning, mood, o
 I don't mean getting rid of alt="". We still need a way to tell screen readers to ignore images when there's nothing to convey. I'm talking about the category label itself and how it shapes the decisions we make about images.
 
 <figure>
-    <img src="/img/fluffy-dog.jpg" alt="A large, fluffy black dog lies sprawled on a cream carpet, resting its chin between its outstretched paws. Eyes closed and sound asleep.">
+    <img src="/img/fluffy-dog.JPG" alt="A large, fluffy black dog lies sprawled on a cream carpet, resting its chin between its outstretched paws. Eyes closed and sound asleep.">
     </figure>
 
 The concept made sense when it was introduced. Think spacer GIFs and visual flourishes that genuinely added nothing. Telling screen readers to ignore them avoided unnecessary noise.
