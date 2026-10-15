@@ -10,7 +10,7 @@ In the space of a couple of weeks, four people from different contexts have reac
 The conversations were different, but each came back to the same thing: what an AI agent can tell us when it uses a screen reader.
 
 <figure>
-    <img src="/img/home-elevation.jpg" alt="Architectural drawing showing the front elevation and floor plan of a townhouse.">
+    <img src="/img/house-elevation.jpg" alt="Architectural drawing showing the front elevation and floor plan of a townhouse.">
     <figcaption>James Gibbs, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via <a href="https://commons.wikimedia.org/wiki/File:James_Gibbs_-_Design_for_an_Unidentified_Town_House,_Elevation_and_Plan_-_B1975.2.342_-_Yale_Center_for_British_Art.jpg">Wikimedia Commons</a>.</figcaption>
 </figure>
 
