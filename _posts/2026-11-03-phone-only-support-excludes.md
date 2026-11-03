@@ -33,6 +33,14 @@ What are you measuring when you say the phone is better? A customer who hangs up
 
 Some disabled customers just give up. Getting help can take more time and effort than they have. Some get someone else to call, and you may never know they couldn't make the call themselves. And if the only way to complain about phone support is to call, I wouldn't expect much of a complaints file.
 
+## How many spoons does a phone call take?
+
+Christine Miserandino used a handful of spoons to explain to a friend what it was like to live with lupus. The spoons stood for the energy she had to get through the day. Getting dressed, making breakfast, going to work all cost her spoons. Spend them on one thing and you have fewer left for everything else. She tells the story in [The Spoon Theory](https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/).
+
+A call can take more spoons than many of us have left. Getting through the menu, waiting on hold, and explaining the problem to one person only to explain it again after a transfer all take energy. With email, I can write a few lines, take a break, and finish later. Try doing that when somebody finally picks up.
+
+And then they ask you to stay on the line to answer a survey. That's the cherry on top of the icing on the cake you can't eat.
+
 ## Customers who may prefer written support
 
 - Deaf and hard of hearing people who have trouble following phone audio, including some who use hearing aids or cochlear implants.
