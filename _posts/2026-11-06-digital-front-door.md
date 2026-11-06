@@ -19,7 +19,7 @@ One inaccessible step can stop a patient from getting care. The portal and video
 
 The [CDC reports that more than one in four US adults is disabled](https://www.cdc.gov/disability-and-health/about/index.html). Disabled people also use healthcare more often. A [2025 study of US adults](https://pubmed.ncbi.nlm.nih.gov/40214987/) found that disabled adults had more outpatient visits and filled more prescriptions. For patients managing several conditions, using the clinic's inaccessible system becomes a recurring part of getting treatment.
 
-And healthcare happens when people aren't at their best. Reading a long intake form on a small phone gets harder when you're in pain and worried about the appointment. Recovering from hand surgery can mean temporarily using a keyboard instead of a mouse.
+And [healthcare happens when people aren't at their best](https://nicolas-steenhout.com/healthcare-digital-accessibility/). Reading a long intake form on a small phone gets harder when you're in pain and worried about the appointment. Recovering from hand surgery can mean temporarily using a keyboard instead of a mouse.
 
 “Just call us” comes up often as an answer to an inaccessible website. Many Deaf, hard of hearing and speech-disabled people cannot use phone calls. Some neurodivergent people struggle with phone calls. Patients who can use the phone still have to fit calls around office hours, sometimes spending half a lunch break on hold. The clinic saves itself the work of fixing the form, and the patient takes on the work of getting around it.
 
