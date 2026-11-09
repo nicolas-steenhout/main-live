@@ -76,7 +76,7 @@ AI companies are also increasing demand for electricity and water through their 
 
 The [United Nations climate conference, COP31](https://unfccc.int/cop31), opened in Antalya, Türkiye, on November 9, 2026. Governments are meeting to negotiate climate policy and responses to environmental risks. There is at least one session around this topic. The Confederation of Persons with Disabilities is running “Climate Action That Leaves No One Behind: Accessible and Inclusive COP Processes from a Disability Perspective.”
 
-[Daffyd Hughes](https://bsky.app/profile/dafydd61.bsky.social) pointed out today that the [COP31 website](https://cop31.tr/) uses an accessibility overlay. 
+[Dafydd Hughes](https://bsky.app/profile/dafydd61.bsky.social) pointed out today that the [COP31 website](https://cop31.tr/) uses an accessibility overlay. 
 
 The [Overlay Fact Sheet](https://overlayfactsheet.com/en/), supported by accessibility practitioners and disabled people, explains why these products are problematic. Automated overlays cannot reliably repair missing form labels, keyboard accessibility problems or focus management. They can also introduce unexpected changes that interfere with screen readers.
 
