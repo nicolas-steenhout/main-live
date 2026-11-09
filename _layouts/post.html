@@ -27,7 +27,17 @@ layout: default
   </div>
   <div class="footer container">
     <h2>Newsletter</h2>
-    <p>For more content, you can <a href="https://buttondown.com/nic-steenhout/">subscribe to my newsletter</a>. Always free, goes out once or twice a month.</p>
+    <p>For more content, you can <a href="https://buttondown.com/nic-steenhout/archive/">check out my newsletter archive</a>.</p>
+    
+    <p>Or you can subscribe using this form. Always free, goes out once or twice a month.</p>
+
+    <form action="https://buttondown.com/api/emails/embed-subscribe/nic-steenhout" method="post">
+  <label for="bd-email">Email address (required)</label>
+  <input type="email" name="email" id="bd-email" autocomplete="email" required>
+  <input type="hidden" value="1" name="embed">
+  <button type="submit">Subscribe</button>
+</form>
+
   </div>
 </div>
 </article>
