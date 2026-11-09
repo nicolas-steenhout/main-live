@@ -22,7 +22,7 @@ We already know what happens when essential services fail disabled people. We al
 
 ## Electricity, heat and survival
 
-According to the [International Energy Agency](https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary), data centres consumed 485 terawatt-hours of electricity in 2025. To put it in perspective, 485 terawatt-hours is more electricity than the entire united Kingdom consumes in a year. That figure is projected to reach 950 terawatt-hours by 2030, with consumption by AI-focused data centres expected to triple.
+According to the [International Energy Agency](https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary), data centres consumed 485 terawatt-hours of electricity in 2025. To put it in perspective, 485 terawatt-hours is more electricity than the entire United Kingdom consumes in a year. That figure is projected to reach 950 terawatt-hours by 2030, with consumption by AI-focused data centres expected to triple.
 
 Meeting that demand requires investment in electricity generation and distribution.
 
