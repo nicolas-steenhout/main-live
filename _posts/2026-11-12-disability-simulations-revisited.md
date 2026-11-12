@@ -5,7 +5,7 @@ summary: Disability simulations ask people to pretend they have a disability, su
 
 excerpt: Disability simulations can reinforce pity, fear, and harmful assumptions about disabled people. Thirteen years after I first wrote about this, the research gives us even more reasons to stop using them.
 ---
-A few days ago, I saw a LinkedIn post from a design teacher who had students wear blindfolds and use screen readers to experience what it might be like to be blind. This is a topic that comes up regulartly.
+A few days ago, I saw a LinkedIn post from a design teacher who had students wear blindfolds and use screen readers to experience what it might be like to be blind. This is a topic that comes up regularly.
 
 I'm sure the teacher meant well. I'm sure everyone running these mean well. Disability simulations often come from good intentions, which may explain why they keep happening despite years of criticism from disabled people.
 
