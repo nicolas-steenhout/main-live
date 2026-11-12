@@ -11,7 +11,7 @@ I'm sure the teacher meant well. Disability simulations often come from good int
 
 <figure>
     <img src="/img/deaf-man-video-call.jpg" alt="A Deaf Black man wearing glasses and a KN-95 mask leans back in a chair while signing in a video meeting via laptop. A community library filled with books and social justice posters serves as the backdrop.">
-    <figcaption>Photo by Gritchelle Fallesgon, <a href="https://affecttheverb.com/disabledandhere">Disabled and Here</figcaption>
+    <figcaption>Photo by Gritchelle Fallesgon, <a href="https://affecttheverb.com/disabledandhere">Disabled and Here</a>. Licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC By 4.0</a></figcaption>
 </figure>
 
 In January 2013, I wrote [Disability Simulations, Perceptions, etc](https://incl.ca/disability-simulations-perceptions-etc/). It started with David Ball, who had spent a week using his computer while blindfolded. He learned some things about screen readers and web accessibility, but I questioned what he had learned about blindness.
