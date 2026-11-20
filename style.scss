@@ -39,6 +39,10 @@ body {
   }
 }
 
+strong {
+  font-weight: 700;
+}
+
 h1 {
   // calc() wrapped around clamp() is a hack for Sass error
   font-size: calc(clamp(3rem, 4vw + 3rem, 10rem));
