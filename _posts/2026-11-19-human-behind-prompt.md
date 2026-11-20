@@ -9,7 +9,6 @@ I commented on LinkedIn that a post from the International Association of Access
 
 <figure>
     <img src="/img/reviewing-text.jpg" alt="A red pen lies across a printed draft with words crossed out and corrections written in the margins.">
-    <figcaption></figcaption>
 </figure>
 
 The rest of the reply bothered me more. “Why would it matter if it was written by AI if you understood what you read? There is a human behind the AI prompts.” An author decides on words to use to express what they want to say. They take responsibility for the words that reach the reader. An organization would be setting a remarkably low bar for its writing if all it asks is whether I understood it.
@@ -26,7 +25,7 @@ Disabled people have been writing in our own voices for considerably longer than
 
 If an editor has to read one of my paragraphs three times, I want to know which sentence tripped them up. It would piss me off to find out they let it go because they knew I was disabled.
 
-As for the human behind the prompt, I’ve asked a lot of questions over the years on my podcasts. A good question can shape the whole conversation, but my guest still gets the credit for the answer. With AI, a prompt can contain somebody’s entire argument, down to the example they want to use. It can also say “write 500 words on why accessibility matters” and leave the machine to come up with a reason. Knowing somebody typed a prompt tells me very little about whose judgment went into the piece.
+As for the human behind the prompt, I’ve asked a lot of questions over the years on my podcasts. A good question can shape the whole conversation, but my guest still gets the credit for the answer. With AI, a prompt can contain somebody’s entire argument, down to the example they want to use. It can also say “write 500 words on why accessibility matters” and leave the machine to come up with a reason. Knowing somebody typed a prompt tells me very little about whose judgment went into the piece. AI could give you a draft. But it takes somoene knowledgeable about the subject to read it, to spot what's wrong, and to revise it.
 
 ## Who checked the advice?
 
@@ -42,7 +41,7 @@ I’ve cared about plain language for a long time. An old site of mine, *The Whe
 
 AI can produce whole paragraphs of “cook until done.” I can understand every word and still have to go back through the paragraph to work out what the author meant. I read this stuff for a living. A reader who has trouble holding several sentences in mind may already be on their third pass by the time I’ve finished my second.
 
-Plain language is no excuse for flat writing. Short sentences and common words can still sound like a person with something to say. When I call writing robotic, I mean it could have come from any organization on any subject. Nobody in particular wrote it, and nobody in particular is answering for it.
+**Plain language is no excuse for flat writing**. Short sentences and common words can still sound like a person with something to say. When I call writing robotic, I mean it could have come from any organization on any subject. Nobody in particular wrote it, and nobody in particular is answering for it.
 
 Cory Doctorow coined “[enshittification](https://pluralistic.net/2023/01/21/potemkin-ai/#hey-guys)” to describe what happens to a platform as its owners take more of its value for themselves. I’m borrowing his term for writing because the publisher gets the benefit of producing a page in seconds and every reader inherits the work the publisher skipped. 
 
@@ -50,9 +49,9 @@ A hypothetical conference website that devotes three paragraphs to the organizer
 
 ## What’s worth the cost?
 
-I’m not an AI doomsayer. Helping a disabled person take part in a conversation is maybe worth the electricity it takes. I have a harder time justifying a few hundred words generated because it’s Tuesday and somebody needs to put something in the newsletter.
+I’m not an AI doomsayer. Helping a disabled person take part in a conversation is maybe worth the electricity it takes. I have a harder time justifying a few hundred words generated because it’s Tuesday and somebody needs to put something in the newsletter. One generated paragraph wouldn't make a real dent. Now multiply that by every organization doing the same thing everyday. It adds up: [Data center consumption is projected to double by 2030, from 485 TWh to 950 TWh. Power use from AI-focused data centers is projected to triple](https://www.enlit.world/library/ai-and-data-centre-electricity-use-continue-to-surge-iea-finds).
 
-What concerns me, among other things, is the combined demand for electricity. [The International Energy Agency expects coal and natural gas to supply over 40% of the extra electricity data centres worldwide will need through 2030](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai). Burning those fuels adds carbon dioxide to the atmosphere. As the planet warms, [heat waves become more frequent and more intense](https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/).  
+Yes, the combined demand for electricity concerns me. [The International Energy Agency expects coal and natural gas to supply over 40% of the extra electricity data centres worldwide will need through 2030](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai). Burning those fuels adds carbon dioxide to the atmosphere. As the planet warms, [heat waves become more frequent and more intense](https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/).  
 
 I expect some of the costs of that warming to reach disabled people sooner and hit us harder.I recently wrote about the [environmental impact of AI on disabled people](https://nicolas-steenhout.com/ai-environmental-impact/).  The [UN Secretariat identifies heat waves as a particular risk for disabled people, who are more likely to get sick or die in extreme heat (PDF)](https://digitallibrary.un.org/record/4044770/files/CRPD_CSP_2024_3-EN.pdf). It also describes how inaccessible transport makes it harder to get health care, especially for people forced to leave their homes. 
 
@@ -60,8 +59,8 @@ During British Columbia’s 2021 heat wave, Gabrielle Peters, a wheelchair user 
 
 ## Who should be doing the work?
 
-I see a huge difference between disabled individuals leveraging AI as assistive tech and organizations pushing AI-generated content with apparently little human involvement. 
+I see a huge difference between disabled individuals leveraging AI as assistive tech and organizations pushing AI-generated content with apparently little human involvement or review. 
 
-An organization can count the staff time it saves by using AI to generate a page. Its budget has no entry for the risk of serious illness or death a disabled person faces in an apartment they can't cool. On a much smaller scale, the conference organizers don't have to count the time speakers or attendees spend chasing information that should have been on the website. Someone can understand every word of those three paragraphs about inclusion and still have to email somebody to ask whether there's a ramp. 
+An organization can count the staff time it saves by using AI to generate a page. And then another page. And another one again. Its budget has no entry for the risk of serious illness or death a disabled person faces in an apartment they can't cool. On a much smaller scale, the conference organizers don't have to count the time speakers or attendees spend chasing information that should have been on the website. Someone can understand every word of those three paragraphs about inclusion and still have to email somebody to ask whether there's a ramp. 
 
 Part of an author's job is to do the legwork so the reader doesn't have to.
